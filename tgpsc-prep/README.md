@@ -43,6 +43,16 @@ python tgpsc-prep/generator.py --out lesson.md # save to a file
 
 No dependencies — pure Python standard library.
 
+## ⚡ Technical track: GATE-level Measuring Instruments
+
+A second daily series for technical revision. Every evening a Claude Routine ("GATE Measuring
+Instruments Daily") writes **one deep-dive lesson** at GATE depth — derivations, formula
+tables, solved numericals, common traps, and a 10-question test (MCQ + numerical-answer type
+with worked solutions). It follows `lessons/tech-syllabus-tracker.md` (Basics → Errors →
+PMMC/MI/EMMC → Power/Energy → Potentiometers → CT/PT → Bridges → CRO → DVM), commits the
+lesson as `lessons/tech-day-<N>.md`, and the same workflow delivers it as a GitHub issue +
+email. This track has no pre-authored safety net — it is fully Routine-generated.
+
 ## 📧 Direct email delivery (optional)
 
 Besides GitHub's own notification email, both workflows can send the **full lesson straight to
