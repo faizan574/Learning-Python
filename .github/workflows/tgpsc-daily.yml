@@ -50,3 +50,33 @@ jobs:
             --repo "${{ github.repository }}" \
             --title "$(cat title.txt)" \
             --body-file lesson.md
+
+      - name: Check whether Gmail delivery is configured
+        if: steps.guard.outputs.exists == '0'
+        id: mailcfg
+        env:
+          GMAIL_PW: ${{ secrets.GMAIL_APP_PASSWORD }}
+          GMAIL_ADDR: ${{ secrets.GMAIL_ADDRESS }}
+        run: |
+          if [ -n "$GMAIL_PW" ] && [ -n "$GMAIL_ADDR" ]; then
+            echo "enabled=yes" >> "$GITHUB_OUTPUT"
+          else
+            echo "enabled=no" >> "$GITHUB_OUTPUT"
+            echo "Gmail secrets not set — skipping direct email (GitHub's own notification still applies)."
+          fi
+          echo "title=$(cat title.txt)" >> "$GITHUB_OUTPUT"
+
+      - name: Email the lesson directly via Gmail
+        if: steps.guard.outputs.exists == '0' && steps.mailcfg.outputs.enabled == 'yes'
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: ${{ secrets.GMAIL_ADDRESS }}
+          password: ${{ secrets.GMAIL_APP_PASSWORD }}
+          subject: ${{ steps.mailcfg.outputs.title }}
+          to: ${{ secrets.GMAIL_ADDRESS }}
+          from: TGPSC Daily Prep <${{ secrets.GMAIL_ADDRESS }}>
+          html_body: file://lesson.md
+          convert_markdown: true

@@ -43,6 +43,20 @@ python tgpsc-prep/generator.py --out lesson.md # save to a file
 
 No dependencies — pure Python standard library.
 
+## 📧 Direct email delivery (optional)
+
+Besides GitHub's own notification email, both workflows can send the **full lesson straight to
+your Gmail inbox**. This activates automatically once two repository secrets exist
+(Repo → Settings → Secrets and variables → Actions → New repository secret):
+
+| Secret name | Value |
+|-------------|-------|
+| `GMAIL_ADDRESS` | Your Gmail address (used as both sender and recipient) |
+| `GMAIL_APP_PASSWORD` | A Gmail **App Password** (16 characters) — create one at Google Account → Security → 2-Step Verification → App passwords (2-Step Verification must be ON) |
+
+Never put the app password itself in any file — only in the repository secret. If the secrets
+are absent the email step skips silently and everything else still works.
+
 ## 🗺️ Maps
 
 Geography lessons embed schematic SVG maps from `maps/` that annotate **geology and cultural
