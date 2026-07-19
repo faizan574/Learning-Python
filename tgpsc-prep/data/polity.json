@@ -1,0 +1,306 @@
+[
+  {
+    "title": "Articles 1 to 4 — The Union and its Territory",
+    "intro": "Part I of the Constitution (Articles 1–4) tells us what India is and how its map can be changed. This is a favourite area for TGPSC because Telangana itself was born through these articles!",
+    "explanation": "- **Article 1**: 'India, that is Bharat, shall be a Union of States.' The word *Union* (not federation) was chosen by Dr. B.R. Ambedkar to show that states have **no right to secede**.\n- **Article 2**: Parliament may **admit or establish new states** into the Union (states not part of India earlier, e.g., Sikkim's association).\n- **Article 3**: Parliament can **form new states, alter areas, boundaries or names** of existing states by a **simple majority**. The bill needs the **President's prior recommendation**, and the President refers it to the affected state legislature for its **views** — but those views are **not binding**.\n- **Article 4**: Laws made under Articles 2 and 3 are **not constitutional amendments** under Article 368, so no special majority is needed.",
+    "example": "The **Andhra Pradesh Reorganisation Act, 2014** was passed under Articles 3 and 4 to create **Telangana as the 29th state** on 2 June 2014 — even though the AP Assembly rejected the bill, Parliament could still pass it because the state's views are not binding.",
+    "test": [
+      {
+        "q": "The words 'India, that is Bharat, shall be a Union of States' occur in which Article?",
+        "options": ["Article 2", "Article 1", "Article 3", "Article 368"],
+        "answer": "B",
+        "why": "Article 1 describes India as a Union of States."
+      },
+      {
+        "q": "Under Article 3, the views of the affected State Legislature on a reorganisation bill are:",
+        "options": ["Binding on Parliament", "Not required at all", "Required but not binding", "Binding only for name change"],
+        "answer": "C",
+        "why": "The President refers the bill for the state's views, but Parliament is not bound by them."
+      },
+      {
+        "q": "A law creating a new state under Article 3 is passed by:",
+        "options": ["Special majority under Art 368", "Simple majority of Parliament", "Two-thirds of states ratifying", "Presidential ordinance only"],
+        "answer": "B",
+        "why": "Article 4 declares such laws are not Article 368 amendments, so a simple majority suffices."
+      },
+      {
+        "q": "Telangana was formed as which number state of India in 2014?",
+        "options": ["28th", "29th", "30th", "27th"],
+        "answer": "B",
+        "why": "Telangana became the 29th state on 2 June 2014."
+      },
+      {
+        "q": "Why did the framers prefer the term 'Union of States' over 'Federation of States'?",
+        "options": ["To copy the US model", "Because states cannot secede from India", "Because states signed an agreement", "To allow dual citizenship"],
+        "answer": "B",
+        "why": "Ambedkar explained the Union is indestructible — no state can secede."
+      }
+    ]
+  },
+  {
+    "title": "Articles 5 to 11 — Citizenship",
+    "intro": "Part II (Articles 5–11) decided who was an Indian citizen when the Constitution commenced on 26 January 1950, and empowered Parliament to regulate citizenship afterwards.",
+    "explanation": "- **Article 5**: Citizenship at commencement — domicile in India plus birth in India, or a parent born in India, or 5 years' ordinary residence.\n- **Article 6**: Rights of persons who **migrated from Pakistan** to India.\n- **Article 7**: Persons who migrated **to Pakistan** but later returned on resettlement permits.\n- **Article 8**: Persons of Indian origin residing **abroad** can register as citizens.\n- **Article 9**: Voluntarily acquiring a **foreign citizenship** ends Indian citizenship — India allows **single citizenship only**.\n- **Article 10**: Continuance of citizenship, subject to laws of Parliament.\n- **Article 11**: Parliament can make laws on citizenship — it passed the **Citizenship Act, 1955** (acquisition by birth, descent, registration, naturalisation, incorporation of territory).",
+    "example": "A person of Indian origin living in the USA who takes American citizenship automatically loses Indian citizenship (Article 9). They may instead take an **OCI card**, which is *not* dual citizenship — OCI holders cannot vote or hold constitutional posts.",
+    "test": [
+      {
+        "q": "Citizenship provisions are contained in which Part of the Constitution?",
+        "options": ["Part I", "Part II", "Part III", "Part IV"],
+        "answer": "B",
+        "why": "Part II covers Articles 5 to 11 on citizenship."
+      },
+      {
+        "q": "Which Article deals with migrants from Pakistan to India?",
+        "options": ["Article 5", "Article 6", "Article 8", "Article 9"],
+        "answer": "B",
+        "why": "Article 6 gives citizenship rights to persons who migrated from Pakistan."
+      },
+      {
+        "q": "The Citizenship Act was enacted by Parliament in:",
+        "options": ["1950", "1955", "1947", "1976"],
+        "answer": "B",
+        "why": "Parliament used Article 11 to pass the Citizenship Act, 1955."
+      },
+      {
+        "q": "India follows which model of citizenship?",
+        "options": ["Dual citizenship like the USA", "Single citizenship", "State-wise citizenship", "Regional citizenship"],
+        "answer": "B",
+        "why": "India has single citizenship; acquiring foreign citizenship ends Indian citizenship (Article 9)."
+      },
+      {
+        "q": "Which of these is NOT a mode of acquiring citizenship under the 1955 Act?",
+        "options": ["Birth", "Descent", "Purchase of property", "Naturalisation"],
+        "answer": "C",
+        "why": "The five modes are birth, descent, registration, naturalisation and incorporation of territory — not property purchase."
+      }
+    ]
+  },
+  {
+    "title": "Article 14 — Equality before Law",
+    "intro": "Fundamental Rights (Part III, Articles 12–35) are the heart of the Constitution. The Right to Equality opens with Article 14, the foundation of rule of law in India.",
+    "explanation": "- **Article 14** guarantees to **every person** (citizens and foreigners) 'equality before the law' and 'equal protection of the laws'.\n- **Equality before law** (British origin, A.V. Dicey's rule of law): no one is above the law.\n- **Equal protection of the laws** (American origin): equals must be treated equally — **like should be treated alike**.\n- Article 14 permits **reasonable classification** (e.g., separate tax slabs for different incomes) but forbids **class legislation** (arbitrary discrimination).\n- The Supreme Court has held that **arbitrariness violates Article 14** (E.P. Royappa case) and that Article 14 is part of the **basic structure**.",
+    "example": "Reserving seats in buses for women or giving scholarships only to poor students is valid *reasonable classification* — the classification has an intelligible basis and a clear purpose. But a law saying 'people with surname X cannot get government jobs' would be arbitrary class legislation, void under Article 14.",
+    "test": [
+      {
+        "q": "Article 14 is available to:",
+        "options": ["Citizens only", "Every person including foreigners", "Only government employees", "Only voters"],
+        "answer": "B",
+        "why": "Article 14 uses the word 'person', so it protects citizens and foreigners alike."
+      },
+      {
+        "q": "'Equality before law' is borrowed from which country's tradition?",
+        "options": ["USA", "Britain", "Ireland", "Canada"],
+        "answer": "B",
+        "why": "It reflects the British concept of rule of law popularised by A.V. Dicey."
+      },
+      {
+        "q": "Article 14 permits:",
+        "options": ["Class legislation", "Reasonable classification", "Arbitrary state action", "Retrospective punishment"],
+        "answer": "B",
+        "why": "Reasonable classification with an intelligible differentia is allowed; class legislation is not."
+      },
+      {
+        "q": "In which case did the Supreme Court say arbitrariness is the antithesis of equality?",
+        "options": ["Kesavananda Bharati", "E.P. Royappa", "Golaknath", "Minerva Mills"],
+        "answer": "B",
+        "why": "E.P. Royappa v. State of Tamil Nadu (1974) equated arbitrariness with inequality."
+      },
+      {
+        "q": "'Equal protection of the laws' is inspired by the Constitution of:",
+        "options": ["USA", "UK", "France", "Australia"],
+        "answer": "A",
+        "why": "The phrase comes from the 14th Amendment of the US Constitution."
+      }
+    ]
+  },
+  {
+    "title": "Articles 19 to 22 — Freedoms, Life and Liberty",
+    "intro": "These four articles form the 'right to freedom' cluster — the most quoted Fundamental Rights in exams and in courts.",
+    "explanation": "- **Article 19** gives **citizens** six freedoms: (a) speech & expression, (b) assembly, (c) association, (d) movement, (e) residence, (g) profession/trade. (The original right to property, 19(1)(f), was removed by the 44th Amendment, 1978.) Each freedom can be limited by **reasonable restrictions**.\n- **Article 20**: protection in criminal matters — no **ex-post-facto** punishment, no **double jeopardy**, no **self-incrimination**.\n- **Article 21**: 'No person shall be deprived of his **life or personal liberty** except according to **procedure established by law**.' After **Maneka Gandhi (1978)** the procedure must be fair, just and reasonable; Article 21 now covers privacy, clean environment, speedy trial, livelihood etc.\n- **Article 21A**: free and compulsory **education for children 6–14 years** (86th Amendment, 2002).\n- **Article 22**: safeguards on arrest and **preventive detention**.",
+    "example": "When the Supreme Court recognised the **right to privacy** (Puttaswamy case, 2017), it read it into Article 21 — showing how 'life and personal liberty' keeps expanding through interpretation.",
+    "test": [
+      {
+        "q": "How many freedoms does Article 19 currently guarantee?",
+        "options": ["Seven", "Six", "Five", "Eight"],
+        "answer": "B",
+        "why": "Six, after the right to property under 19(1)(f) was deleted by the 44th Amendment."
+      },
+      {
+        "q": "Protection against self-incrimination is given by:",
+        "options": ["Article 19", "Article 20", "Article 21", "Article 22"],
+        "answer": "B",
+        "why": "Article 20(3) says no accused shall be compelled to be a witness against himself."
+      },
+      {
+        "q": "The Maneka Gandhi case (1978) is associated with:",
+        "options": ["Right to property", "Widened meaning of Article 21", "Abolition of privy purses", "Preventive detention limits"],
+        "answer": "B",
+        "why": "It held the procedure under Article 21 must be fair, just and reasonable."
+      },
+      {
+        "q": "Article 21A provides free and compulsory education for children aged:",
+        "options": ["0–6 years", "6–14 years", "14–18 years", "3–12 years"],
+        "answer": "B",
+        "why": "The 86th Amendment (2002) inserted Article 21A for the 6–14 age group."
+      },
+      {
+        "q": "Article 19 freedoms are available to:",
+        "options": ["All persons", "Citizens only", "Foreigners only", "Companies only"],
+        "answer": "B",
+        "why": "Article 19 expressly protects only citizens, unlike Articles 14 and 21."
+      }
+    ]
+  },
+  {
+    "title": "Directive Principles of State Policy (Articles 36–51)",
+    "intro": "Part IV contains ideals the State should follow while making laws — borrowed from the Irish Constitution. They are the 'conscience of the Constitution'.",
+    "explanation": "- DPSPs are **non-justiciable** — courts cannot enforce them — but they are **fundamental in the governance** of the country (Article 37).\n- **Socialist principles**: equal pay for equal work (39), livelihood, right to work, living wage (43), free legal aid (39A).\n- **Gandhian principles**: village panchayats (40), promotion of cottage industries, prohibition of intoxicants (47), protection of cows (48).\n- **Liberal principles**: Uniform Civil Code (44), early childhood care under 6 years (45), separation of judiciary from executive (50), promotion of international peace (51).\n- Balance with Fundamental Rights: **Minerva Mills (1980)** held that harmony between Parts III and IV is part of the **basic structure**.",
+    "example": "Schemes like free legal services authorities (Article 39A), MGNREGA (right to work, Article 41) and panchayat raj (Article 40 → 73rd Amendment) show DPSPs being converted into actual laws and programmes.",
+    "test": [
+      {
+        "q": "Directive Principles are borrowed from the Constitution of:",
+        "options": ["USA", "Ireland", "Canada", "USSR"],
+        "answer": "B",
+        "why": "The DPSP concept came from the Irish Constitution (which took it from Spain)."
+      },
+      {
+        "q": "DPSPs are:",
+        "options": ["Justiciable", "Non-justiciable", "Enforceable by High Courts only", "Enforceable after 25 years"],
+        "answer": "B",
+        "why": "Article 37 says they are not enforceable by courts but fundamental in governance."
+      },
+      {
+        "q": "Uniform Civil Code is mentioned in:",
+        "options": ["Article 40", "Article 44", "Article 48", "Article 51"],
+        "answer": "B",
+        "why": "Article 44 directs the State to secure a UCC for citizens."
+      },
+      {
+        "q": "Organisation of village panchayats is provided under:",
+        "options": ["Article 40", "Article 43", "Article 45", "Article 39A"],
+        "answer": "A",
+        "why": "Article 40 is the Gandhian directive behind the 73rd Amendment."
+      },
+      {
+        "q": "Which case held that balance between Fundamental Rights and DPSPs is part of the basic structure?",
+        "options": ["Golaknath", "Minerva Mills", "Shah Bano", "A.K. Gopalan"],
+        "answer": "B",
+        "why": "Minerva Mills (1980) protected the Part III–Part IV balance."
+      }
+    ]
+  },
+  {
+    "title": "The President of India (Articles 52–62)",
+    "intro": "Article 52 says there shall be a President of India — the head of State and first citizen, in whom the executive power of the Union vests (Article 53).",
+    "explanation": "- **Election (Article 54–55)**: indirect election by an **electoral college** of elected MPs and elected MLAs of states (including Delhi and Puducherry), by **proportional representation with single transferable vote** and secret ballot.\n- **Qualifications**: citizen, 35 years, qualified to be a Lok Sabha member, no office of profit.\n- **Term**: 5 years; re-election allowed; resignation addressed to Vice-President.\n- **Impeachment (Article 61)**: for 'violation of the Constitution', by special majority of **both** Houses.\n- **Powers**: appoints PM & ministers, Governors, judges; assents to bills (can use **suspensive veto, pocket veto**); ordinance power (**Article 123**); pardoning power (**Article 72**) including for death sentences and court-martial cases.",
+    "example": "In 1986, President Zail Singh used the **pocket veto** on the Indian Post Office (Amendment) Bill — the Constitution sets no time limit for the President to act on a bill, so he simply kept it pending.",
+    "test": [
+      {
+        "q": "The President is elected by:",
+        "options": ["Direct election by voters", "Elected MPs and elected MLAs", "All MPs and MLAs including nominated", "Lok Sabha alone"],
+        "answer": "B",
+        "why": "Only elected MPs and elected MLAs (plus Delhi and Puducherry) form the electoral college."
+      },
+      {
+        "q": "The President can be impeached for:",
+        "options": ["Proved misbehaviour", "Violation of the Constitution", "Corruption charges", "Loss of majority"],
+        "answer": "B",
+        "why": "Article 61 specifies 'violation of the Constitution' as the ground."
+      },
+      {
+        "q": "The President's ordinance-making power is under:",
+        "options": ["Article 72", "Article 123", "Article 143", "Article 61"],
+        "answer": "B",
+        "why": "Article 123 lets the President promulgate ordinances when Parliament is not in session."
+      },
+      {
+        "q": "The pardoning power of the President is under:",
+        "options": ["Article 72", "Article 161", "Article 123", "Article 356"],
+        "answer": "A",
+        "why": "Article 72 covers pardons, including death sentence and court-martial cases."
+      },
+      {
+        "q": "Minimum age to become President is:",
+        "options": ["30 years", "35 years", "25 years", "40 years"],
+        "answer": "B",
+        "why": "The candidate must be at least 35 and qualified for Lok Sabha membership."
+      }
+    ]
+  },
+  {
+    "title": "Parliament of India — Lok Sabha and Rajya Sabha",
+    "intro": "Articles 79–122 deal with the Union legislature. Parliament = President + Rajya Sabha + Lok Sabha.",
+    "explanation": "- **Lok Sabha**: maximum strength **550** (530 states + 20 UTs); direct election; term 5 years (can be dissolved); Speaker presides. Money Bills (**Article 110**) can be introduced **only** in Lok Sabha with the President's recommendation.\n- **Rajya Sabha**: maximum **250** (238 elected by state MLAs via proportional representation + **12 nominated** by President for arts, science, literature, social service); **permanent house** — one-third retires every 2 years; Vice-President is ex-officio Chairman.\n- Rajya Sabha's special powers: **Article 249** (resolution to let Parliament legislate on a State subject) and **Article 312** (creating new All-India Services).\n- **Joint sitting (Article 108)**: for deadlocks on ordinary bills, presided over by the **Speaker** — not applicable to Money Bills or Constitution Amendment Bills.",
+    "example": "Telangana sends **17 members to the Lok Sabha** and **7 members to the Rajya Sabha** — a typical exam fact that links Parliament with your state.",
+    "test": [
+      {
+        "q": "The maximum strength of the Rajya Sabha is:",
+        "options": ["245", "250", "238", "552"],
+        "answer": "B",
+        "why": "250 = up to 238 elected representatives of states/UTs + 12 nominated."
+      },
+      {
+        "q": "A Money Bill can be introduced:",
+        "options": ["In either House", "Only in Rajya Sabha", "Only in Lok Sabha", "Only in a joint sitting"],
+        "answer": "C",
+        "why": "Article 110 read with 109 — Money Bills start only in Lok Sabha on the President's recommendation."
+      },
+      {
+        "q": "A joint sitting of Parliament is presided over by:",
+        "options": ["President", "Vice-President", "Speaker of Lok Sabha", "Senior-most MP"],
+        "answer": "C",
+        "why": "Article 108 joint sittings are chaired by the Speaker."
+      },
+      {
+        "q": "Rajya Sabha members are elected for a term of:",
+        "options": ["5 years", "6 years", "4 years", "Life"],
+        "answer": "B",
+        "why": "Members serve 6 years, with one-third retiring every two years."
+      },
+      {
+        "q": "Which Article allows Rajya Sabha to enable Parliament to legislate on a State List subject?",
+        "options": ["Article 108", "Article 249", "Article 312", "Article 110"],
+        "answer": "B",
+        "why": "Article 249 needs a Rajya Sabha resolution supported by two-thirds of members present and voting."
+      }
+    ]
+  },
+  {
+    "title": "Article 368 — Amendment and the Basic Structure",
+    "intro": "A constitution must change with time. Article 368 in Part XX gives Parliament the power to amend the Constitution — but not without limits.",
+    "explanation": "- **Three ways of amendment**: (1) **simple majority** (outside Art 368 — e.g., new states, citizenship), (2) **special majority** — majority of total membership plus two-thirds present and voting, (3) **special majority + ratification by half the states** (for federal provisions like President's election, distribution of powers, representation of states, Article 368 itself).\n- An amendment bill can start in **either House**; there is **no joint sitting** for it; the President **must give assent** (24th Amendment).\n- **Kesavananda Bharati (1973)**: Parliament can amend any part, including Fundamental Rights, but cannot destroy the **basic structure** — e.g., supremacy of the Constitution, secularism, democracy, judicial review, federalism, free and fair elections.",
+    "example": "The **99th Amendment** creating the NJAC for judicial appointments was struck down (2015) because it damaged **judicial independence** — a basic structure feature. This shows even a properly passed amendment can be invalid.",
+    "test": [
+      {
+        "q": "The basic structure doctrine was laid down in:",
+        "options": ["Golaknath (1967)", "Kesavananda Bharati (1973)", "Minerva Mills (1980)", "Shankari Prasad (1951)"],
+        "answer": "B",
+        "why": "Kesavananda Bharati (1973) held Parliament cannot alter the basic structure."
+      },
+      {
+        "q": "Ratification by half the state legislatures is needed to amend:",
+        "options": ["Fundamental Duties", "Election of the President", "Citizenship rules", "Name of a state"],
+        "answer": "B",
+        "why": "Federal provisions like the President's election need special majority plus state ratification."
+      },
+      {
+        "q": "A Constitution Amendment Bill can be introduced:",
+        "options": ["Only in Lok Sabha", "Only in Rajya Sabha", "In either House of Parliament", "In any State Assembly"],
+        "answer": "C",
+        "why": "Article 368 allows introduction in either House; state legislatures cannot initiate it."
+      },
+      {
+        "q": "Is a joint sitting possible for a Constitution Amendment Bill?",
+        "options": ["Yes, under Article 108", "No", "Only if President orders", "Only for money-related amendments"],
+        "answer": "B",
+        "why": "Each House must separately pass it with the special majority — no joint sitting."
+      },
+      {
+        "q": "Which amendment made the President's assent to amendment bills obligatory?",
+        "options": ["42nd", "24th", "44th", "86th"],
+        "answer": "B",
+        "why": "The 24th Amendment (1971) made assent mandatory."
+      }
+    ]
+  }
+]

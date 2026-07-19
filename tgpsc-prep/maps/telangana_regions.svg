@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 760" font-family="Segoe UI, Arial, sans-serif">
+  <rect x="0" y="0" width="940" height="760" fill="#fbfaf6"/>
+  <text x="470" y="34" text-anchor="middle" font-size="22" font-weight="bold" fill="#2c3e50">TELANGANA — Regions, Rivers &amp; Cultural Landmarks</text>
+  <text x="470" y="54" text-anchor="middle" font-size="12" fill="#7f8c8d">Schematic map for TGPSC prep — NOT to scale. Each region tagged with its signature cultural reference.</text>
+
+  <!-- State outline (stylized) -->
+  <polygon points="380,90 500,115 560,195 640,250 720,345 760,425 700,490 560,545 470,595 380,645 300,625 230,555 190,435 230,335 250,245 300,160"
+           fill="#eaf4e2" stroke="#5a8f3c" stroke-width="3"/>
+
+  <!-- Godavari river -->
+  <path d="M 245,255 C 320,205 400,180 460,180 C 540,195 600,245 645,285 C 690,325 715,355 735,395"
+        fill="none" stroke="#3b82c4" stroke-width="6" stroke-linecap="round" opacity="0.85"/>
+  <text x="455" y="168" font-size="13" fill="#1f5f9e" font-style="italic" font-weight="bold">Godavari</text>
+
+  <!-- Krishna river -->
+  <path d="M 295,605 C 360,625 430,610 480,585 C 540,555 600,525 655,495"
+        fill="none" stroke="#3b82c4" stroke-width="6" stroke-linecap="round" opacity="0.85"/>
+  <text x="470" y="632" font-size="13" fill="#1f5f9e" font-style="italic" font-weight="bold">Krishna</text>
+
+  <!-- Region markers: dot + name + cultural tag -->
+  <!-- Adilabad (north) -->
+  <circle cx="390" cy="135" r="6" fill="#c0392b"/>
+  <text x="390" y="120" text-anchor="middle" font-size="14" font-weight="bold" fill="#2c3e50">ADILABAD</text>
+  <text x="390" y="152" text-anchor="middle" font-size="11" fill="#8e44ad">Gond country · Kuntala falls · Nagoba Jatara</text>
+
+  <!-- Nizamabad -->
+  <circle cx="285" cy="270" r="6" fill="#c0392b"/>
+  <text x="285" y="255" text-anchor="middle" font-size="14" font-weight="bold" fill="#2c3e50">NIZAMABAD</text>
+  <text x="285" y="288" text-anchor="middle" font-size="11" fill="#8e44ad">Basara Saraswati · Armoor turmeric</text>
+
+  <!-- Karimnagar -->
+  <circle cx="450" cy="255" r="6" fill="#c0392b"/>
+  <text x="450" y="240" text-anchor="middle" font-size="14" font-weight="bold" fill="#2c3e50">KARIMNAGAR</text>
+  <text x="450" y="273" text-anchor="middle" font-size="11" fill="#8e44ad">Vemulawada temple · Elgandal fort · granite</text>
+
+  <!-- Ramagundam / coal belt note -->
+  <text x="565" y="230" font-size="11" fill="#6d4c1e" font-style="italic">⛏ Godavari valley coal belt (Singareni)</text>
+
+  <!-- Warangal -->
+  <circle cx="540" cy="345" r="6" fill="#c0392b"/>
+  <text x="540" y="330" text-anchor="middle" font-size="14" font-weight="bold" fill="#2c3e50">WARANGAL</text>
+  <text x="540" y="363" text-anchor="middle" font-size="11" fill="#8e44ad">Kakatiya Thoranam · Ramappa (UNESCO) · 1000-Pillar temple</text>
+
+  <!-- Mulugu -->
+  <circle cx="650" cy="300" r="6" fill="#c0392b"/>
+  <text x="655" y="288" text-anchor="middle" font-size="13" font-weight="bold" fill="#2c3e50">MULUGU</text>
+  <text x="663" y="316" text-anchor="middle" font-size="11" fill="#8e44ad">Medaram Jatara · Eturnagaram · Bogatha falls</text>
+
+  <!-- Khammam -->
+  <circle cx="690" cy="425" r="6" fill="#c0392b"/>
+  <text x="690" y="410" text-anchor="middle" font-size="14" font-weight="bold" fill="#2c3e50">KHAMMAM</text>
+  <text x="690" y="443" text-anchor="middle" font-size="11" fill="#8e44ad">Bhadrachalam Rama temple · Kinnerasani</text>
+
+  <!-- Nalgonda -->
+  <circle cx="530" cy="500" r="6" fill="#c0392b"/>
+  <text x="530" y="485" text-anchor="middle" font-size="14" font-weight="bold" fill="#2c3e50">NALGONDA</text>
+  <text x="530" y="518" text-anchor="middle" font-size="11" fill="#8e44ad">Yadadri temple · Nagarjunasagar · cement belt</text>
+
+  <!-- Hyderabad / Rangareddy -->
+  <circle cx="330" cy="440" r="7" fill="#e67e22"/>
+  <text x="330" y="425" text-anchor="middle" font-size="14" font-weight="bold" fill="#2c3e50">HYDERABAD</text>
+  <text x="330" y="458" text-anchor="middle" font-size="11" fill="#8e44ad">Charminar · Golconda · pearls &amp; biryani</text>
+
+  <!-- Medak -->
+  <circle cx="280" cy="360" r="6" fill="#c0392b"/>
+  <text x="280" y="345" text-anchor="middle" font-size="14" font-weight="bold" fill="#2c3e50">MEDAK</text>
+  <text x="272" y="378" text-anchor="middle" font-size="11" fill="#8e44ad">Medak cathedral · Pocharam sanctuary</text>
+
+  <!-- Mahabubnagar -->
+  <circle cx="330" cy="560" r="6" fill="#c0392b"/>
+  <text x="330" y="545" text-anchor="middle" font-size="14" font-weight="bold" fill="#2c3e50">MAHABUBNAGAR</text>
+  <text x="330" y="578" text-anchor="middle" font-size="11" fill="#8e44ad">Alampur Jogulamba · Pillalamarri · Gadwal sarees</text>
+
+  <!-- Nallamala label -->
+  <text x="470" y="560" font-size="11" fill="#5a8f3c" font-style="italic">▲ Nallamala hills (Amrabad Tiger Reserve · Chenchus)</text>
+
+  <!-- Neighbour labels -->
+  <text x="430" y="80" text-anchor="middle" font-size="12" fill="#95a5a6" font-style="italic">MAHARASHTRA</text>
+  <text x="700" y="270" font-size="12" fill="#95a5a6" font-style="italic">CHHATTISGARH</text>
+  <text x="120" y="500" font-size="12" fill="#95a5a6" font-style="italic">KARNATAKA</text>
+  <text x="560" y="680" text-anchor="middle" font-size="12" fill="#95a5a6" font-style="italic">ANDHRA PRADESH</text>
+
+  <!-- Legend -->
+  <rect x="20" y="640" width="330" height="100" rx="8" fill="#ffffff" stroke="#bdc3c7"/>
+  <text x="35" y="662" font-size="12" font-weight="bold" fill="#2c3e50">Legend</text>
+  <circle cx="45" cy="680" r="5" fill="#c0392b"/><text x="58" y="684" font-size="11" fill="#2c3e50">Region + cultural reference (purple text)</text>
+  <line x1="38" y1="700" x2="60" y2="700" stroke="#3b82c4" stroke-width="5"/><text x="68" y="704" font-size="11" fill="#2c3e50">Major river</text>
+  <text x="35" y="724" font-size="11" fill="#2c3e50">⛏ mineral belt · ▲ hill/forest tract</text>
+</svg>
