@@ -1,0 +1,61 @@
+name: Post TGPSC Lesson Issue
+
+# Fires whenever a lesson file lands in tgpsc-prep/lessons/ (on any branch —
+# the daily Claude Routine pushes fresh lessons from its own session branch).
+# Opens the notification issue from the file, then archives the lesson to main
+# so future Routine runs can see which topics are already covered.
+on:
+  push:
+    paths:
+      - "tgpsc-prep/lessons/day-*.md"
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  post-issue:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Locate newest lesson
+        id: lesson
+        run: |
+          file=$(ls -1 tgpsc-prep/lessons/day-*.md | sort -V | tail -1)
+          echo "file=$file" >> "$GITHUB_OUTPUT"
+          echo "title=$(head -1 "$file" | sed 's/^#\+ *//')" >> "$GITHUB_OUTPUT"
+
+      - name: Create issue if not already posted
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TITLE: ${{ steps.lesson.outputs.title }}
+        run: |
+          count=$(gh issue list --repo "$GITHUB_REPOSITORY" --state all --limit 100 --json title \
+            --jq '[.[] | select(.title == env.TITLE)] | length')
+          if [ "$count" -eq 0 ]; then
+            gh issue create --repo "$GITHUB_REPOSITORY" --title "$TITLE" \
+              --body-file "${{ steps.lesson.outputs.file }}"
+          else
+            echo "Issue '$TITLE' already exists — skipping."
+          fi
+
+      - name: Archive lesson to main
+        if: github.ref != 'refs/heads/main'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          file="${{ steps.lesson.outputs.file }}"
+          git fetch origin main
+          git checkout main
+          if [ ! -f "$file" ]; then
+            git checkout "${{ github.sha }}" -- "$file"
+            git add "$file"
+            git commit -m "Archive TGPSC lesson $(basename "$file") [skip ci]"
+            git push origin main
+          else
+            echo "Lesson already on main — nothing to archive."
+          fi

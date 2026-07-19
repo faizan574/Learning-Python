@@ -1,9 +1,14 @@
 name: TGPSC Daily Prep Notification
 
-# Daily lessons are generated fresh by a Claude Routine ("TGPSC Daily Fresh
-# Lesson"). This workflow is a manual fallback that posts a lesson from the
-# pre-authored topic bank in tgpsc-prep/data — trigger it from the Actions tab.
+# Safety net: the daily Claude Routine ("TGPSC Daily Fresh Lesson") delivers a
+# freshly written lesson each morning via the Post TGPSC Lesson Issue workflow.
+# If no lesson issue for today exists by 8:30 AM IST, this posts one from the
+# pre-authored topic bank in tgpsc-prep/data so a day is never missed. Can also
+# be run manually from the Actions tab for an extra on-demand lesson.
 on:
+  schedule:
+    # 03:00 UTC = 8:30 AM IST, every day
+    - cron: "0 3 * * *"
   workflow_dispatch: {}
 
 permissions:
@@ -22,10 +27,22 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Skip if today's lesson issue already exists
+        id: guard
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          today=$(TZ=Asia/Kolkata date +%F)
+          count=$(gh issue list --repo "$GITHUB_REPOSITORY" --state all --limit 100 --json title \
+            --jq "[.[] | select(.title | contains(\"TGPSC Daily Prep\") and contains(\"$today\"))] | length")
+          echo "exists=$count" >> "$GITHUB_OUTPUT"
+
       - name: Generate today's lesson
+        if: steps.guard.outputs.exists == '0'
         run: python tgpsc-prep/generator.py --out lesson.md --title-out title.txt
 
       - name: Open notification issue with the lesson
+        if: steps.guard.outputs.exists == '0'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
