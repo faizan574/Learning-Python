@@ -6,7 +6,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 
 ## Subject 1: Indian Constitution & Polity
 - [x] Union and its Territory (Art 1-4) — Day 1
-- [ ] Making of the Constitution & Constituent Assembly
+- [x] Making of the Constitution & Constituent Assembly — Day 2
 - [ ] Preamble and its keywords
 - [ ] Citizenship (Art 5-11, Citizenship Act, CAA)
 - [ ] Fundamental Rights: Art 12-14
@@ -29,7 +29,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 
 ## Subject 2: Telangana Schemes & Important Incidents
 - [x] The Six Guarantees overview — Day 1
-- [ ] Mahalakshmi (free travel, ₹500 LPG, women's support) — deep dive with data
+- [x] Mahalakshmi (free travel, ₹500 LPG, women's support) — deep dive with data — Day 2
 - [ ] Rythu Bharosa, Indiramma Atmiya Bharosa & the ₹2 lakh loan waiver
 - [ ] Gruha Jyothi & Indiramma Indlu
 - [ ] Cheyutha pensions & Rajiv Aarogyasri health cover
@@ -45,7 +45,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 
 ## Subject 3: Telangana History
 - [x] Satavahanas — Day 1
-- [ ] Pre-Satavahana Telangana: megaliths, Kotalingala, Asmaka mahajanapada
+- [x] Pre-Satavahana Telangana: megaliths, Kotalingala, Asmaka mahajanapada — Day 2
 - [ ] Ikshvakus & Vishnukundins
 - [ ] Badami Chalukyas, Rashtrakutas & Kalyani Chalukyas in Telangana; Vemulawada Chalukyas
 - [ ] Kakatiyas: political history
@@ -67,7 +67,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 
 ## Subject 4: Indian National Movement
 - [x] Revolt of 1857 — Day 1
-- [ ] Pre-Congress political associations & socio-religious reform movements
+- [x] Pre-Congress political associations & socio-religious reform movements — Day 2
 - [ ] INC formation & the Moderate era (1885-1905)
 - [ ] Partition of Bengal, Swadeshi & the Extremists; Surat split
 - [ ] Revolutionary movement phase I (Bengal, Punjab, abroad)
@@ -86,7 +86,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 
 ## Subject 5: Telangana Geography (with Maps)
 - [x] Telangana at a Glance: location, extent, physiography — Day 1
-- [ ] Rivers: Godavari system in depth
+- [x] Rivers: Godavari system in depth — Day 2
 - [ ] Rivers: Krishna system in depth
 - [ ] Climate, rainfall patterns & droughts
 - [ ] Soils & agriculture (crops, seasons, horticulture)
