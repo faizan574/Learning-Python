@@ -1,14 +1,14 @@
 name: TGPSC Daily Prep Notification
 
 # Safety net: the daily Claude Routine ("TGPSC Daily Fresh Lesson") delivers a
-# freshly written lesson each morning via the Post TGPSC Lesson Issue workflow.
-# If no lesson issue for today exists by 8:30 AM IST, this posts one from the
-# pre-authored topic bank in tgpsc-prep/data so a day is never missed. Can also
-# be run manually from the Actions tab for an extra on-demand lesson.
+# freshly written lesson every night at 11:30 PM IST (18:00 UTC) via the Post
+# TGPSC Lesson Issue workflow. If no lesson issue exists ~90 minutes later,
+# this posts one from the pre-authored topic bank in tgpsc-prep/data so a day
+# is never missed. Can also be run manually from the Actions tab.
 on:
   schedule:
-    # 03:00 UTC = 8:30 AM IST, every day
-    - cron: "0 3 * * *"
+    # 19:30 UTC = 1:00 AM IST — 90 min after the Routine's 11:30 PM IST slot
+    - cron: "30 19 * * *"
   workflow_dispatch: {}
 
 permissions:
@@ -32,9 +32,11 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          today=$(TZ=Asia/Kolkata date +%F)
-          count=$(gh issue list --repo "$GITHUB_REPOSITORY" --state all --limit 100 --json title \
-            --jq "[.[] | select(.title | contains(\"TGPSC Daily Prep\") and contains(\"$today\"))] | length")
+          # A lesson issue created in the last 20 hours counts as "today's lesson"
+          # (robust across the midnight-IST boundary for the 11:30 PM slot).
+          cutoff=$(date -u -d '20 hours ago' +%Y-%m-%dT%H:%M:%SZ)
+          count=$(gh issue list --repo "$GITHUB_REPOSITORY" --state all --limit 100 --json title,createdAt \
+            --jq "[.[] | select((.title | contains(\"TGPSC Daily Prep\")) and (.createdAt > \"$cutoff\"))] | length")
           echo "exists=$count" >> "$GITHUB_OUTPUT"
 
       - name: Generate today's lesson
