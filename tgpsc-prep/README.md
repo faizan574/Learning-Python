@@ -19,13 +19,16 @@ restarts from topic 1 — so it doubles as revision.
 
 ## How you get notified
 
-The GitHub Actions workflow `.github/workflows/tgpsc-daily.yml` runs **every day at 6:30 AM IST**
-and opens a **GitHub issue** in this repository containing the full day's lesson.
-GitHub then notifies you by email / mobile app — that issue *is* your daily prep notification.
+A **Claude Routine** ("TGPSC Daily Fresh Lesson") runs **every day at ~6:30 AM IST**, writes a
+brand-new lesson in the template above (checking previous lesson issues so topics never repeat),
+and opens a **GitHub issue** in this repository. GitHub then notifies you by email / mobile app —
+that issue *is* your daily prep notification. The Routine also sends a push/email notification
+when it completes.
 
-> Note: scheduled workflows only run from the **default branch**, so the schedule activates
-> once this folder is merged to `main`. You can also trigger it manually any time from the
-> Actions tab ("Run workflow").
+The GitHub Actions workflow `.github/workflows/tgpsc-daily.yml` is a **manual fallback**: it posts
+a lesson from the pre-authored topic bank in `data/`. Trigger it from the Actions tab
+("Run workflow") if you ever want an extra lesson on demand. It runs from the default branch, so
+merge this folder to `main` to make it available.
 
 ## Run it locally
 
