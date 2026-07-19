@@ -8,6 +8,7 @@ on:
   push:
     paths:
       - "tgpsc-prep/lessons/day-*.md"
+      - "tgpsc-prep/lessons/tech-day-*.md"
 
 permissions:
   contents: write
@@ -25,7 +26,13 @@ jobs:
       - name: Locate newest lesson
         id: lesson
         run: |
-          file=$(ls -1 tgpsc-prep/lessons/day-*.md | sort -V | tail -1)
+          # Prefer the lesson file changed by this push (works for both the GS
+          # day-*.md and technical tech-day-*.md series); fall back to newest.
+          file=$(git diff-tree --no-commit-id --name-only -r "${{ github.sha }}" \
+            | grep -E '^tgpsc-prep/lessons/(tech-)?day-[0-9]+\.md$' | tail -1)
+          if [ -z "$file" ]; then
+            file=$(ls -1 tgpsc-prep/lessons/day-*.md tgpsc-prep/lessons/tech-day-*.md 2>/dev/null | sort -V | tail -1)
+          fi
           echo "file=$file" >> "$GITHUB_OUTPUT"
           echo "title=$(head -1 "$file" | sed 's/^#\+ *//')" >> "$GITHUB_OUTPUT"
 
