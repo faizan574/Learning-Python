@@ -1,0 +1,35 @@
+name: TGPSC Daily Prep Notification
+
+on:
+  schedule:
+    # 01:00 UTC = 6:30 AM IST, every day
+    - cron: "0 1 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  daily-lesson:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate today's lesson
+        run: python tgpsc-prep/generator.py --out lesson.md --title-out title.txt
+
+      - name: Open notification issue with the lesson
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue create \
+            --repo "${{ github.repository }}" \
+            --title "$(cat title.txt)" \
+            --body-file lesson.md
