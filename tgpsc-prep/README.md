@@ -22,15 +22,15 @@ restarts from topic 1 — so it doubles as revision.
 
 Three pieces work together (all require this folder to be **merged to `main`**):
 
-1. A **Claude Routine** ("TGPSC Daily Fresh Lesson") runs **every day at ~6:30 AM IST**, writes a
-   brand-new lesson in the template above (reading `lessons/` on main so topics never repeat),
-   commits it as `lessons/day-<N>.md` and pushes.
+1. A **Claude Routine** ("TGPSC Daily Fresh Lesson") runs **every night at 11:30 PM IST**,
+   writes a brand-new in-depth lesson (following `lessons/syllabus-tracker.md` so no topic is
+   ever skipped), commits it as `lessons/day-<N>.md` and pushes.
 2. The push triggers **`.github/workflows/tgpsc-post-lesson.yml`**, which opens a **GitHub
-   issue** with the lesson — GitHub's email / mobile-app notification is your daily prep alert —
-   and archives the lesson file to `main` so the next Routine run sees what's been covered.
-3. **`.github/workflows/tgpsc-daily.yml`** is the **safety net**: at 8:30 AM IST it checks
-   whether today's lesson issue exists, and if not, posts one from the pre-authored topic bank
-   in `data/` so a day is never missed. It can also be run manually from the Actions tab.
+   issue** with the lesson, emails it via Gmail (if the secrets are set), and archives the
+   lesson + tracker to `main` so the next Routine run sees what's been covered.
+3. **`.github/workflows/tgpsc-daily.yml`** is the **safety net**: at ~1:00 AM IST it checks
+   whether a lesson issue appeared in the last 20 hours, and if not, posts one from the
+   pre-authored topic bank in `data/`. It can also be run manually from the Actions tab.
 
 ## Run it locally
 

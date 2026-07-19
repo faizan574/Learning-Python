@@ -76,14 +76,13 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          file="${{ steps.lesson.outputs.file }}"
           git fetch origin main
           git checkout main
-          if [ ! -f "$file" ]; then
-            git checkout "${{ github.sha }}" -- "$file"
-            git add "$file"
-            git commit -m "Archive TGPSC lesson $(basename "$file") [skip ci]"
+          git checkout "${{ github.sha }}" -- tgpsc-prep/lessons/
+          git add tgpsc-prep/lessons/
+          if ! git diff --cached --quiet; then
+            git commit -m "Archive TGPSC lesson files [skip ci]"
             git push origin main
           else
-            echo "Lesson already on main — nothing to archive."
+            echo "Lesson files already on main — nothing to archive."
           fi
