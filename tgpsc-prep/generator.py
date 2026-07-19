@@ -32,7 +32,14 @@ SUBJECTS = [
     ("telangana_schemes", "Telangana Schemes & Important Incidents"),
     ("telangana_history", "Telangana History"),
     ("national_movement", "Indian National Movement"),
+    ("telangana_geography", "Telangana Geography (with Maps)"),
 ]
+
+# Maps referenced by lessons live in tgpsc-prep/maps/. Raw URLs point at the
+# default branch, so they render in GitHub issues once this folder is on main.
+MAPS_BASE_URL = (
+    "https://raw.githubusercontent.com/faizan574/Learning-Python/main/tgpsc-prep/maps"
+)
 
 OPTION_LETTERS = "ABCD"
 
@@ -69,6 +76,15 @@ def render_subject(number, subject_title, topic):
         "",
         topic["intro"],
         "",
+    ]
+    if topic.get("map"):
+        caption = topic.get("map_caption", topic["title"])
+        parts += [
+            f"![{caption}]({MAPS_BASE_URL}/{topic['map']})",
+            f"*🗺️ {caption}*",
+            "",
+        ]
+    parts += [
         topic["explanation"],
         "",
         f"**💡 Example:** {topic['example']}",

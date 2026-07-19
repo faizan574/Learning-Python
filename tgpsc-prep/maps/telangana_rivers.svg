@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 760" font-family="Segoe UI, Arial, sans-serif">
+  <rect x="0" y="0" width="940" height="760" fill="#fbfaf6"/>
+  <text x="470" y="34" text-anchor="middle" font-size="22" font-weight="bold" fill="#2c3e50">RIVERS OF TELANGANA — Godavari &amp; Krishna</text>
+  <text x="470" y="54" text-anchor="middle" font-size="12" fill="#7f8c8d">Entry points, confluences, projects and the temples on their banks — schematic, NOT to scale</text>
+
+  <!-- State outline -->
+  <polygon points="380,90 500,115 560,195 640,250 720,345 760,425 700,490 560,545 470,595 380,645 300,625 230,555 190,435 230,335 250,245 300,160"
+           fill="#f4f7ef" stroke="#9aa96b" stroke-width="2.5"/>
+
+  <!-- GODAVARI system -->
+  <path d="M 245,255 C 320,205 400,180 460,180 C 540,195 600,245 645,285 C 690,325 715,355 735,395"
+        fill="none" stroke="#2e6da4" stroke-width="7" stroke-linecap="round"/>
+  <text x="450" y="165" font-size="14" fill="#1f5f9e" font-style="italic" font-weight="bold">GODAVARI →</text>
+
+  <!-- Manjira tributary -->
+  <path d="M 215,360 C 225,320 235,290 248,262" fill="none" stroke="#2e6da4" stroke-width="3.5" stroke-linecap="round" opacity="0.8"/>
+  <text x="196" y="380" font-size="11" fill="#1f5f9e" font-style="italic">Manjira (Nizamsagar)</text>
+
+  <!-- Pranahita tributary -->
+  <path d="M 520,110 C 530,140 545,165 560,190 C 580,215 600,240 620,265" fill="none" stroke="#2e6da4" stroke-width="3.5" stroke-linecap="round" opacity="0.8"/>
+  <text x="540" y="105" font-size="11" fill="#1f5f9e" font-style="italic">Pranahita</text>
+
+  <!-- Kinnerasani -->
+  <path d="M 700,330 C 710,350 720,370 733,392" fill="none" stroke="#2e6da4" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+  <text x="712" y="325" font-size="11" fill="#1f5f9e" font-style="italic">Kinnerasani</text>
+
+  <!-- Godavari sites -->
+  <circle cx="248" cy="258" r="6" fill="#c0392b"/>
+  <text x="240" y="243" text-anchor="end" font-size="11" font-weight="bold" fill="#c0392b">Kandakurthi — Godavari ENTERS</text>
+  <text x="240" y="257" text-anchor="end" font-size="10" fill="#8e44ad">(Godavari–Manjira–Haridra triveni)</text>
+
+  <circle cx="330" cy="205" r="5" fill="#e67e22"/>
+  <text x="330" y="192" text-anchor="middle" font-size="11" font-weight="bold" fill="#e67e22">SRSP (Pochampadu)</text>
+
+  <circle cx="300" cy="228" r="5" fill="#8e44ad"/>
+  <text x="298" y="222" text-anchor="end" font-size="11" fill="#8e44ad">Basara — Gnana Saraswati temple</text>
+
+  <circle cx="470" cy="182" r="5" fill="#8e44ad"/>
+  <text x="470" y="205" text-anchor="middle" font-size="11" fill="#8e44ad">Dharmapuri — Narasimha temple</text>
+
+  <circle cx="620" cy="265" r="6" fill="#e67e22"/>
+  <text x="628" y="258" font-size="11" font-weight="bold" fill="#e67e22">KALESHWARAM ★</text>
+  <text x="628" y="272" font-size="10" fill="#8e44ad">Godavari+Pranahita sangam · Mukteswara temple</text>
+  <text x="628" y="285" font-size="10" fill="#e67e22">world's largest multi-stage lift irrigation</text>
+
+  <circle cx="560" cy="228" r="5" fill="#6d4c1e"/>
+  <text x="560" y="218" text-anchor="middle" font-size="11" fill="#6d4c1e">Ramagundam — NTPC · coal belt</text>
+
+  <circle cx="735" cy="398" r="6" fill="#8e44ad"/>
+  <text x="730" y="418" text-anchor="end" font-size="11" font-weight="bold" fill="#8e44ad">Bhadrachalam — Sita Ramachandra temple (Ramadasu)</text>
+
+  <!-- KRISHNA system -->
+  <path d="M 295,605 C 360,625 430,610 480,585 C 540,555 600,525 655,495"
+        fill="none" stroke="#2e6da4" stroke-width="7" stroke-linecap="round"/>
+  <text x="440" y="648" font-size="14" fill="#1f5f9e" font-style="italic" font-weight="bold">KRISHNA →</text>
+
+  <!-- Tungabhadra -->
+  <path d="M 255,668 C 275,645 290,625 300,610" fill="none" stroke="#2e6da4" stroke-width="3.5" stroke-linecap="round" opacity="0.8"/>
+  <text x="240" y="683" font-size="11" fill="#1f5f9e" font-style="italic">Tungabhadra</text>
+
+  <!-- Musi -->
+  <path d="M 335,455 C 380,490 440,540 480,578" fill="none" stroke="#2e6da4" stroke-width="3.5" stroke-linecap="round" opacity="0.8"/>
+  <text x="392" y="500" font-size="11" fill="#1f5f9e" font-style="italic">Musi</text>
+  <circle cx="335" cy="452" r="5" fill="#c0392b"/>
+  <text x="335" y="442" text-anchor="middle" font-size="11" fill="#c0392b">Hyderabad (1908 Musi flood → twin lakes)</text>
+
+  <!-- Krishna sites -->
+  <circle cx="298" cy="602" r="6" fill="#c0392b"/>
+  <text x="292" y="592" text-anchor="end" font-size="11" font-weight="bold" fill="#c0392b">Tangadi — Krishna ENTERS · Jurala project</text>
+
+  <circle cx="322" cy="612" r="5" fill="#8e44ad"/>
+  <text x="330" y="628" font-size="11" fill="#8e44ad">Alampur — Jogulamba (5th Shakti Peetha)</text>
+
+  <circle cx="500" cy="578" r="5" fill="#2e6b2e"/>
+  <text x="505" y="568" font-size="11" fill="#2e6b2e">Srisailam reservoir · Nallamala</text>
+
+  <circle cx="483" cy="583" r="5" fill="#8e44ad"/>
+  <text x="520" y="597" font-size="11" fill="#8e44ad">Vadapally — Musi–Krishna sangam · Narasimha temple</text>
+
+  <circle cx="655" cy="495" r="6" fill="#e67e22"/>
+  <text x="663" y="490" font-size="11" font-weight="bold" fill="#e67e22">NAGARJUNASAGAR</text>
+  <text x="663" y="504" font-size="10" fill="#8e44ad">Buddhist Nagarjunakonda island museum</text>
+
+  <!-- Legend -->
+  <rect x="20" y="80" width="250" height="118" rx="8" fill="#ffffff" stroke="#bdc3c7"/>
+  <text x="35" y="102" font-size="12" font-weight="bold" fill="#2c3e50">Legend</text>
+  <line x1="35" y1="118" x2="60" y2="118" stroke="#2e6da4" stroke-width="6"/><text x="68" y="122" font-size="11" fill="#2c3e50">Main river / tributary</text>
+  <circle cx="42" cy="138" r="5" fill="#c0392b"/><text x="55" y="142" font-size="11" fill="#2c3e50">Entry point / city</text>
+  <circle cx="42" cy="158" r="5" fill="#e67e22"/><text x="55" y="162" font-size="11" fill="#2c3e50">Irrigation project</text>
+  <circle cx="42" cy="178" r="5" fill="#8e44ad"/><text x="55" y="182" font-size="11" fill="#2c3e50">Temple / cultural site</text>
+</svg>

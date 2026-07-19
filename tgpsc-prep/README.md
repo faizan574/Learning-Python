@@ -13,6 +13,7 @@ Every day it produces one small lesson covering **four subjects**, each in the s
 | 2 | Telangana Schemes of the Congress govt & important incidents (Mahalakshmi, SIR form, caste survey…) | `data/telangana_schemes.json` |
 | 3 | Telangana History (Satavahanas → Kakatiyas → Nizams → statehood movement) | `data/telangana_history.json` |
 | 4 | Indian National Movement (1857 → INC → Gandhi era → 1947) | `data/national_movement.json` |
+| 5 | Telangana Geography **with maps** — geology + cultural references annotated on the map itself (Mahabubnagar area-focus model) | `data/telangana_geography.json` |
 
 Topics rotate one per subject per day, in order. When a subject's list runs out, the cycle
 restarts from topic 1 — so it doubles as revision.
@@ -40,6 +41,22 @@ python tgpsc-prep/generator.py --out lesson.md # save to a file
 ```
 
 No dependencies — pure Python standard library.
+
+## 🗺️ Maps
+
+Geography lessons embed schematic SVG maps from `maps/` that annotate **geology and cultural
+references directly on the map** — e.g. `mahabubnagar.svg` shows the Archean granite plains and
+Cuddapah-rock Nallamala alongside Alampur Jogulamba, Gadwal sarees and Pillalamarri, all in one
+picture. Current maps:
+
+- `telangana_regions.svg` — state overview: regions, rivers, one cultural landmark per region
+- `telangana_rivers.svg` — Godavari & Krishna with confluences, projects and bank temples
+- `mahabubnagar.svg` — the "area focus" model: one district's geology + culture in depth
+
+Maps are embedded in issues via raw GitHub URLs pointing at `main`, so **merge this folder to
+`main` for maps to render** in the daily issues. To add a new area-focus map (say Warangal),
+copy the Mahabubnagar SVG's structure: shaded geology zones + purple cultural sites + blue
+river landmarks, and add a matching topic in `data/telangana_geography.json`.
 
 ## Adding more topics
 

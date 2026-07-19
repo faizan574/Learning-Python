@@ -1,0 +1,242 @@
+[
+  {
+    "title": "Telangana at a Glance — Location, Extent and Physiography",
+    "intro": "Let's learn about where Telangana sits on the map of India, its shape, size and physical divisions — the base layer for every geography question.",
+    "map": "telangana_regions.svg",
+    "map_caption": "Schematic map of Telangana — regions, rivers and one cultural landmark per region (not to scale)",
+    "explanation": "- **Location**: a **landlocked** state on the **Deccan Plateau**, roughly between 15°50'–19°55' N latitude and 77°14'–81°19' E longitude.\n- **Area**: about **1,12,077 sq km** — the 11th largest state; **33 districts** at present (10 at formation in 2014, reorganised in 2016 and after).\n- **Neighbours**: **Maharashtra** (north-northwest), **Chhattisgarh** (northeast), **Karnataka** (west), **Andhra Pradesh** (south and east).\n- **Relief**: average elevation around 500 m, sloping broadly from west to east/southeast; the **Godavari** drains the north, the **Krishna** the south.\n- **Highest point**: **Doli Gutta** (~965 m) on the Mulugu–Chhattisgarh border ranges.\n- **Physiographic zones**: the eastern hilly belt (extensions of the Eastern Ghats — Nallamala in the south), the central plateau (Telangana plateau of granite-gneiss), and river valleys/plains along the Godavari and Krishna.",
+    "example": "Look at the map: every region carries a cultural tag — Warangal's Kakatiya Thoranam, Khammam's Bhadrachalam, Mahabubnagar's Alampur. TGPSC rarely asks 'plain' geography; it asks geography **through** culture, which is why our maps annotate both together.",
+    "test": [
+      {
+        "q": "Telangana's area is approximately:",
+        "options": ["87,000 sq km", "1,12,077 sq km", "1,60,000 sq km", "75,000 sq km"],
+        "answer": "B",
+        "why": "About 1.12 lakh sq km, the 11th largest state."
+      },
+      {
+        "q": "Which state does NOT share a border with Telangana?",
+        "options": ["Maharashtra", "Odisha", "Karnataka", "Chhattisgarh"],
+        "answer": "B",
+        "why": "Neighbours are Maharashtra, Chhattisgarh, Karnataka and Andhra Pradesh — not Odisha."
+      },
+      {
+        "q": "The highest point of Telangana, Doli Gutta, lies in which district's border ranges?",
+        "options": ["Adilabad", "Mulugu", "Mahabubnagar", "Nizamabad"],
+        "answer": "B",
+        "why": "Doli Gutta (~965 m) is on the Mulugu–Chhattisgarh border."
+      },
+      {
+        "q": "How many districts did Telangana have at formation in 2014?",
+        "options": ["10", "23", "31", "33"],
+        "answer": "A",
+        "why": "It began with 10 districts; reorganisation later took the number to 33."
+      },
+      {
+        "q": "The Nallamala hills in southern Telangana are extensions of the:",
+        "options": ["Western Ghats", "Eastern Ghats", "Aravallis", "Satpuras"],
+        "answer": "B",
+        "why": "The Nallamala range is part of the Eastern Ghats system."
+      }
+    ]
+  },
+  {
+    "title": "Rivers of Telangana — Godavari and Krishna",
+    "intro": "Let's learn about the two lifelines of Telangana — the Godavari and the Krishna — and the temples, confluences and projects strung along them like beads.",
+    "map": "telangana_rivers.svg",
+    "map_caption": "The Godavari and Krishna in Telangana — entry points, confluences, projects and the cultural sites on their banks (schematic, not to scale)",
+    "explanation": "- **Godavari** (largest peninsular river): enters Telangana at **Kandakurthi (Nizamabad)** — itself a Triveni of Godavari-Manjira-Haridra; flows along the north-east through SRSP (Sriram Sagar at Pochampadu), **Kaleshwaram** (confluence with the Pranahita — site of the giant lift-irrigation project), Ramagundam, Manthani, and exits past **Bhadrachalam**.\n- Godavari tributaries in Telangana: **Manjira** (via Nizamsagar), **Pranahita**, **Maner**, **Kinnerasani**.\n- **Krishna**: enters at **Tangadi (Jogulamba Gadwal district)** — the first project on it in Telangana is **Priyadarshini Jurala**; the **Tungabhadra joins the Krishna near Alampur**; it then flows past Srisailam (shared reservoir), through the Nallamala, to **Nagarjunasagar**, receiving the **Musi at Vadapally** (Nalgonda).\n- Krishna tributaries: **Tungabhadra, Musi** (flows through Hyderabad; Himayatsagar & Osmansagar built on it after the 1908 Musi flood), **Dindi, Paleru, Munneru**.\n- **Cultural thread**: Basara **Gnana Saraswati** temple (Godavari, Nirmal dist), Dharmapuri Narasimha temple, **Bhadrachalam** Sita Ramachandra temple (Ramadasu), **Alampur Jogulamba** at the Tungabhadra confluence, Wadapally Narasimha at the Musi confluence.",
+    "example": "**Kaleshwaram** shows how geography, engineering and culture meet: the Godavari-Pranahita confluence hosts both the ancient **Kaleshwara Mukteswara Swamy temple** (a Triveni Sangamam) and the world's largest multi-stage lift irrigation project — one dot on the map, three exam subjects.",
+    "test": [
+      {
+        "q": "The Godavari enters Telangana at:",
+        "options": ["Tangadi", "Kandakurthi", "Basara", "Bhadrachalam"],
+        "answer": "B",
+        "why": "Kandakurthi in Nizamabad district is the entry point."
+      },
+      {
+        "q": "The first project on the Krishna after it enters Telangana is:",
+        "options": ["Nagarjunasagar", "Srisailam", "Priyadarshini Jurala", "Nizamsagar"],
+        "answer": "C",
+        "why": "Jurala (Jogulamba Gadwal district) is the first Telangana project on the Krishna."
+      },
+      {
+        "q": "The famous Gnana Saraswati temple on the Godavari is at:",
+        "options": ["Basara", "Vemulawada", "Alampur", "Kaleshwaram"],
+        "answer": "A",
+        "why": "Basara in Nirmal district hosts the rare Saraswati temple."
+      },
+      {
+        "q": "The Musi river joins the Krishna at:",
+        "options": ["Alampur", "Vadapally", "Kaleshwaram", "Pochampadu"],
+        "answer": "B",
+        "why": "The Musi-Krishna confluence is at Vadapally in Nalgonda district."
+      },
+      {
+        "q": "Himayatsagar and Osmansagar lakes were built after which event?",
+        "options": ["1946 armed struggle", "The 1908 Musi flood", "Operation Polo", "1956 merger"],
+        "answer": "B",
+        "why": "The devastating Musi flood of 1908 led the Nizam to build the twin reservoirs."
+      }
+    ]
+  },
+  {
+    "title": "Area Focus: Mahabubnagar (Palamuru) — Geology and Cultural References",
+    "intro": "Let's learn one area in depth — Mahabubnagar (Palamuru) — reading its geology and its culture together from the map, our model for studying every district.",
+    "map": "mahabubnagar.svg",
+    "map_caption": "Mahabubnagar (Palamuru) region — geological zones and cultural landmarks annotated on the map itself (schematic, not to scale)",
+    "explanation": "- **Names**: old name **Palamooru** ('land of milk' by tradition); renamed **Mahabubnagar** in 1890 after the sixth Nizam, **Mir Mahbub Ali Khan**. Now split into districts like Mahabubnagar, **Jogulamba Gadwal, Wanaparthy, Nagarkurnool, Narayanpet**.\n- **Geology**: the west and centre sit on **Archean granites and gneisses** of the Peninsular Gneissic Complex — among India's oldest rocks, quarried widely for granite; the **east rises into the Nallamala/Amrabad plateau** of Proterozoic **Cuddapah basin** rocks (quartzites, shales). Uranium exploration proposed in the Amrabad belt caused a major environmental controversy — an exam-favourite 'incident'.\n- **Rivers**: the **Krishna enters Telangana here at Tangadi**; the **Tungabhadra joins it near Alampur**; the **Jurala project** and Mallela Theertham waterfall (Nallamala) are on this stretch.\n- **Cultural references (read them off the map!)**: **Alampur Jogulamba** — the **5th of the 18 Shakti Peethas**, with **Navabrahma temples** built by the **Badami Chalukyas** (7th century); **Pillalamarri** — an 800-year-old giant banyan near Mahabubnagar town; **Gadwal** — fort, samsthanam and **GI-tagged handloom sarees**; **Wanaparthy and Kollapur samsthanams** — patrons of Telugu literature; **Uma Maheshwaram** — northern gateway (Uttara Dwaram) of Srisailam; **Amrabad Tiger Reserve** — home of the **Chenchu** tribe.\n- **Human geography**: chronic drought made 'Palamuru labour' famous across India — migrant workers whose story is central to Telangana's development debate (and to schemes like Indiramma Atmiya Bharosa).",
+    "example": "One map, three layers: *geology* (ancient granite plains meeting the Cuddapah-rock Nallamala), *water* (Krishna-Tungabhadra confluence), and *culture* (Jogulamba Shakti Peetha standing exactly at that confluence at Alampur). Whenever you study a district, stack its layers this way — TGPSC questions live at the intersections.",
+    "test": [
+      {
+        "q": "Mahabubnagar was named after:",
+        "options": ["A Kakatiya king", "The sixth Nizam, Mir Mahbub Ali Khan", "A Qutb Shahi sultan", "A Chalukya prince"],
+        "answer": "B",
+        "why": "Palamooru was renamed after Nizam VI in 1890."
+      },
+      {
+        "q": "Alampur Jogulamba temple is which number among the 18 Shakti Peethas?",
+        "options": ["1st", "5th", "9th", "18th"],
+        "answer": "B",
+        "why": "Jogulamba is traditionally counted as the 5th Shakti Peetha."
+      },
+      {
+        "q": "The Navabrahma temples at Alampur were built by the:",
+        "options": ["Kakatiyas", "Badami Chalukyas", "Satavahanas", "Qutb Shahis"],
+        "answer": "B",
+        "why": "They are 7th-century Badami Chalukya temples on the Tungabhadra."
+      },
+      {
+        "q": "The Amrabad plateau in eastern Palamuru is geologically part of the:",
+        "options": ["Gondwana coal basin", "Cuddapah basin", "Deccan Traps", "Himalayan foreland"],
+        "answer": "B",
+        "why": "Amrabad-Nallamala rocks belong to the Proterozoic Cuddapah basin."
+      },
+      {
+        "q": "Gadwal, in the old Mahabubnagar region, is culturally famous for:",
+        "options": ["Pearl trade", "Handloom sarees", "Bidriware", "Dokra metal craft"],
+        "answer": "B",
+        "why": "Gadwal handloom sarees hold a GI tag; the town also has a fort and samsthanam legacy."
+      }
+    ]
+  },
+  {
+    "title": "Climate, Rainfall and Soils of Telangana",
+    "intro": "Let's learn why Adilabad grows cotton while Palamuru sends migrant workers — the answer is written in rainfall lines and soil colours.",
+    "map": "telangana_regions.svg",
+    "map_caption": "Use the regions map: rainfall decreases roughly from the wetter north (Adilabad side) to the drier south-west (Palamuru side)",
+    "explanation": "- **Climate**: semi-arid tropical; scorching summers (Ramagundam often among India's hottest), most rain from the **south-west monsoon (June–September)** which brings roughly three-fourths of the annual total.\n- **Rainfall gradient**: averages around **900 mm** for the state but unevenly — the **north and north-east (Adilabad, Mulugu belt) get ~1,000–1,200 mm**, while the **south-west (old Mahabubnagar/Palamuru) may get only ~600 mm**, making it historically drought-prone — the geographic root of 'Palamuru labour' migration.\n- **Soils**: \n  - **Red/chalka soils** (sandy loams over granite) — most widespread; good for millets, groundnut, pulses.\n  - **Black cotton (regur) soils** — Adilabad, Nizamabad, parts of the north-west; ideal for **cotton, soybean, turmeric**.\n  - **Alluvial soils** — along the Godavari and Krishna valleys; paddy belts.\n  - Small **laterite** patches in the wetter uplands.\n- **Crop culture**: Nizamabad's **Armoor turmeric** (farmers' turmeric-board agitation is a current-affairs link), Khammam-Warangal **chillies** (Asia's big chilli market at Warangal Enumamula), fine rice from tank-fed Telangana villages.",
+    "example": "Same state, two fates: black regur under Adilabad's rain grows cotton, while thin red chalka under Palamuru's scanty rain historically grew only migration. Schemes like Rythu Bharosa and irrigation projects like Palamuru-Rangareddy LIS are the policy answer to this soil-rainfall map.",
+    "test": [
+      {
+        "q": "Telangana receives most of its rainfall from the:",
+        "options": ["North-east monsoon", "South-west monsoon", "Western disturbances", "Cyclones"],
+        "answer": "B",
+        "why": "The June–September south-west monsoon brings about 75-80% of annual rain."
+      },
+      {
+        "q": "The most widespread soil type in Telangana is:",
+        "options": ["Black regur", "Red chalka (sandy loam)", "Alluvial", "Laterite"],
+        "answer": "B",
+        "why": "Red soils over granite-gneiss cover the largest area."
+      },
+      {
+        "q": "Black cotton soils in Telangana are best developed in:",
+        "options": ["Adilabad-Nizamabad belt", "Nalgonda", "Khammam coast", "Hyderabad"],
+        "answer": "A",
+        "why": "The northern districts have regur supporting cotton and soybean."
+      },
+      {
+        "q": "Which region of Telangana is historically the most drought-prone?",
+        "options": ["Adilabad", "Old Mahabubnagar (Palamuru)", "Mulugu", "Karimnagar"],
+        "answer": "B",
+        "why": "Palamuru's low (~600 mm) rainfall made it drought- and migration-prone."
+      },
+      {
+        "q": "Armoor, famous for turmeric cultivation, is in which district?",
+        "options": ["Nizamabad", "Khammam", "Nalgonda", "Siddipet"],
+        "answer": "A",
+        "why": "Armoor in Nizamabad is the heart of the turmeric belt."
+      }
+    ]
+  },
+  {
+    "title": "Forests, Wildlife and Tribal Culture",
+    "intro": "Let's learn Telangana's green geography — its tiger reserves and sanctuaries — and the tribal festivals that make them cultural landmarks too.",
+    "map": "telangana_regions.svg",
+    "map_caption": "Locate on the regions map: Kawal (north, Adilabad side), Eturnagaram-Medaram (east, Mulugu), Amrabad (south, Nallamala)",
+    "explanation": "- Forests cover roughly **24% of the state's area**, concentrated in the north (Adilabad), east (Mulugu-Bhadradri) and south (Nallamala).\n- **Tiger reserves**: **Amrabad** (Nallamala hills — among India's largest; homeland of the **Chenchu** tribe) and **Kawal** (Adilabad region — Gond country).\n- **Sanctuaries/parks**: **Eturnagaram** (one of the oldest sanctuaries, Mulugu), **Pakhal** (around the Kakatiya-built lake), **Kinnerasani**, **Pocharam**, **Manjira** (mugger crocodiles), and in Hyderabad the **KBR National Park**, **Mrugavani** and **Mahavir Harina Vanasthali** (blackbuck).\n- **Waterfalls**: **Kuntala** (highest in Telangana, Adilabad — named in Gond lore after Shakuntala), Bogatha ('Telangana's Niagara', Mulugu), Mallela Theertham (Nallamala).\n- **Tribal-cultural map**: **Sammakka-Saralamma Jatara at Medaram** (inside Eturnagaram sanctuary) — Asia's largest tribal fair, held every two years by the **Koya** community; **Nagoba Jatara** at Keslapur (Adilabad) of the **Mesram clan Gonds**; **Komaram Bheem's** Jodeghat in Gond country — 'Jal, Jangal, Zameen'.",
+    "example": "Medaram shows geography and culture as one question: the sanctuary (Eturnagaram), the river (Jampanna Vagu, a Godavari tributary), and the festival (Sammakka-Saralamma Jatara drawing over a crore devotees) are all the same map dot — learn them together, score three ways.",
+    "test": [
+      {
+        "q": "The two tiger reserves of Telangana are:",
+        "options": ["Amrabad and Kawal", "Pakhal and Pocharam", "KBR and Mrugavani", "Kinnerasani and Manjira"],
+        "answer": "A",
+        "why": "Amrabad (Nallamala) and Kawal (Adilabad) are the tiger reserves."
+      },
+      {
+        "q": "The Sammakka-Saralamma Jatara is held at:",
+        "options": ["Keslapur", "Medaram", "Basara", "Alampur"],
+        "answer": "B",
+        "why": "Medaram in Mulugu district hosts Asia's largest tribal fair biennially."
+      },
+      {
+        "q": "The Chenchu tribe is primarily associated with:",
+        "options": ["Nallamala/Amrabad forests", "Adilabad plains", "Hyderabad", "Godavari delta"],
+        "answer": "A",
+        "why": "Chenchus are the traditional forest dwellers of the Nallamala."
+      },
+      {
+        "q": "The highest waterfall in Telangana is:",
+        "options": ["Bogatha", "Kuntala", "Mallela Theertham", "Gayatri"],
+        "answer": "B",
+        "why": "Kuntala falls (Adilabad) on the Kadem stream is the highest."
+      },
+      {
+        "q": "Nagoba Jatara at Keslapur is a festival of the:",
+        "options": ["Koyas", "Mesram clan Gonds", "Chenchus", "Lambadas"],
+        "answer": "B",
+        "why": "The Gond Mesram clan worships the serpent deity Nagoba at Keslapur."
+      }
+    ]
+  },
+  {
+    "title": "Minerals, Coal and Energy — the Singareni Story",
+    "intro": "Let's learn what lies under Telangana's soil — coal, granite and limestone — and the working-class culture the mines created.",
+    "map": "telangana_regions.svg",
+    "map_caption": "Locate on the regions map: the Godavari valley coal belt runs along the north-east (Mancherial-Ramagundam-Kothagudem line)",
+    "explanation": "- **Coal**: Telangana's coal lies in the **Gondwana rocks of the Godavari valley** — the only coalfield of peninsular south India — mined by **Singareni Collieries Company Ltd (SCCL)**, headquartered at **Kothagudem**. Coal was first noticed near **Yellandu**; regular mining dates from the 1880s-90s.\n- **Power**: **Ramagundam NTPC** — one of India's largest thermal stations ('Mini Bhilai' of the south... verify epithets); new plants like Yadadri and Bhadradri; Singareni also runs its own thermal plant and solar parks.\n- **Other minerals**: **granite** (Karimnagar's tan-brown famous in export), **limestone** (cement belt of Suryapet-Nalgonda-Miryalaguda), **iron ore at Bayyaram** (Mahabubabad-Khammam belt — promised steel plant is a political hot topic), quartz, feldspar and dolomite.\n- **Culture of the coal belt**: Singareni's mining towns (Kothagudem, Bellampalli, Mancherial, Godavarikhani) built a distinctive workers' culture — trade-union movements and folk songs of miners fed directly into the Telangana movement; singer-poets of the coal belt became the movement's voice.\n- **Incident link**: uranium exploration proposals in the Nallamala (Amrabad) were shelved after public resistance — geology meeting politics.",
+    "example": "**SCCL** is a rare government company jointly owned by the **State (51%) and Centre (49%)** — a favourite one-liner MCQ that connects Telangana's geology to its public sector and its labour history.",
+    "test": [
+      {
+        "q": "Telangana's coal deposits occur in which rock system?",
+        "options": ["Archean gneiss", "Gondwana rocks of the Godavari valley", "Cuddapah quartzites", "Deccan basalt"],
+        "answer": "B",
+        "why": "The Godavari valley Gondwana basin holds south India's only major coalfield."
+      },
+      {
+        "q": "The headquarters of Singareni Collieries (SCCL) is at:",
+        "options": ["Ramagundam", "Kothagudem", "Hyderabad", "Mancherial"],
+        "answer": "B",
+        "why": "SCCL is headquartered at Kothagudem in Bhadradri Kothagudem district."
+      },
+      {
+        "q": "Coal in the Singareni belt was first found near:",
+        "options": ["Yellandu", "Bayyaram", "Miryalaguda", "Armoor"],
+        "answer": "A",
+        "why": "The Yellandu area saw the first discoveries and early mining."
+      },
+      {
+        "q": "Bayyaram in the Mahabubabad-Khammam belt is known for:",
+        "options": ["Gold", "Iron ore", "Diamonds", "Bauxite"],
+        "answer": "B",
+        "why": "Bayyaram's iron ore and the demand for a steel plant there are frequently in the news."
+      },
+      {
+        "q": "SCCL is jointly owned by:",
+        "options": ["Centre 51% : State 49%", "State 51% : Centre 49%", "Fully private", "Fully central"],
+        "answer": "B",
+        "why": "Telangana holds 51% and the Government of India 49%."
+      }
+    ]
+  }
+]
