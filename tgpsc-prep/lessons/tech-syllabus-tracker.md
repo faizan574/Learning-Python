@@ -5,7 +5,7 @@ unticked topic (one per day — a single deep dive, not five subjects), and tick
 covering it. Order is deliberate: fundamentals → instruments → applications. When all are
 ticked, a second pass of mixed numerical-practice days begins (mark ✓✓).
 
-- [ ] Basics of measurements: static characteristics (accuracy, precision, resolution, sensitivity, linearity, drift), dynamic characteristics, standards & calibration
+- [x] Basics of measurements: static characteristics (accuracy, precision, resolution, sensitivity, linearity, drift), dynamic characteristics, standards & calibration — Day 1
 - [ ] Error analysis I: types of errors (gross, systematic, random), absolute/relative/limiting errors, error propagation in sums, products, quotients
 - [ ] Error analysis II: statistical analysis — mean, deviation, standard deviation, probable error, Gaussian distribution, combination of quantities
 - [ ] Galvanometers: d'Arsonval (torque equation, damping, CDRX), ballistic galvanometer, flux meter
