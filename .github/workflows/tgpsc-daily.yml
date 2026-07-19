@@ -1,14 +1,14 @@
 name: TGPSC Daily Prep Notification
 
 # Safety net: the daily Claude Routine ("TGPSC Daily Fresh Lesson") delivers a
-# freshly written lesson every night at 11:30 PM IST (18:00 UTC) via the Post
+# freshly written lesson every day at 11:30 AM IST (06:00 UTC) via the Post
 # TGPSC Lesson Issue workflow. If no lesson issue exists ~90 minutes later,
 # this posts one from the pre-authored topic bank in tgpsc-prep/data so a day
 # is never missed. Can also be run manually from the Actions tab.
 on:
   schedule:
-    # 19:30 UTC = 1:00 AM IST — 90 min after the Routine's 11:30 PM IST slot
-    - cron: "30 19 * * *"
+    # 07:30 UTC = 1:00 PM IST — 90 min after the Routine's 11:30 AM IST slot
+    - cron: "30 7 * * *"
   workflow_dispatch: {}
 
 permissions:
