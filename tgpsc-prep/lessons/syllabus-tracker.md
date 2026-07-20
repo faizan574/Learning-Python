@@ -7,7 +7,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 ## Subject 1: Indian Constitution & Polity
 - [x] Union and its Territory (Art 1-4) — Day 1
 - [x] Making of the Constitution & Constituent Assembly — Day 2
-- [ ] Preamble and its keywords
+- [x] Preamble and its keywords — Day 3
 - [ ] Citizenship (Art 5-11, Citizenship Act, CAA)
 - [ ] Fundamental Rights: Art 12-14
 - [ ] Fundamental Rights: Art 15-18 (incl. reservations)
@@ -30,7 +30,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 ## Subject 2: Telangana Schemes & Important Incidents
 - [x] The Six Guarantees overview — Day 1
 - [x] Mahalakshmi (free travel, ₹500 LPG, women's support) — deep dive with data — Day 2
-- [ ] Rythu Bharosa, Indiramma Atmiya Bharosa & the ₹2 lakh loan waiver
+- [x] Rythu Bharosa, Indiramma Atmiya Bharosa & the ₹2 lakh loan waiver — Day 3
 - [ ] Gruha Jyothi & Indiramma Indlu
 - [ ] Cheyutha pensions & Rajiv Aarogyasri health cover
 - [ ] Yuva Vikasam, Young India schools & Skills University
@@ -46,7 +46,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 ## Subject 3: Telangana History
 - [x] Satavahanas — Day 1
 - [x] Pre-Satavahana Telangana: megaliths, Kotalingala, Asmaka mahajanapada — Day 2
-- [ ] Ikshvakus & Vishnukundins
+- [x] Ikshvakus & Vishnukundins — Day 3
 - [ ] Badami Chalukyas, Rashtrakutas & Kalyani Chalukyas in Telangana; Vemulawada Chalukyas
 - [ ] Kakatiyas: political history
 - [ ] Kakatiyas: administration, economy, society, architecture
@@ -68,7 +68,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 ## Subject 4: Indian National Movement
 - [x] Revolt of 1857 — Day 1
 - [x] Pre-Congress political associations & socio-religious reform movements — Day 2
-- [ ] INC formation & the Moderate era (1885-1905)
+- [x] INC formation & the Moderate era (1885-1905) — Day 3
 - [ ] Partition of Bengal, Swadeshi & the Extremists; Surat split
 - [ ] Revolutionary movement phase I (Bengal, Punjab, abroad)
 - [ ] Morley-Minto & Montagu-Chelmsford reforms; Lucknow Pact; Home Rule Leagues
@@ -87,7 +87,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 ## Subject 5: Telangana Geography (with Maps)
 - [x] Telangana at a Glance: location, extent, physiography — Day 1
 - [x] Rivers: Godavari system in depth — Day 2
-- [ ] Rivers: Krishna system in depth
+- [x] Rivers: Krishna system in depth — Day 3
 - [ ] Climate, rainfall patterns & droughts
 - [ ] Soils & agriculture (crops, seasons, horticulture)
 - [ ] Irrigation projects: major, medium & lift schemes (Kaleshwaram, Palamuru-Rangareddy, SRSP…)
