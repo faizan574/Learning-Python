@@ -8,7 +8,7 @@ ticked, a second pass of mixed numerical-practice days begins (mark ✓✓).
 - [x] Basics of measurements: static characteristics (accuracy, precision, resolution, sensitivity, linearity, drift), dynamic characteristics, standards & calibration — Day 1
 - [x] Error analysis I: types of errors (gross, systematic, random), absolute/relative/limiting errors, error propagation in sums, products, quotients — Day 2
 - [x] Error analysis II: statistical analysis — mean, deviation, standard deviation, probable error, Gaussian distribution, combination of quantities — Day 3
-- [ ] Galvanometers: d'Arsonval (torque equation, damping, CDRX), ballistic galvanometer, flux meter
+- [x] Galvanometers: d'Arsonval (torque equation, damping, CDRX), ballistic galvanometer, flux meter — Day 4
 - [ ] PMMC instruments: construction, torque equation, swamping resistance, errors; extension of range — shunts, multipliers, Ayrton shunt (numericals)
 - [ ] Moving Iron (MI) instruments: attraction & repulsion types, torque from energy principle, scale shape, AC/DC errors, hysteresis & frequency errors
 - [ ] Electrodynamometer (EMMC) instruments: torque equation, use as ammeter/voltmeter, transfer instrument concept, errors
