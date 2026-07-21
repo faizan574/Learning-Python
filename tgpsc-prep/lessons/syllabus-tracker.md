@@ -8,7 +8,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Union and its Territory (Art 1-4) — Day 1
 - [x] Making of the Constitution & Constituent Assembly — Day 2
 - [x] Preamble and its keywords — Day 3
-- [ ] Citizenship (Art 5-11, Citizenship Act, CAA)
+- [x] Citizenship (Art 5-11, Citizenship Act, CAA) — Day 4
 - [ ] Fundamental Rights: Art 12-14
 - [ ] Fundamental Rights: Art 15-18 (incl. reservations)
 - [ ] Fundamental Rights: Art 19-22
@@ -31,7 +31,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] The Six Guarantees overview — Day 1
 - [x] Mahalakshmi (free travel, ₹500 LPG, women's support) — deep dive with data — Day 2
 - [x] Rythu Bharosa, Indiramma Atmiya Bharosa & the ₹2 lakh loan waiver — Day 3
-- [ ] Gruha Jyothi & Indiramma Indlu
+- [x] Gruha Jyothi & Indiramma Indlu — Day 4
 - [ ] Cheyutha pensions & Rajiv Aarogyasri health cover
 - [ ] Yuva Vikasam, Young India schools & Skills University
 - [ ] Caste survey (SEEEPC) & 42% BC reservation issue
@@ -47,7 +47,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Satavahanas — Day 1
 - [x] Pre-Satavahana Telangana: megaliths, Kotalingala, Asmaka mahajanapada — Day 2
 - [x] Ikshvakus & Vishnukundins — Day 3
-- [ ] Badami Chalukyas, Rashtrakutas & Kalyani Chalukyas in Telangana; Vemulawada Chalukyas
+- [x] Badami Chalukyas, Rashtrakutas & Kalyani Chalukyas in Telangana; Vemulawada Chalukyas — Day 4
 - [ ] Kakatiyas: political history
 - [ ] Kakatiyas: administration, economy, society, architecture
 - [ ] Musunuri Nayaks, Recherla Velamas & Bahmani kingdom
@@ -69,7 +69,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Revolt of 1857 — Day 1
 - [x] Pre-Congress political associations & socio-religious reform movements — Day 2
 - [x] INC formation & the Moderate era (1885-1905) — Day 3
-- [ ] Partition of Bengal, Swadeshi & the Extremists; Surat split
+- [x] Partition of Bengal, Swadeshi & the Extremists; Surat split — Day 4
 - [ ] Revolutionary movement phase I (Bengal, Punjab, abroad)
 - [ ] Morley-Minto & Montagu-Chelmsford reforms; Lucknow Pact; Home Rule Leagues
 - [ ] Gandhi's arrival & early satyagrahas (Champaran, Kheda, Ahmedabad)
@@ -88,7 +88,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Telangana at a Glance: location, extent, physiography — Day 1
 - [x] Rivers: Godavari system in depth — Day 2
 - [x] Rivers: Krishna system in depth — Day 3
-- [ ] Climate, rainfall patterns & droughts
+- [x] Climate, rainfall patterns & droughts — Day 4
 - [ ] Soils & agriculture (crops, seasons, horticulture)
 - [ ] Irrigation projects: major, medium & lift schemes (Kaleshwaram, Palamuru-Rangareddy, SRSP…)
 - [ ] Forests, wildlife sanctuaries & tiger reserves
