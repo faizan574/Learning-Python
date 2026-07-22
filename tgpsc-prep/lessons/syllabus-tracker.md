@@ -9,7 +9,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Making of the Constitution & Constituent Assembly — Day 2
 - [x] Preamble and its keywords — Day 3
 - [x] Citizenship (Art 5-11, Citizenship Act, CAA) — Day 4
-- [ ] Fundamental Rights: Art 12-14
+- [x] Fundamental Rights: Art 12-14 — Day 5
 - [ ] Fundamental Rights: Art 15-18 (incl. reservations)
 - [ ] Fundamental Rights: Art 19-22
 - [ ] Fundamental Rights: Art 23-30 & Art 32 (writs)
@@ -32,7 +32,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Mahalakshmi (free travel, ₹500 LPG, women's support) — deep dive with data — Day 2
 - [x] Rythu Bharosa, Indiramma Atmiya Bharosa & the ₹2 lakh loan waiver — Day 3
 - [x] Gruha Jyothi & Indiramma Indlu — Day 4
-- [ ] Cheyutha pensions & Rajiv Aarogyasri health cover
+- [x] Cheyutha pensions & Rajiv Aarogyasri health cover — Day 5
 - [ ] Yuva Vikasam, Young India schools & Skills University
 - [ ] Caste survey (SEEEPC) & 42% BC reservation issue
 - [ ] SIR (Special Intensive Revision) & electoral roll issues
@@ -48,7 +48,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Pre-Satavahana Telangana: megaliths, Kotalingala, Asmaka mahajanapada — Day 2
 - [x] Ikshvakus & Vishnukundins — Day 3
 - [x] Badami Chalukyas, Rashtrakutas & Kalyani Chalukyas in Telangana; Vemulawada Chalukyas — Day 4
-- [ ] Kakatiyas: political history
+- [x] Kakatiyas: political history — Day 5
 - [ ] Kakatiyas: administration, economy, society, architecture
 - [ ] Musunuri Nayaks, Recherla Velamas & Bahmani kingdom
 - [ ] Qutb Shahis: political & cultural history, founding of Hyderabad
@@ -70,7 +70,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Pre-Congress political associations & socio-religious reform movements — Day 2
 - [x] INC formation & the Moderate era (1885-1905) — Day 3
 - [x] Partition of Bengal, Swadeshi & the Extremists; Surat split — Day 4
-- [ ] Revolutionary movement phase I (Bengal, Punjab, abroad)
+- [x] Revolutionary movement phase I (Bengal, Punjab, abroad) — Day 5
 - [ ] Morley-Minto & Montagu-Chelmsford reforms; Lucknow Pact; Home Rule Leagues
 - [ ] Gandhi's arrival & early satyagrahas (Champaran, Kheda, Ahmedabad)
 - [ ] Rowlatt, Jallianwala Bagh & Khilafat
@@ -89,7 +89,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Rivers: Godavari system in depth — Day 2
 - [x] Rivers: Krishna system in depth — Day 3
 - [x] Climate, rainfall patterns & droughts — Day 4
-- [ ] Soils & agriculture (crops, seasons, horticulture)
+- [x] Soils & agriculture (crops, seasons, horticulture) — Day 5
 - [ ] Irrigation projects: major, medium & lift schemes (Kaleshwaram, Palamuru-Rangareddy, SRSP…)
 - [ ] Forests, wildlife sanctuaries & tiger reserves
 - [ ] Minerals & energy (coal, limestone, granite, power plants)
