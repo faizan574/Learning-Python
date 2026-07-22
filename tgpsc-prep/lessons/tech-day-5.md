@@ -292,3 +292,5 @@ An IGBT carries `I = 20 A` with on-state drop `V_CE(sat) = 2 V`, switching at `f
 `🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜` Measurements **5/21**
 `🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜` Machines **1/19**
 `🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜` Power Electronics **1/19**
+
+<!-- email formatting revised: LaTeX now rendered as readable plain text -->
