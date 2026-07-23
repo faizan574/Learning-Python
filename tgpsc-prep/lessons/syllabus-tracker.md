@@ -63,7 +63,12 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [ ] 1970-2000: TPS, naxalism phase, identity politics
 - [ ] Statehood movement 2001-2014 (TRS, JACs, agitations, Sri Krishna Committee)
 - [ ] Formation of Telangana & after (2014-present political history)
-- [ ] Telangana culture: jataras, festivals, arts, literature, GI products
+- [ ] Telangana festivals & jataras: Bathukamma (state festival), Bonalu, Sammakka-Saralamma (Medaram) Jatara, Nagoba Jatara, Peddagattu/Komuravelli, Sadar, Moharram/Peerla Panduga
+- [ ] Telangana folk & performing arts: Perini Shivatandavam, Oggu Katha, Burra Katha, Chindu Bhagavatam & Yakshaganam, Gussadi & tribal dances, Dappu, Kolatam, Golla Suddulu
+- [ ] Telangana handlooms & handicrafts (GI products): Pochampally Ikat, Gadwal/Narayanpet/Siddipet Gollabhama sarees, Cheriyal scroll paintings, Nirmal paintings & toys, Bidriware, Karimnagar silver filigree, Dokra/Adilabad metalcraft, Warangal durries
+- [ ] Telangana literature & language: classical Telugu (Palkuriki Somanatha, Bammera Potana), modern & movement poets (Dasarathi, Kaloji Narayana Rao, C. Narayana Reddy/Cinare, Gaddar, Suddala), Telangana dialect & Vignana Sarvaswam
+- [ ] Telangana temples, monuments & tourism heritage (cultural angle): Ramappa, Thousand Pillar, Bhadrachalam, Yadadri, Vemulawada, Basara, Alampur, Charminar, Golconda, Qutb Shahi tombs, Kuntala/Bogatha
+- [ ] Telangana cuisine, attire, tribes & living heritage; state cultural symbols (emblem, bird, animal, tree, flower, song) & Formation Day revival
 
 ## Subject 4: Indian National Movement
 - [x] Revolt of 1857 — Day 1
