@@ -18,7 +18,7 @@ Day-numbering note: `tech-day-N.md` is one lesson containing all three sections 
 - [x] Galvanometers: d'Arsonval (torque equation, damping, CDRX), ballistic galvanometer, flux meter — Day 4
 - [x] PMMC instruments: construction, torque equation, swamping resistance, errors; extension of range — shunts, multipliers, Ayrton shunt (numericals) — Day 5
 - [x] Moving Iron (MI) instruments: attraction & repulsion types, torque from energy principle, scale shape, AC/DC errors, hysteresis & frequency errors — Day 6
-- [ ] Electrodynamometer (EMMC) instruments: torque equation, use as ammeter/voltmeter, transfer instrument concept, errors
+- [x] Electrodynamometer (EMMC) instruments: torque equation, use as ammeter/voltmeter, transfer instrument concept, errors — Day 7
 - [ ] Electrostatic, induction, thermal (thermocouple/hot-wire) & rectifier instruments: principles, true-RMS vs average-responding, form-factor errors
 - [ ] Measurement of power I: dynamometer wattmeter — connections, pressure-coil/current-coil errors & compensation, LPF wattmeter modifications
 - [ ] Measurement of power II: three-phase power — Blondel's theorem, two-wattmeter method (pf angle derivations, sign cases), reactive power measurement
@@ -37,7 +37,7 @@ Day-numbering note: `tech-day-N.md` is one lesson containing all three sections 
 ## Section B: Electrical Machines
 - [x] Transformers I: single-phase — construction, EMF equation, ideal vs practical, turns ratio, no-load operation — Day 5
 - [x] Transformers II: equivalent circuit, phasor diagram, voltage regulation, per-unit — Day 6
-- [ ] Transformers III: losses, efficiency, OC & SC tests, condition for max efficiency, all-day efficiency (numericals)
+- [x] Transformers III: losses, efficiency, OC & SC tests, condition for max efficiency, all-day efficiency (numericals) — Day 7
 - [ ] Transformers IV: three-phase connections (Y-Y, Δ-Δ, Y-Δ, Δ-Y), vector groups, parallel operation
 - [ ] Transformers V: autotransformer, tap changing, inrush current, cooling; Scott connection & three-winding
 - [ ] DC machines I: construction, EMF equation, armature reaction, commutation
@@ -58,7 +58,7 @@ Day-numbering note: `tech-day-N.md` is one lesson containing all three sections 
 ## Section C: Power Electronics
 - [x] Basics of power electronics & devices: power diode, BJT, MOSFET, IGBT, thyristor family — symbols, V-I characteristics, ratings, ideal switch, comparison — Day 5
 - [x] Power diode & switching behaviour: static/dynamic characteristics, reverse recovery, freewheeling diode — Day 6
-- [ ] Thyristor (SCR) I: construction, two-transistor analogy, V-I characteristics, latching & holding current
+- [x] Thyristor (SCR) I: construction, two-transistor analogy, V-I characteristics, latching & holding current — Day 7
 - [ ] Thyristor II: turn-on methods, gate characteristics, dv/dt & di/dt protection, snubber design
 - [ ] Thyristor III: turn-off & commutation techniques (natural & forced), ratings, series/parallel operation with string efficiency
 - [ ] Other devices & gate drives: TRIAC, DIAC, GTO, MOSFET/IGBT gate drive, firing circuits, isolation
