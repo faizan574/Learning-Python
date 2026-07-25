@@ -12,7 +12,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Fundamental Rights: Art 12-14 — Day 5
 - [x] Fundamental Rights: Art 15-18 (incl. reservations) — Day 6
 - [x] Fundamental Rights: Art 19-22 — Day 7
-- [ ] Fundamental Rights: Art 23-30 & Art 32 (writs)
+- [x] Fundamental Rights: Art 23-30 & Art 32 (writs) — Day 8
 - [ ] DPSP (Art 36-51) & Fundamental Duties (51A)
 - [ ] Amendment (Art 368) & Basic Structure; major amendments (42nd, 44th, 73rd, 74th, 86th, 101st, 103rd)
 - [ ] President & Vice-President
@@ -35,7 +35,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Cheyutha pensions & Rajiv Aarogyasri health cover — Day 5
 - [x] Yuva Vikasam, Young India schools & Skills University — Day 6
 - [x] Caste survey (SEEEPC) & 42% BC reservation issue — Day 7
-- [ ] SIR (Special Intensive Revision) & electoral roll issues
+- [x] SIR (Special Intensive Revision) & electoral roll issues — Day 8
 - [ ] Musi rejuvenation, HYDRAA & urban governance incidents
 - [ ] Praja Palana, Praja Vani & administrative changes (renamings, emblem)
 - [ ] Telangana budgets & economic survey highlights (latest year)
@@ -51,7 +51,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Kakatiyas: political history — Day 5
 - [x] Kakatiyas: administration, economy, society, architecture — Day 6
 - [x] Musunuri Nayaks, Recherla Velamas & Bahmani kingdom — Day 7
-- [ ] Qutb Shahis: political & cultural history, founding of Hyderabad
+- [x] Qutb Shahis: political & cultural history, founding of Hyderabad — Day 8
 - [ ] Asaf Jahis: 1724-1911 (Salar Jung reforms, subsidiary alliance)
 - [ ] Mir Osman Ali Khan era: modernisation, Osmania University
 - [ ] Socio-cultural awakening: Andhra Mahasabha, library movement, press
@@ -78,7 +78,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Revolutionary movement phase I (Bengal, Punjab, abroad) — Day 5
 - [x] Morley-Minto & Montagu-Chelmsford reforms; Lucknow Pact; Home Rule Leagues — Day 6
 - [x] Gandhi's arrival & early satyagrahas (Champaran, Kheda, Ahmedabad) — Day 7
-- [ ] Rowlatt, Jallianwala Bagh & Khilafat
+- [x] Rowlatt, Jallianwala Bagh & Khilafat — Day 8
 - [ ] Non-Cooperation Movement & Swarajists
 - [ ] Simon Commission, Nehru Report, Lahore session
 - [ ] Civil Disobedience, Round Tables, Poona Pact
@@ -97,7 +97,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Soils & agriculture (crops, seasons, horticulture) — Day 5
 - [x] Irrigation projects: major, medium & lift schemes (Kaleshwaram, Palamuru-Rangareddy, SRSP…) — Day 6
 - [x] Forests, wildlife sanctuaries & tiger reserves — Day 7
-- [ ] Minerals & energy (coal, limestone, granite, power plants)
+- [x] Minerals & energy (coal, limestone, granite, power plants) — Day 8
 - [ ] Population, demography & urbanisation (Census/latest data)
 - [ ] Industries & transport (IT, pharma, ORR/RRR, highways, rail)
 - [ ] Area Focus: Mahabubnagar/Palamuru (geology + culture)
