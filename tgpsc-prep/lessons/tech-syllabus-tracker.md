@@ -20,7 +20,7 @@ Day-numbering note: `tech-day-N.md` is one lesson containing all three sections 
 - [x] Moving Iron (MI) instruments: attraction & repulsion types, torque from energy principle, scale shape, AC/DC errors, hysteresis & frequency errors — Day 6
 - [x] Electrodynamometer (EMMC) instruments: torque equation, use as ammeter/voltmeter, transfer instrument concept, errors — Day 7
 - [x] Electrostatic, induction, thermal (thermocouple/hot-wire) & rectifier instruments: principles, true-RMS vs average-responding, form-factor errors — Day 8
-- [ ] Measurement of power I: dynamometer wattmeter — connections, pressure-coil/current-coil errors & compensation, LPF wattmeter modifications
+- [x] Measurement of power I: dynamometer wattmeter — connections, pressure-coil/current-coil errors & compensation, LPF wattmeter modifications — Day 9
 - [ ] Measurement of power II: three-phase power — Blondel's theorem, two-wattmeter method (pf angle derivations, sign cases), reactive power measurement
 - [ ] Measurement of energy: single-phase induction energy meter — driving/braking torques, lag adjustment, creeping, friction compensation, errors, testing & phantom loading (numericals)
 - [ ] DC potentiometer: Crompton type, standardisation with standard cell, applications; AC polar & coordinate potentiometers
@@ -39,7 +39,7 @@ Day-numbering note: `tech-day-N.md` is one lesson containing all three sections 
 - [x] Transformers II: equivalent circuit, phasor diagram, voltage regulation, per-unit — Day 6
 - [x] Transformers III: losses, efficiency, OC & SC tests, condition for max efficiency, all-day efficiency (numericals) — Day 7
 - [x] Transformers IV: three-phase connections (Y-Y, Δ-Δ, Y-Δ, Δ-Y), vector groups, parallel operation — Day 8
-- [ ] Transformers V: autotransformer, tap changing, inrush current, cooling; Scott connection & three-winding
+- [x] Transformers V: autotransformer, tap changing, inrush current, cooling; Scott connection & three-winding — Day 9
 - [ ] DC machines I: construction, EMF equation, armature reaction, commutation
 - [ ] DC generators: types, characteristics, voltage build-up, critical resistance
 - [ ] DC motors: types, torque-speed characteristics, starters, speed control (numericals)
@@ -60,7 +60,7 @@ Day-numbering note: `tech-day-N.md` is one lesson containing all three sections 
 - [x] Power diode & switching behaviour: static/dynamic characteristics, reverse recovery, freewheeling diode — Day 6
 - [x] Thyristor (SCR) I: construction, two-transistor analogy, V-I characteristics, latching & holding current — Day 7
 - [x] Thyristor II: turn-on methods, gate characteristics, dv/dt & di/dt protection, snubber design — Day 8
-- [ ] Thyristor III: turn-off & commutation techniques (natural & forced), ratings, series/parallel operation with string efficiency
+- [x] Thyristor III: turn-off & commutation techniques (natural & forced), ratings, series/parallel operation with string efficiency — Day 9
 - [ ] Other devices & gate drives: TRIAC, DIAC, GTO, MOSFET/IGBT gate drive, firing circuits, isolation
 - [ ] Single-phase half-wave & half-controlled rectifiers (R, RL, RLE loads — waveforms & equations)
 - [ ] Single-phase full-converter & semiconverter: average/RMS output, effect of freewheeling diode
