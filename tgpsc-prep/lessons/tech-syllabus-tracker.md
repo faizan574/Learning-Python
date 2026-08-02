@@ -24,7 +24,7 @@ Day-numbering note: `tech-day-N.md` is one lesson containing all three sections 
 - [x] Measurement of power II: three-phase power — Blondel's theorem, two-wattmeter method (pf angle derivations, sign cases), reactive power measurement — Day 10
 - [x] Measurement of energy: single-phase induction energy meter — driving/braking torques, lag adjustment, creeping, friction compensation, errors, testing & phantom loading (numericals) — Day 11
 - [x] DC potentiometer: Crompton type, standardisation with standard cell, applications; AC polar & coordinate potentiometers — Day 12
-- [ ] Instrument transformers — CT: theory, equivalent circuit, phasor diagram, ratio & phase-angle error derivations, burden, open-secondary hazard, testing
+- [x] Instrument transformers — CT: theory, equivalent circuit, phasor diagram, ratio & phase-angle error derivations, burden, open-secondary hazard, testing — Day 13
 - [ ] Instrument transformers — PT: phasor diagram, errors, comparison with CT; numericals
 - [ ] DC bridges: Wheatstone (sensitivity), Kelvin double bridge (low R), high-R measurement, megger
 - [ ] AC bridges I: Maxwell's inductance-capacitance, Hay's, Anderson (Q ranges, derivations)
@@ -43,7 +43,7 @@ Day-numbering note: `tech-day-N.md` is one lesson containing all three sections 
 - [x] DC machines I: construction, EMF equation, armature reaction, commutation — Day 10
 - [x] DC generators: types, characteristics, voltage build-up, critical resistance — Day 11
 - [x] DC motors: types, torque-speed characteristics, starters, speed control (numericals) — Day 12
-- [ ] DC machine losses, efficiency & testing (Swinburne, Hopkinson)
+- [x] DC machine losses, efficiency & testing (Swinburne, Hopkinson) — Day 13
 - [ ] Induction motor I: 3-phase — rotating field, slip, torque equation
 - [ ] Induction motor II: equivalent circuit, torque-slip curve, maximum torque condition (numericals)
 - [ ] Induction motor III: no-load & blocked-rotor tests, circle diagram, starting methods
@@ -64,7 +64,7 @@ Day-numbering note: `tech-day-N.md` is one lesson containing all three sections 
 - [x] Other devices & gate drives: TRIAC, DIAC, GTO, MOSFET/IGBT gate drive, firing circuits, isolation — Day 10
 - [x] Single-phase half-wave & half-controlled rectifiers (R, RL, RLE loads — waveforms & equations) — Day 11
 - [x] Single-phase full-converter & semiconverter: average/RMS output, effect of freewheeling diode — Day 12
-- [ ] Three-phase rectifiers: half-wave, full-converter — waveforms, average output, ripple frequency
+- [x] Three-phase rectifiers: half-wave, full-converter — waveforms, average output, ripple frequency — Day 13
 - [ ] Rectifier performance: ripple factor, TUF, input pf, harmonics, effect of source inductance (overlap angle)
 - [ ] AC voltage controllers: single-phase phase control vs integral-cycle control, TRIAC circuits
 - [ ] DC-DC choppers I: step-down (buck) & step-up (boost) — control strategies (TRC/CLC), output equations
