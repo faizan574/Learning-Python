@@ -17,7 +17,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Amendment (Art 368) & Basic Structure; major amendments (42nd, 44th, 73rd, 74th, 86th, 101st, 103rd) — Day 10
 - [x] President & Vice-President — Day 11
 - [x] Prime Minister & Council of Ministers — Day 12
-- [ ] Parliament: composition, sessions, bills, budget, committees
+- [x] Parliament: composition, sessions, bills, budget, committees — Day 13
 - [ ] Supreme Court & High Courts; judicial review, PIL, collegium
 - [ ] Governor, CM & State Legislature
 - [ ] Centre-State relations & federalism (7th Schedule, GST Council, Finance Commission)
@@ -40,7 +40,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Praja Palana, Praja Vani & administrative changes (renamings, emblem) — Day 10
 - [x] Telangana budgets & economic survey highlights (latest year) — Day 11
 - [x] Irrigation policy: Kaleshwaram commission, Palamuru-Rangareddy LIS status — Day 12
-- [ ] Major incidents timeline Dec 2023 → present (verify latest before exam)
+- [x] Major incidents timeline Dec 2023 → present (verify latest before exam) — Day 13
 - [ ] Central schemes active in Telangana (PM-KISAN, Ayushman overlap, comparisons)
 
 ## Subject 3: Telangana History
@@ -56,7 +56,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Mir Osman Ali Khan era: modernisation, Osmania University — Day 10
 - [x] Socio-cultural awakening: Andhra Mahasabha, library movement, press — Day 11
 - [x] Tribal & peasant revolts: Ramji Gond, Komaram Bheem — Day 12
-- [ ] Telangana Armed Struggle 1946-51
+- [x] Telangana Armed Struggle 1946-51 — Day 13
 - [ ] Operation Polo & Hyderabad State 1948-56
 - [ ] Merger, Gentlemen's Agreement & violations
 - [ ] Mulki rules & 1969 Jai Telangana agitation
@@ -83,7 +83,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Simon Commission, Nehru Report, Lahore session — Day 10
 - [x] Civil Disobedience, Round Tables, Poona Pact — Day 11
 - [x] Revolutionary movement phase II (Bhagat Singh, Chandrashekar Azad, Surya Sen) — Day 12
-- [ ] Government of India Act 1935 & provincial ministries
+- [x] Government of India Act 1935 & provincial ministries — Day 13
 - [ ] WWII, August Offer, Cripps Mission, Quit India
 - [ ] Subhas Bose & the INA; RIN revolt
 - [ ] Cabinet Mission to Independence & Partition
@@ -102,7 +102,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Industries & transport (IT, pharma, ORR/RRR, highways, rail) — Day 10
 - [x] Area Focus: Mahabubnagar/Palamuru (geology + culture) — Day 11
 - [x] Area Focus: Warangal & Kakatiya belt — Day 12
-- [ ] Area Focus: Adilabad & northern Gond belt
+- [x] Area Focus: Adilabad & northern Gond belt — Day 13
 - [ ] Area Focus: Nizamabad-Kamareddy
 - [ ] Area Focus: Karimnagar-Jagtial
 - [ ] Area Focus: Khammam-Bhadradri
