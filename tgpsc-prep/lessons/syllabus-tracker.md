@@ -18,7 +18,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] President & Vice-President — Day 11
 - [x] Prime Minister & Council of Ministers — Day 12
 - [x] Parliament: composition, sessions, bills, budget, committees — Day 13
-- [ ] Supreme Court & High Courts; judicial review, PIL, collegium
+- [x] Supreme Court & High Courts; judicial review, PIL, collegium — Day 14
 - [ ] Governor, CM & State Legislature
 - [ ] Centre-State relations & federalism (7th Schedule, GST Council, Finance Commission)
 - [ ] Emergency provisions (Art 352, 356, 360)
@@ -41,7 +41,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Telangana budgets & economic survey highlights (latest year) — Day 11
 - [x] Irrigation policy: Kaleshwaram commission, Palamuru-Rangareddy LIS status — Day 12
 - [x] Major incidents timeline Dec 2023 → present (verify latest before exam) — Day 13
-- [ ] Central schemes active in Telangana (PM-KISAN, Ayushman overlap, comparisons)
+- [x] Central schemes active in Telangana (PM-KISAN, Ayushman overlap, comparisons) — Day 14
 
 ## Subject 3: Telangana History
 - [x] Satavahanas — Day 1
@@ -57,7 +57,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Socio-cultural awakening: Andhra Mahasabha, library movement, press — Day 11
 - [x] Tribal & peasant revolts: Ramji Gond, Komaram Bheem — Day 12
 - [x] Telangana Armed Struggle 1946-51 — Day 13
-- [ ] Operation Polo & Hyderabad State 1948-56
+- [x] Operation Polo & Hyderabad State 1948-56 — Day 14
 - [ ] Merger, Gentlemen's Agreement & violations
 - [ ] Mulki rules & 1969 Jai Telangana agitation
 - [ ] 1970-2000: TPS, naxalism phase, identity politics
@@ -84,7 +84,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Civil Disobedience, Round Tables, Poona Pact — Day 11
 - [x] Revolutionary movement phase II (Bhagat Singh, Chandrashekar Azad, Surya Sen) — Day 12
 - [x] Government of India Act 1935 & provincial ministries — Day 13
-- [ ] WWII, August Offer, Cripps Mission, Quit India
+- [x] WWII, August Offer, Cripps Mission, Quit India — Day 14
 - [ ] Subhas Bose & the INA; RIN revolt
 - [ ] Cabinet Mission to Independence & Partition
 - [ ] Integration of princely states (incl. Hyderabad) & making of the Republic
@@ -103,7 +103,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Area Focus: Mahabubnagar/Palamuru (geology + culture) — Day 11
 - [x] Area Focus: Warangal & Kakatiya belt — Day 12
 - [x] Area Focus: Adilabad & northern Gond belt — Day 13
-- [ ] Area Focus: Nizamabad-Kamareddy
+- [x] Area Focus: Nizamabad-Kamareddy — Day 14
 - [ ] Area Focus: Karimnagar-Jagtial
 - [ ] Area Focus: Khammam-Bhadradri
 - [ ] Area Focus: Nalgonda-Suryapet
