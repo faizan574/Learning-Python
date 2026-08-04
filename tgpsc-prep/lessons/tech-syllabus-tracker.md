@@ -26,7 +26,7 @@ Day-numbering note: `tech-day-N.md` is one lesson containing all three sections 
 - [x] DC potentiometer: Crompton type, standardisation with standard cell, applications; AC polar & coordinate potentiometers — Day 12
 - [x] Instrument transformers — CT: theory, equivalent circuit, phasor diagram, ratio & phase-angle error derivations, burden, open-secondary hazard, testing — Day 13
 - [x] Instrument transformers — PT: phasor diagram, errors, comparison with CT; numericals — Day 14
-- [ ] DC bridges: Wheatstone (sensitivity), Kelvin double bridge (low R), high-R measurement, megger
+- [x] DC bridges: Wheatstone (sensitivity), Kelvin double bridge (low R), high-R measurement, megger — Day 15
 - [ ] AC bridges I: Maxwell's inductance-capacitance, Hay's, Anderson (Q ranges, derivations)
 - [ ] AC bridges II: Schering (tan δ), De Sauty, Wien; sources/detectors, Wagner earthing
 - [ ] CRO: CRT, electrostatic deflection sensitivity, time-base, sync, Lissajous, probes, DSO basics
@@ -45,7 +45,7 @@ Day-numbering note: `tech-day-N.md` is one lesson containing all three sections 
 - [x] DC motors: types, torque-speed characteristics, starters, speed control (numericals) — Day 12
 - [x] DC machine losses, efficiency & testing (Swinburne, Hopkinson) — Day 13
 - [x] Induction motor I: 3-phase — rotating field, slip, torque equation — Day 14
-- [ ] Induction motor II: equivalent circuit, torque-slip curve, maximum torque condition (numericals)
+- [x] Induction motor II: equivalent circuit, torque-slip curve, maximum torque condition (numericals) — Day 15
 - [ ] Induction motor III: no-load & blocked-rotor tests, circle diagram, starting methods
 - [ ] Induction motor IV: speed control, double-cage rotor, induction generator
 - [ ] Single-phase induction motors: double-revolving-field theory, starting methods
@@ -66,7 +66,7 @@ Day-numbering note: `tech-day-N.md` is one lesson containing all three sections 
 - [x] Single-phase full-converter & semiconverter: average/RMS output, effect of freewheeling diode — Day 12
 - [x] Three-phase rectifiers: half-wave, full-converter — waveforms, average output, ripple frequency — Day 13
 - [x] Rectifier performance: ripple factor, TUF, input pf, harmonics, effect of source inductance (overlap angle) — Day 14
-- [ ] AC voltage controllers: single-phase phase control vs integral-cycle control, TRIAC circuits
+- [x] AC voltage controllers: single-phase phase control vs integral-cycle control, TRIAC circuits — Day 15
 - [ ] DC-DC choppers I: step-down (buck) & step-up (boost) — control strategies (TRC/CLC), output equations
 - [ ] DC-DC choppers II: buck-boost, Cuk, four-quadrant operation, SMPS regulators
 - [ ] Inverters I: single-phase VSI (half & full bridge) — output equations, THD
