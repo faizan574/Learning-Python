@@ -78,4 +78,16 @@ eq('isPlaceholder',isPlaceholder_('[missing]'),true);
 eq('isPlaceholder case',isPlaceholder_('[Please Provide]'),true);
 eq('normal value',isPlaceholder_('Shazam'),false);
 
+console.log('\n=== header alias resolution (real sheet headers) ===');
+const realHeader=['Publisher Domain','Bundle Id','Developer','App Name','IAB Category','Store URL'];
+eq('Publisher Domain', resolveColumnIndex_(realHeader,'publisherDomain'),0);
+eq('Bundle Id (case variant)', resolveColumnIndex_(realHeader,'bundleId'),1);
+eq('Developer', resolveColumnIndex_(realHeader,'developer'),2);
+eq('App Name', resolveColumnIndex_(realHeader,'appName'),3);
+eq('IAB Category -> iabCode (alias)', resolveColumnIndex_(realHeader,'iabCode'),4);
+eq('Store URL', resolveColumnIndex_(realHeader,'storeUrl'),5);
+eq('Notes absent', resolveColumnIndex_(realHeader,'notes'),-1);
+eq('exact primary still wins', resolveColumnIndex_(['IAB Category Code'],'iabCode'),0);
+eq('unknown header', resolveColumnIndex_(['Nope'],'iabCode'),-1);
+
 console.log(fail? '\n*** '+fail+' FAILURE(S) ***' : '\n*** ALL CHECKS PASSED ***');

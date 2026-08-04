@@ -34,6 +34,19 @@ var CONFIG = {
     notes:           'Notes'   // set to '' to disable the notes column
   },
 
+  // Alternate header spellings accepted when matching an existing sheet, so a
+  // sheet headed "IAB Category" or "Bundle Id" is recognised instead of having
+  // a duplicate column appended next to it. Matching is case-insensitive.
+  columnAliases: {
+    publisherDomain: ['Publisher', 'Domain', 'Publisher Name'],
+    bundleId:        ['Bundle Id', 'BundleID', 'Bundle', 'App Bundle', 'Package Name'],
+    developer:       ['Developer Name', 'Seller', 'Publisher Name'],
+    appName:         ['App', 'App Title', 'Title'],
+    iabCode:         ['IAB Category', 'IAB Code', 'IAB', 'Category Code'],
+    storeUrl:        ['Store Link', 'App Store URL', 'URL'],
+    notes:           ['Note', 'Status']
+  },
+
   writeNotes: true,
   msBetweenCalls: 350,    // politeness delay between lookups
   maxRuntimeMs: 4.5 * 60 * 1000,  // stop cleanly before the 6-min Apps Script cap
@@ -194,17 +207,14 @@ function setUpHeaders() {
   var lastCol = Math.max(sheet.getLastColumn(), 1);
   var header = sheet.getRange(CONFIG.headerRow, 1, 1, lastCol).getValues()[0];
 
-  var wanted = [
-    CONFIG.columns.publisherDomain, CONFIG.columns.bundleId, CONFIG.columns.developer,
-    CONFIG.columns.appName, CONFIG.columns.iabCode, CONFIG.columns.storeUrl
-  ];
-  if (CONFIG.writeNotes && CONFIG.columns.notes) wanted.push(CONFIG.columns.notes);
+  var wanted = ['publisherDomain', 'bundleId', 'developer', 'appName', 'iabCode', 'storeUrl'];
+  if (CONFIG.writeNotes && CONFIG.columns.notes) wanted.push('notes');
 
   var added = [];
-  wanted.forEach(function (name) {
-    if (findColumn_(header, name) === -1) {
-      header.push(name);
-      added.push(name);
+  wanted.forEach(function (key) {
+    if (resolveColumnIndex_(header, key) === -1) {
+      header.push(CONFIG.columns[key]);
+      added.push(CONFIG.columns[key]);
     }
   });
 
@@ -224,6 +234,22 @@ function findColumn_(header, name) {
   return -1;
 }
 
+/** Locates a configured column by its primary name, then by any alias. */
+function resolveColumnIndex_(header, key) {
+  var primary = CONFIG.columns[key];
+  if (!primary) return -1;
+
+  var at = findColumn_(header, primary);
+  if (at !== -1) return at;
+
+  var aliases = (CONFIG.columnAliases && CONFIG.columnAliases[key]) || [];
+  for (var i = 0; i < aliases.length; i++) {
+    at = findColumn_(header, aliases[i]);
+    if (at !== -1) return at;
+  }
+  return -1;
+}
+
 function resolveColumns_(sheet) {
   var lastCol = Math.max(sheet.getLastColumn(), 1);
   var header = sheet.getRange(CONFIG.headerRow, 1, 1, lastCol).getValues()[0];
@@ -233,7 +259,7 @@ function resolveColumns_(sheet) {
   Object.keys(CONFIG.columns).forEach(function (key) {
     var name = CONFIG.columns[key];
     if (!name) { idx[key] = -1; return; }
-    var at = findColumn_(header, name);
+    var at = resolveColumnIndex_(header, key);
     idx[key] = at;
     if (at === -1 && key !== 'notes') missing.push(name);
   });

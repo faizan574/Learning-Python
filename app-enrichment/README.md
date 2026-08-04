@@ -104,13 +104,18 @@ All in `CONFIG` at the top of `Code.gs`: `sheetName` (blank = active sheet), hea
 and first-data row, column names, `msBetweenCalls` (350 ms), `maxRuntimeMs`,
 `cacheHours`, `fuzzyMinScore`.
 
+Header matching is case-insensitive and accepts aliases (`columnAliases`), so a
+sheet headed `IAB Category` or `Bundle Id` is recognised rather than having a
+duplicate column appended beside it. Add your own spellings there.
+
 Add your own category mappings to `STORE_CATEGORY_SYNONYMS` — `'name': 'IAB9-30'`
 for a clean equivalence, `'name': { code: 'IAB14', soft: true }` for a judgement
 call that should be flagged for review.
 
 ## Tests
 
-`node test/selftest.js` runs 34 checks over the offline logic — taxonomy integrity,
+`node test/selftest.js` runs 43 checks over the offline logic — taxonomy integrity,
 category mapping, store-URL derivation, JSON field extraction, and the
-missing/not-found paths with the network stubbed. No network or Google account
+missing/not-found paths with the network stubbed, plus header-alias resolution
+against a real sheet header row. No network or Google account
 needed. The same mapping assertions run inside Apps Script via `runSelfTest()`.
