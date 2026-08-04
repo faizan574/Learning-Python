@@ -5,7 +5,7 @@ Fills a sheet of apps — given **Publisher Domain** and **Bundle ID** — with
 
 | File | Purpose |
 |---|---|
-| `Code.gs` | Menu, sheet I/O, Pixalate lookup, IAB mapping, store-URL derivation |
+| `Code.gs` | Menu, sheet I/O, the three lookup sources, IAB mapping, store-URL derivation |
 | `IabTaxonomy.gs` | All 392 IAB Content Taxonomy 1.0 rows, embedded |
 | `test/selftest.js` | Node harness for the offline logic (`node test/selftest.js`) |
 
@@ -33,35 +33,52 @@ Then: **2. Set up / repair headers** → **3. Fill empty rows**.
 Rows are written as they complete, and a run that hits the Apps Script 6-minute
 limit stops cleanly — just run it again to pick up where it left off.
 
-## Read this before the first bulk run
+## Data sources
 
-**The Pixalate endpoint is unverified.** `ratings.pixalate.com` is a JavaScript
-single-page app, so `UrlFetchApp` cannot scrape its HTML — it never executes the
-JS that draws the page. The script therefore calls the JSON service behind the
-site. The URL shapes in `ENDPOINTS` (top of `Code.gs`) are the documented/observed
-ones, but they could not be reached from the machine that generated this script,
-so **they may need correcting**.
+Tried in order (`CONFIG.sources`), first usable hit wins:
 
-`1. Check data source` tells you in one click. If nothing works:
+| Source | Covers | Needs setup? |
+|---|---|---|
+| `pixalate` | both | **Yes — URL shapes unverified** |
+| `itunes` | every iOS app | No |
+| `play` | Android bundles | No |
 
-1. Open an app page on `ratings.pixalate.com` in Chrome.
-2. DevTools ▸ **Network** ▸ **Fetch/XHR**, reload.
-3. Find the request returning the app's details; copy its URL.
-4. Add that shape to `ENDPOINTS`.
+**The script works out of the box even if Pixalate never answers**, because
+Apple's Lookup API and the Play listing cover iOS and Android between them.
+**1. Check data source** shows which sources are live for a given ID.
 
-Only that list should need editing — `pluck_()` finds fields by name anywhere in
-the response, so the parser survives most schema changes.
+**iTunes** — `https://itunes.apple.com/lookup` is public and needs no key. Numeric
+IDs query `?id=`, reverse-DNS bundles query `?bundleId=`. It returns `trackName`,
+`artistName`, `primaryGenreName` and `trackViewUrl` — all four columns directly,
+authoritatively. Apple tolerates roughly 20 calls/minute, which is why
+`msBetweenCalls` defaults to 3000 ms.
 
-If Pixalate turns out to require an API key, add it in `httpGetJson_`:
+**Play** — parsed from the listing HTML, so it is best effort: Google's markup is
+generated and changes. The category is taken from the **constant** in the
+`/store/apps/category/<X>` URL path rather than from visible text, since those
+constants (`MUSIC_AND_AUDIO`, `WEATHER`, `GAME_PUZZLE`, …) stay stable when the
+markup does not. `PLAY_CATEGORY_TO_IAB` maps them straight to IAB codes.
+
+**Pixalate** — `ratings.pixalate.com` is a JavaScript single-page app, so
+`UrlFetchApp` cannot scrape its HTML: it never executes the JS that draws the
+page. The script calls the JSON service behind the site instead. Those URL shapes
+could not be reached from the machine that generated this script, so they may
+need correcting. To fix: open an app page in Chrome, DevTools ▸ **Network** ▸
+**Fetch/XHR**, find the request carrying the app details, and add its URL shape to
+`ENDPOINTS`. Only that list should need editing — `pluck_()` finds fields by name
+anywhere in the response. If it needs a key, add it in `httpGet_`:
 
 ```js
 headers: { 'Accept': 'application/json', 'x-api-key': 'YOUR_KEY' }
 ```
 
+Or just drop `'pixalate'` from `CONFIG.sources`.
+
 ## How each column is filled
 
-**Developer / App Name** — read from the Pixalate record, trying the usual field
-names (`developer`, `publisher`, `artistName`, …; `appTitle`, `title`, `trackName`, …).
+**Developer / App Name** — read from whichever source answered, trying the usual
+field names (`developer`, `publisher`, `artistName`, …; `appTitle`, `title`,
+`trackName`, …). The Notes column records which source was used.
 
 **IAB Category Code** — the app's displayed category is mapped to IAB 1.0 in four
 steps, stopping at the first hit:
@@ -114,8 +131,9 @@ call that should be flagged for review.
 
 ## Tests
 
-`node test/selftest.js` runs 43 checks over the offline logic — taxonomy integrity,
+`node test/selftest.js` runs 69 checks over the offline logic — taxonomy integrity,
 category mapping, store-URL derivation, JSON field extraction, and the
-missing/not-found paths with the network stubbed, plus header-alias resolution
-against a real sheet header row. No network or Google account
+missing/not-found paths, plus header-alias resolution against the real sheet
+header row and the iTunes/Play parsers against captured response shapes. The
+network is stubbed throughout. No network or Google account
 needed. The same mapping assertions run inside Apps Script via `runSelfTest()`.

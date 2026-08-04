@@ -6,9 +6,15 @@
  *
  * Menu: "App Enrichment" (appears after you reload the spreadsheet).
  *
- * START HERE:  run "1. Check data source" from the menu before anything else.
- *              It verifies which Pixalate endpoint answers and shows the raw
- *              response, so ENDPOINTS below can be corrected in one place.
+ * Sources, tried in order (CONFIG.sources):
+ *   1. Pixalate  - the ratings site's JSON service. URL shapes are UNVERIFIED.
+ *   2. iTunes    - Apple's public Lookup API. No key needed. Authoritative for
+ *                  every iOS app, by numeric track ID or by bundle ID.
+ *   3. Play      - the Google Play listing, parsed from HTML (best effort).
+ *
+ * Sources 2 and 3 need no configuration, so the script works out of the box
+ * even if Pixalate never answers. Run "1. Check data source" to see which
+ * sources are live.
  *
  * The script never invents values. Anything it cannot establish is written as
  * [missing] / [unclear] / [please provide], with the reason in the Notes column.
@@ -47,8 +53,16 @@ var CONFIG = {
     notes:           ['Note', 'Status']
   },
 
+  // Data sources, tried in this order until one resolves the app.
+  // Drop 'pixalate' if its endpoints never work for you - itunes+play cover
+  // iOS and Android completely on their own.
+  sources: ['pixalate', 'itunes', 'play'],
+  itunesCountry: 'us',
+
   writeNotes: true,
-  msBetweenCalls: 350,    // politeness delay between lookups
+  // Apple's lookup service tolerates roughly 20 calls/minute; 3s keeps us under
+  // it. Lower it only if you drop 'itunes' from sources.
+  msBetweenCalls: 3000,
   maxRuntimeMs: 4.5 * 60 * 1000,  // stop cleanly before the 6-min Apps Script cap
   cacheHours: 6,
   fuzzyMinScore: 0.55     // below this, the category is reported as [unclear]
@@ -171,6 +185,64 @@ var STORE_CATEGORY_SYNONYMS = {
   'libraries and demo': { code: 'IAB19',   soft: true },
   'video players and editors': { code: 'IAB19-14', soft: true },
   'video players & editors':   { code: 'IAB19-14', soft: true }
+};
+
+/**
+ * Google Play category constants (from the /store/apps/category/<X> URL path)
+ * -> IAB 1.0. Preferred over the visible category text because these constants
+ * survive Play's markup changes. `soft` marks a judgement call, flagged in Notes.
+ */
+var PLAY_CATEGORY_TO_IAB = {
+  MUSIC_AND_AUDIO: 'IAB1-6',
+  BOOKS_AND_REFERENCE: 'IAB1-1',
+  COMICS: 'IAB9-11',
+  ART_AND_DESIGN: 'IAB1-3',
+  ENTERTAINMENT: 'IAB1',
+  BUSINESS: 'IAB3',
+  EDUCATION: 'IAB5',
+  FINANCE: 'IAB13',
+  FOOD_AND_DRINK: 'IAB8',
+  HEALTH_AND_FITNESS: 'IAB7',
+  MEDICAL: 'IAB7',
+  NEWS_AND_MAGAZINES: 'IAB12',
+  PHOTOGRAPHY: 'IAB9-23',
+  SHOPPING: 'IAB22',
+  SPORTS: 'IAB17',
+  TRAVEL_AND_LOCAL: 'IAB20',
+  WEATHER: 'IAB15-10',
+  DATING: 'IAB14-1',
+  PARENTING: 'IAB6',
+  AUTO_AND_VEHICLES: 'IAB2',
+  BEAUTY: 'IAB18',
+  HOUSE_AND_HOME: 'IAB10',
+  GAME: 'IAB9-30',
+  GAME_ACTION: 'IAB9-30',
+  GAME_ADVENTURE: 'IAB9-30',
+  GAME_ARCADE: 'IAB9-30',
+  GAME_CASUAL: 'IAB9-30',
+  GAME_SIMULATION: 'IAB9-30',
+  GAME_STRATEGY: 'IAB9-30',
+  GAME_SPORTS: 'IAB9-30',
+  GAME_RACING: 'IAB9-30',
+  GAME_TRIVIA: 'IAB9-30',
+  GAME_WORD: 'IAB9-30',
+  GAME_MUSIC: 'IAB9-30',
+  GAME_EDUCATIONAL: 'IAB9-30',
+  GAME_PUZZLE: 'IAB9-5',
+  GAME_BOARD: 'IAB9-5',
+  GAME_CARD: 'IAB9-7',
+  GAME_CASINO: 'IAB9-7',
+  GAME_ROLE_PLAYING: 'IAB9-25',
+  SOCIAL:              { code: 'IAB14',    soft: true },
+  COMMUNICATION:       { code: 'IAB19',    soft: true },
+  LIFESTYLE:           { code: 'IAB9',     soft: true },
+  PRODUCTIVITY:        { code: 'IAB19',    soft: true },
+  TOOLS:               { code: 'IAB19',    soft: true },
+  PERSONALIZATION:     { code: 'IAB19',    soft: true },
+  MAPS_AND_NAVIGATION: { code: 'IAB20',    soft: true },
+  LIBRARIES_AND_DEMO:  { code: 'IAB19',    soft: true },
+  VIDEO_PLAYERS:       { code: 'IAB19-14', soft: true },
+  EVENTS:              { code: 'IAB9',     soft: true }
 };
 
 // ---------------------------------------------------------------------------
@@ -383,8 +455,9 @@ function toast_(msg, seconds) {
 // ---------------------------------------------------------------------------
 
 /**
- * Looks up one bundle ID and returns every field, using placeholders for
- * anything that could not be established. Never fabricates a value.
+ * Looks up one bundle ID across every configured source and returns all four
+ * fields, using placeholders for anything that could not be established.
+ * Never invents a value.
  */
 function enrichBundle_(bundleId) {
   var out = {
@@ -396,67 +469,66 @@ function enrichBundle_(bundleId) {
     ok: false
   };
 
-  var record = pixalateLookup_(bundleId);
+  var rec = resolveApp_(bundleId);
 
-  if (!record.found) {
-    out.notes.push('No Pixalate match for "' + bundleId + '" (' + record.diagnostic + ').');
-    // A store URL is still derivable from the bundle ID alone.
-    var fallbackUrl = deriveStoreUrl_(bundleId, null, guessPlatform_(bundleId));
-    if (fallbackUrl) {
-      out.storeUrl = fallbackUrl;
-      out.notes.push('Store URL derived from the bundle ID, not confirmed against Pixalate.');
+  if (!rec.found) {
+    out.notes.push('Not found. Tried: ' + rec.attempts.join('; ') + '.');
+    var guessed = deriveStoreUrl_(bundleId, null, guessPlatform_(bundleId));
+    if (guessed) {
+      out.storeUrl = guessed;
+      out.notes.push('Store URL built from the bundle ID - not confirmed against a store.');
     }
     return out;
   }
 
-  var data = record.data;
+  if (rec.developer) out.developer = String(rec.developer).trim();
+  else out.notes.push('Developer not present in the ' + rec.source + ' record.');
 
-  var developer = pluck_(data, ['developer', 'developerName', 'publisher', 'publisherName',
-                               'seller', 'sellerName', 'artistName', 'author', 'companyName']);
-  var appName = pluck_(data, ['appTitle', 'appName', 'title', 'name', 'trackName']);
-  var category = pluck_(data, ['iabCategory', 'iab_category', 'category', 'categoryName',
-                               'primaryCategory', 'genre', 'primaryGenreName', 'genres']);
-  var apiUrl = pluck_(data, ['storeUrl', 'appStoreUrl', 'store_url', 'url', 'appUrl',
-                             'trackViewUrl', 'link']);
-  var trackId = pluck_(data, ['trackId', 'track_id', 'storeId', 'appleId', 'itunesId']);
-
-  if (developer) out.developer = String(developer).trim();
-  else out.notes.push('Developer not present in the Pixalate record.');
-
-  if (appName) out.appName = String(appName).trim();
-  else out.notes.push('App Name not present in the Pixalate record.');
+  if (rec.appName) out.appName = String(rec.appName).trim();
+  else out.notes.push('App Name not present in the ' + rec.source + ' record.');
 
   // --- IAB category ---
-  if (!category) {
-    out.iabCode = PLACEHOLDER.missing;
-    out.notes.push('No category shown for this app - IAB code cannot be derived.');
+  if (rec.iabCode) {
+    // Play category constants map straight to a code, skipping name matching.
+    out.iabCode = rec.iabCode;
+    if (rec.iabSoft) {
+      out.notes.push('Store category "' + rec.category + '" has no exact IAB 1.0 ' +
+                     'equivalent; ' + rec.iabCode + ' is the closest - please confirm.');
+    }
+  } else if (!rec.category) {
+    out.notes.push('No category returned by ' + rec.source + ' - IAB code cannot be derived.');
   } else {
-    var raw = Array.isArray(category) ? category[0] : category;
-    var mapped = mapIabCategory_(String(raw));
+    var mapped = mapIabCategory_(String(rec.category));
     if (!mapped.code) {
       out.iabCode = PLACEHOLDER.unclear;
-      out.notes.push('Category "' + raw + '" has no confident IAB 1.0 match - please confirm.');
+      out.notes.push('Category "' + rec.category + '" has no confident IAB 1.0 match ' +
+                     '- please confirm.');
     } else {
       out.iabCode = mapped.code;
       if (mapped.confidence !== 'exact' && mapped.confidence !== 'synonym') {
-        out.notes.push('Category "' + raw + '" mapped to ' + mapped.code + ' (' + mapped.name +
-                       ') by ' + mapped.confidence + ' match - please confirm.');
+        out.notes.push('Category "' + rec.category + '" mapped to ' + mapped.code + ' (' +
+                       mapped.name + ') by ' + mapped.confidence + ' match - please confirm.');
       } else if (mapped.soft) {
-        out.notes.push('Category "' + raw + '" has no exact IAB 1.0 equivalent; ' +
+        out.notes.push('Category "' + rec.category + '" has no exact IAB 1.0 equivalent; ' +
                        mapped.code + ' (' + mapped.name + ') is the closest - please confirm.');
       }
     }
   }
 
   // --- store URL ---
-  var platform = pluck_(data, ['device', 'platform', 'os', 'appStore']) || guessPlatform_(bundleId);
-  var storeUrl = looksLikeStoreUrl_(apiUrl) ? String(apiUrl).trim()
-                                            : deriveStoreUrl_(bundleId, trackId, platform);
-  if (storeUrl) {
-    out.storeUrl = storeUrl;
+  if (looksLikeStoreUrl_(rec.storeUrl)) {
+    out.storeUrl = String(rec.storeUrl).trim();
   } else {
-    out.storeUrl = PLACEHOLDER.missing;
-    out.notes.push('No store link found and none could be derived.');
+    var derived = deriveStoreUrl_(bundleId, rec.trackId, rec.platform || guessPlatform_(bundleId));
+    if (derived) {
+      out.storeUrl = derived;
+    } else {
+      out.notes.push('No store link found and none could be derived.');
+    }
+  }
+
+  if (rec.source !== 'pixalate') {
+    out.notes.push('Source: ' + rec.source + '.');
   }
 
   out.ok = (out.developer !== PLACEHOLDER.missing && out.appName !== PLACEHOLDER.missing &&
@@ -465,52 +537,209 @@ function enrichBundle_(bundleId) {
   return out;
 }
 
-/** Tries each endpoint x platform until one returns usable JSON. */
-function pixalateLookup_(bundleId) {
+/**
+ * Tries each source in CONFIG.sources order and returns the first usable hit.
+ *
+ *   pixalate - the site's own JSON service. Unverified URL shapes; see ENDPOINTS.
+ *   itunes   - Apple's public iTunes Lookup API. No key, no auth. Authoritative
+ *              for every iOS app, by numeric track ID or by bundle ID.
+ *   play     - the Play Store listing, parsed from HTML. Best effort: Google's
+ *              markup is generated and changes, so the category constant in the
+ *              URL path is preferred over any visible text.
+ */
+function resolveApp_(bundleId) {
   var cache = CacheService.getScriptCache();
-  var cacheKey = 'px_' + Utilities.base64Encode(bundleId).substring(0, 200);
-  var hit = cache.get(cacheKey);
-  if (hit) {
+  var key = 'app_' + Utilities.base64EncodeWebSafe(String(bundleId)).substring(0, 200);
+  var cached = cache.get(key);
+  if (cached) {
     try {
-      var parsed = JSON.parse(hit);
-      if (parsed && parsed.found) return parsed;
-    } catch (e) { /* fall through and re-fetch */ }
+      var hit = JSON.parse(cached);
+      if (hit && hit.found) return hit;
+    } catch (e) { /* re-fetch */ }
   }
 
-  var platforms = /^\d+$/.test(bundleId) ? ['ios'] : ['android', 'ios'];
-  var tried = [];
+  var attempts = [];
+  var isNumeric = /^\d+$/.test(String(bundleId).trim());
+
+  for (var i = 0; i < CONFIG.sources.length; i++) {
+    var source = CONFIG.sources[i];
+    var rec = null;
+
+    if (source === 'pixalate')    rec = lookupPixalate_(bundleId, attempts);
+    else if (source === 'itunes') rec = lookupItunes_(bundleId, attempts);
+    else if (source === 'play')   rec = isNumeric ? null : lookupPlay_(bundleId, attempts);
+
+    if (rec && rec.found) {
+      cache.put(key, JSON.stringify(rec), CONFIG.cacheHours * 3600);
+      return rec;
+    }
+  }
+  return { found: false, attempts: attempts };
+}
+
+// --- source: Pixalate -------------------------------------------------------
+
+function lookupPixalate_(bundleId, attempts) {
+  var platforms = /^\d+$/.test(String(bundleId)) ? ['ios'] : ['android', 'ios'];
 
   for (var e = 0; e < ENDPOINTS.length; e++) {
     for (var p = 0; p < platforms.length; p++) {
       var url = ENDPOINTS[e](bundleId, platforms[p]);
-      var res = httpGetJson_(url);
-      tried.push(shortUrl_(url) + ' -> ' + res.status);
+      var res = httpGet_(url);
+      var json = res.json;
+      attempts.push('pixalate ' + res.status);
 
-      if (res.json && hasAppData_(res.json)) {
-        var record = { found: true, data: unwrap_(res.json), diagnostic: 'via ' + shortUrl_(url) };
-        cache.put(cacheKey, JSON.stringify(record), CONFIG.cacheHours * 3600);
-        return record;
+      if (json && hasAppData_(json)) {
+        var d = unwrap_(json);
+        return {
+          found: true,
+          source: 'pixalate',
+          appName:   pluck_(d, ['appTitle', 'appName', 'title', 'name', 'trackName']),
+          developer: pluck_(d, ['developer', 'developerName', 'publisher', 'publisherName',
+                                'seller', 'sellerName', 'artistName', 'author']),
+          category:  pluck_(d, ['iabCategory', 'iab_category', 'category', 'categoryName',
+                                'primaryCategory', 'genre', 'primaryGenreName', 'genres']),
+          storeUrl:  pluck_(d, ['storeUrl', 'appStoreUrl', 'store_url', 'url', 'appUrl',
+                                'trackViewUrl', 'link']),
+          trackId:   pluck_(d, ['trackId', 'track_id', 'storeId', 'appleId', 'itunesId']),
+          platform:  pluck_(d, ['device', 'platform', 'os'])
+        };
       }
     }
   }
-  return { found: false, data: null, diagnostic: 'tried ' + tried.join('; ') };
+  return null;
 }
 
-function httpGetJson_(url) {
+// --- source: Apple iTunes Lookup -------------------------------------------
+
+/**
+ * Apple's public lookup service. Numeric IDs query ?id=, reverse-DNS bundles
+ * query ?bundleId=. Returns resultCount:0 (HTTP 200) when nothing matches, so
+ * an empty result is a clean miss rather than an error.
+ */
+function lookupItunes_(bundleId, attempts) {
+  var id = String(bundleId).trim();
+  var param = /^\d+$/.test(id) ? 'id' : 'bundleId';
+  var url = 'https://itunes.apple.com/lookup?' + param + '=' + encodeURIComponent(id) +
+            '&country=' + encodeURIComponent(CONFIG.itunesCountry);
+
+  var res = httpGet_(url);
+  attempts.push('itunes ' + res.status);
+
+  var json = res.json;
+  if (!json || !json.results || !json.results.length) return null;
+
+  var r = json.results[0];
+  if (!r.trackName) return null;
+
+  return {
+    found: true,
+    source: 'itunes',
+    appName:   r.trackName,
+    developer: r.artistName || r.sellerName || '',
+    category:  r.primaryGenreName || (r.genres && r.genres.length ? r.genres[0] : ''),
+    storeUrl:  r.trackViewUrl || '',
+    trackId:   r.trackId ? String(r.trackId) : '',
+    platform:  'ios'
+  };
+}
+
+// --- source: Google Play listing -------------------------------------------
+
+function lookupPlay_(bundleId, attempts) {
+  var url = 'https://play.google.com/store/apps/details?id=' +
+            encodeURIComponent(String(bundleId).trim()) + '&hl=en&gl=US';
+  var res = httpGet_(url, /* expectHtml */ true);
+  attempts.push('play ' + res.status);
+
+  if (!res.body || String(res.status).indexOf('200') !== 0) return null;
+
+  var parsed = parsePlayHtml_(res.body);
+  if (!parsed.appName) return null;
+
+  var iab = parsed.playCategory ? PLAY_CATEGORY_TO_IAB[parsed.playCategory] : null;
+  var rec = {
+    found: true,
+    source: 'play',
+    appName:   parsed.appName,
+    developer: parsed.developer || '',
+    category:  parsed.categoryText || parsed.playCategory || '',
+    storeUrl:  'https://play.google.com/store/apps/details?id=' + String(bundleId).trim(),
+    trackId:   '',
+    platform:  'android'
+  };
+  if (iab) {
+    rec.iabCode = typeof iab === 'string' ? iab : iab.code;
+    rec.iabSoft = typeof iab === 'string' ? false : !!iab.soft;
+  }
+  return rec;
+}
+
+/**
+ * Pulls name, developer and category out of a Play listing.
+ * The category CONSTANT in the /store/apps/category/<X> path is preferred over
+ * visible text: the constants are stable even when the rendered markup is not.
+ */
+function parsePlayHtml_(html) {
+  var out = {};
+
+  var m = html.match(/<meta\s+property="og:title"\s+content="([^"]*)"/i) ||
+          html.match(/<title[^>]*>([^<]*)<\/title>/i);
+  if (m) {
+    out.appName = decodeHtml_(m[1])
+      .replace(/\s*[-–]\s*Apps on Google Play\s*$/i, '')
+      .replace(/\s*[-–]\s*Google Play.*$/i, '')
+      .trim();
+  }
+
+  m = html.match(/href="\/store\/apps\/dev(?:eloper)?\?id=[^"]*"[^>]*>\s*([^<]{1,120}?)\s*</i);
+  if (m) out.developer = decodeHtml_(m[1]).trim();
+
+  if (!out.developer) {
+    m = html.match(/<meta\s+name="description"\s+content="[^"]*?\bby\s+([^",.]{1,80})/i);
+    if (m) out.developer = decodeHtml_(m[1]).trim();
+  }
+
+  m = html.match(/\/store\/apps\/category\/([A-Z_]+)/);
+  if (m) out.playCategory = m[1];
+
+  m = html.match(/itemprop="genre"[^>]*>\s*([^<]{1,60}?)\s*</i);
+  if (m) out.categoryText = decodeHtml_(m[1]).trim();
+
+  return out;
+}
+
+function decodeHtml_(s) {
+  return String(s || '')
+    .replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"').replace(/&#0?39;/g, "'").replace(/&apos;/g, "'")
+    .replace(/&nbsp;/g, ' ')
+    .replace(/&#(\d+);/g, function (_, n) { return String.fromCharCode(parseInt(n, 10)); });
+}
+
+// --- shared HTTP ------------------------------------------------------------
+
+function httpGet_(url, expectHtml) {
   try {
     var response = UrlFetchApp.fetch(url, {
       muteHttpExceptions: true,
       followRedirects: true,
       validateHttpsCertificates: true,
-      headers: { 'Accept': 'application/json' }
+      headers: {
+        'Accept': expectHtml ? 'text/html,application/xhtml+xml' : 'application/json',
+        'User-Agent': 'Mozilla/5.0 (compatible; GoogleAppsScript)'
+      }
     });
     var status = response.getResponseCode();
     var body = response.getContentText();
-    if (status < 200 || status >= 300) return { status: status, json: null, body: body };
+
+    if (status < 200 || status >= 300) return { status: String(status), json: null, body: '' };
+    if (expectHtml) return { status: String(status), json: null, body: body };
+
     try {
-      return { status: status, json: JSON.parse(body), body: body };
+      return { status: String(status), json: JSON.parse(body), body: body };
     } catch (parseErr) {
-      return { status: String(status) + ' (not JSON)', json: null, body: body };
+      return { status: status + ' (not JSON)', json: null, body: body };
     }
   } catch (err) {
     return { status: 'error: ' + err.message, json: null, body: '' };
@@ -537,7 +766,7 @@ function hasAppData_(json) {
 
 /**
  * Breadth-first search for the first of `keys` present in a nested object.
- * Keeps the script working if Pixalate reshapes its JSON.
+ * Keeps the script working if a source reshapes its JSON.
  */
 function pluck_(obj, keys) {
   if (!obj || typeof obj !== 'object') return null;
@@ -573,12 +802,12 @@ function pluck_(obj, keys) {
 // ---------------------------------------------------------------------------
 
 function guessPlatform_(bundleId) {
-  if (/^\d+$/.test(String(bundleId))) return 'ios';
-  return 'android';
+  return /^\d+$/.test(String(bundleId)) ? 'ios' : 'android';
 }
 
 function looksLikeStoreUrl_(url) {
-  return /^https?:\/\/(apps\.apple\.com|itunes\.apple\.com|play\.google\.com)/i.test(String(url || ''));
+  return /^https?:\/\/(apps\.apple\.com|itunes\.apple\.com|play\.google\.com)/i
+    .test(String(url || ''));
 }
 
 function deriveStoreUrl_(bundleId, trackId, platform) {
@@ -588,7 +817,7 @@ function deriveStoreUrl_(bundleId, trackId, platform) {
 
   if (/^\d+$/.test(id)) return 'https://apps.apple.com/us/app/id' + id;
   if (/^\d+$/.test(track)) return 'https://apps.apple.com/us/app/id' + track;
-  if (/ios|apple|itunes/.test(plat) && !/^\d+$/.test(track)) return '';  // need the numeric id
+  if (/ios|apple|itunes/.test(plat)) return '';   // need the numeric id
   if (id) return 'https://play.google.com/store/apps/details?id=' + encodeURIComponent(id);
   return '';
 }
@@ -706,27 +935,48 @@ function checkDataSource() {
   if (!sample) sample = '336353151';  // the ID from the reference Pixalate URL
 
   var lines = ['Test ID: ' + sample, ''];
-  var platforms = /^\d+$/.test(sample) ? ['ios'] : ['android', 'ios'];
-  var anyOk = false;
+  var working = [];
 
-  for (var e = 0; e < ENDPOINTS.length; e++) {
-    for (var p = 0; p < platforms.length; p++) {
-      var url = ENDPOINTS[e](sample, platforms[p]);
-      var res = httpGetJson_(url);
-      var usable = res.json && hasAppData_(res.json);
-      if (usable) anyOk = true;
-      lines.push((usable ? 'WORKS  ' : 'no     ') + url);
-      lines.push('   status: ' + res.status);
-      if (res.body) lines.push('   body: ' + res.body.substring(0, 300).replace(/\s+/g, ' '));
-      lines.push('');
+  CONFIG.sources.forEach(function (source) {
+    var attempts = [];
+    var rec = null;
+
+    if (source === 'pixalate')    rec = lookupPixalate_(sample, attempts);
+    else if (source === 'itunes') rec = lookupItunes_(sample, attempts);
+    else if (source === 'play')   rec = /^\d+$/.test(sample) ? null : lookupPlay_(sample, attempts);
+
+    if (rec && rec.found) {
+      working.push(source);
+      lines.push('WORKS  ' + source);
+      lines.push('   app:       ' + (rec.appName   || '(none)'));
+      lines.push('   developer: ' + (rec.developer || '(none)'));
+      lines.push('   category:  ' + (rec.category  || '(none)') +
+                 (rec.iabCode ? '  -> ' + rec.iabCode : ''));
+      lines.push('   store URL: ' + (rec.storeUrl  || '(none)'));
+    } else {
+      var why = (source === 'play' && /^\d+$/.test(sample))
+        ? 'skipped - numeric ID is an iOS app, not a Play bundle'
+        : attempts.join('; ') || 'no response';
+      lines.push('no     ' + source + '  (' + why + ')');
     }
-  }
+    lines.push('');
+  });
 
-  lines.push(anyOk
-    ? 'At least one endpoint works - you can run "3. Fill empty rows".'
-    : 'No endpoint returned app data. Open the ratings.pixalate.com page in Chrome, ' +
-      'check DevTools > Network > Fetch/XHR for the request it makes, and paste that ' +
-      'URL shape into the ENDPOINTS list at the top of Code.gs.');
+  if (working.length) {
+    lines.push('Working source(s): ' + working.join(', ') + '.');
+    lines.push('You can run "3. Fill empty rows".');
+    if (working.indexOf('pixalate') === -1) {
+      lines.push('');
+      lines.push('Pixalate did not answer. That is fine - itunes and play cover ' +
+                 'iOS and Android between them. To use Pixalate anyway, open an app ' +
+                 'page on ratings.pixalate.com in Chrome, look in DevTools > Network > ' +
+                 'Fetch/XHR for the request carrying the app details, and add that URL ' +
+                 'shape to ENDPOINTS at the top of Code.gs.');
+    }
+  } else {
+    lines.push('No source returned data for this ID. Check the bundle ID is correct, ' +
+               'and that the script was authorised to make external requests.');
+  }
 
   var out = lines.join('\n');
   Logger.log(out);
