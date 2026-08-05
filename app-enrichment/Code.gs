@@ -285,6 +285,7 @@ function onOpen() {
     .addItem('3. Fill empty rows', 'fillEmptyRows')
     .addItem('4. Refill selected rows (overwrite)', 'refillSelectedRows')
     .addSeparator()
+    .addItem('Diagnose first row', 'debugFirstRow')
     .addItem('Clear cache', 'clearCache')
     .addToUi();
 }
@@ -376,6 +377,17 @@ function resolveColumns_(sheet) {
 // MAIN ENTRY POINTS
 // ---------------------------------------------------------------------------
 
+/**
+ * Does everything in one call: repairs headers, then fills every empty row.
+ * Safe to run repeatedly. Use this from the Apps Script editor's Run button
+ * when you would rather not go through the spreadsheet menu.
+ */
+function runNow() {
+  if (!taxonomyLoaded_()) return;
+  setUpHeaders();
+  runFill_({ overwrite: false, selectionOnly: false });
+}
+
 function fillEmptyRows()      { runFill_({ overwrite: false, selectionOnly: false }); }
 function refillSelectedRows() { runFill_({ overwrite: true,  selectionOnly: true  }); }
 
@@ -444,10 +456,16 @@ function runFill_(opts) {
       Utilities.sleep(CONFIG.msBetweenCalls);
     }
 
-    var msg = 'Done. Looked up ' + processed + ', filled ' + filled +
-              ', needs attention ' + failed + ', already complete ' + skipped + '.';
-    if (stoppedEarly) msg += ' Hit the time limit - run it again to continue.';
-    toast_(msg, 12);
+    var msg = 'Looked up ' + processed + '\n' +
+              'Filled ' + filled + '\n' +
+              'Needs attention ' + failed + '\n' +
+              'Already complete (skipped) ' + skipped;
+    if (stoppedEarly) msg += '\n\nHit the time limit - run it again to continue.';
+    if (processed === 0 && skipped === 0) {
+      msg += '\n\nNo rows had a Bundle ID to look up. Check that the Bundle ID ' +
+             'column is filled and that data starts on row ' + CONFIG.firstDataRow + '.';
+    }
+    alert_('Run finished', msg);
 
   } finally {
     lock.releaseLock();
@@ -475,6 +493,15 @@ function writeCell_(sheet, row, col, value) {
 function note_(sheet, row, idx, text) {
   if (!CONFIG.writeNotes || idx.notes === -1) return;
   sheet.getRange(row, idx.notes + 1).setValue(text || '');
+}
+
+/** Modal message; falls back to the log when no UI is attached (e.g. triggers). */
+function alert_(title, msg) {
+  try {
+    SpreadsheetApp.getUi().alert(title, msg, SpreadsheetApp.getUi().ButtonSet.OK);
+  } catch (e) {
+    Logger.log(title + ': ' + msg);
+  }
 }
 
 function toast_(msg, seconds) {
@@ -1015,6 +1042,122 @@ function checkDataSource() {
   Logger.log(out);
   SpreadsheetApp.getUi().alert('Data source check', out.substring(0, 1400),
                                SpreadsheetApp.getUi().ButtonSet.OK);
+}
+
+/**
+ * Traces the entire pipeline for the first data row and writes every step to
+ * the execution log. Run this from the editor when a fill produced nothing:
+ * it shows which stage stopped, rather than leaving you to guess.
+ */
+function debugFirstRow() {
+  var L = [];
+  function log(s) { L.push(s); }
+
+  try {
+    log('--- environment ---');
+    log('IabTaxonomy.gs loaded: ' +
+        (typeof IAB_TAXONOMY !== 'undefined' ? 'yes (' + IAB_TAXONOMY.length + ' rows)' : 'NO - add the file'));
+    log('sources: ' + CONFIG.sources.join(', '));
+
+    var ss = SpreadsheetApp.getActiveSpreadsheet();
+    log('spreadsheet: ' + (ss ? ss.getName() : 'NONE - script is not bound to a sheet'));
+
+    var sheet = getSheet_();
+    log('sheet: "' + sheet.getName() + '"  lastRow=' + sheet.getLastRow() +
+        '  lastCol=' + sheet.getLastColumn());
+
+    log('');
+    log('--- headers (row ' + CONFIG.headerRow + ') ---');
+    var header = sheet.getRange(CONFIG.headerRow, 1,
+                                1, Math.max(sheet.getLastColumn(), 1)).getValues()[0];
+    log(JSON.stringify(header));
+
+    var idx;
+    try {
+      idx = resolveColumns_(sheet);
+    } catch (colErr) {
+      log('COLUMN RESOLUTION FAILED: ' + colErr.message);
+      throw colErr;
+    }
+    log('resolved columns (0-based, -1 = absent):');
+    ['publisherDomain', 'bundleId', 'developer', 'appName', 'iabCode', 'storeUrl', 'notes']
+      .forEach(function (k) { log('   ' + k + ': ' + idx[k]); });
+
+    log('');
+    log('--- first data row ---');
+    if (sheet.getLastRow() < CONFIG.firstDataRow) {
+      log('No data rows: lastRow < firstDataRow (' + CONFIG.firstDataRow + ').');
+      return finishDebug_(L);
+    }
+    var bundleId = String(sheet.getRange(CONFIG.firstDataRow, idx.bundleId + 1)
+                               .getValue() || '').trim();
+    log('row ' + CONFIG.firstDataRow + ' Bundle ID: "' + bundleId + '"');
+    if (!bundleId) {
+      log('Empty - nothing to look up. Is the Bundle ID column the one you think?');
+      return finishDebug_(L);
+    }
+
+    log('');
+    log('--- sources ---');
+    CONFIG.sources.forEach(function (source) {
+      var attempts = [];
+      var rec = null;
+      try {
+        if (source === 'pixalate')    rec = lookupPixalate_(bundleId, attempts);
+        else if (source === 'itunes') rec = lookupItunes_(bundleId, attempts);
+        else if (source === 'play')   rec = /^\d+$/.test(bundleId) ? null : lookupPlay_(bundleId, attempts);
+      } catch (srcErr) {
+        log(source + ': THREW ' + srcErr.message);
+        return;
+      }
+      if (rec && rec.found) {
+        log(source + ': FOUND');
+        log('   appName:   ' + rec.appName);
+        log('   developer: ' + rec.developer);
+        log('   category:  ' + rec.category + (rec.iabCode ? ' -> ' + rec.iabCode : ''));
+        log('   storeUrl:  ' + rec.storeUrl);
+      } else {
+        log(source + ': no  (' + (attempts.join('; ') || 'skipped') + ')');
+      }
+    });
+
+    log('');
+    log('--- enrichBundle_ result ---');
+    var out = enrichBundle_(bundleId);
+    log('developer: ' + out.developer);
+    log('appName:   ' + out.appName);
+    log('iabCode:   ' + out.iabCode);
+    log('storeUrl:  ' + out.storeUrl);
+    log('ok:        ' + out.ok);
+    log('notes:     ' + (out.notes.join(' | ') || '(none)'));
+
+    log('');
+    log('--- write test ---');
+    sheet.getRange(CONFIG.firstDataRow, idx.developer + 1).setValue(out.developer);
+    SpreadsheetApp.flush();
+    var readBack = sheet.getRange(CONFIG.firstDataRow, idx.developer + 1).getValue();
+    log('wrote Developer to row ' + CONFIG.firstDataRow +
+        ', read back: "' + readBack + '"');
+    log(String(readBack) === String(out.developer)
+        ? 'Write works - the sheet is editable by the script.'
+        : 'WRITE DID NOT STICK - check the sheet is not protected.');
+
+  } catch (err) {
+    log('');
+    log('!!! EXCEPTION: ' + err.message);
+    if (err.stack) log(String(err.stack).split('\n').slice(0, 5).join('\n'));
+  }
+  return finishDebug_(L);
+}
+
+function finishDebug_(lines) {
+  var out = lines.join('\n');
+  Logger.log(out);
+  try {
+    SpreadsheetApp.getUi().alert('Diagnostic', out.substring(0, 1400),
+                                 SpreadsheetApp.getUi().ButtonSet.OK);
+  } catch (e) { /* editor run - the log has it */ }
+  return out;
 }
 
 function clearCache() {
