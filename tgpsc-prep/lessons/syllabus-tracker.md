@@ -20,7 +20,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Parliament: composition, sessions, bills, budget, committees — Day 13
 - [x] Supreme Court & High Courts; judicial review, PIL, collegium — Day 14
 - [x] Governor, CM & State Legislature — Day 15
-- [ ] Centre-State relations & federalism (7th Schedule, GST Council, Finance Commission)
+- [x] Centre-State relations & federalism (7th Schedule, GST Council, Finance Commission) — Day 16
 - [ ] Emergency provisions (Art 352, 356, 360)
 - [ ] Local government: 73rd & 74th Amendments, Telangana Panchayat Raj Act
 - [ ] Constitutional bodies: EC, UPSC/TGPSC, CAG, AG, SC/ST/BC Commissions
@@ -29,7 +29,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 
 ## Subject 2: Telangana Schemes & Important Incidents
 - [x] The Six Guarantees overview — Day 1 ✓✓ Day 15 (revision)
-- [x] Mahalakshmi (free travel, ₹500 LPG, women's support) — deep dive with data — Day 2
+- [x] Mahalakshmi (free travel, ₹500 LPG, women's support) — deep dive with data — Day 2 ✓✓ Day 16 (revision)
 - [x] Rythu Bharosa, Indiramma Atmiya Bharosa & the ₹2 lakh loan waiver — Day 3
 - [x] Gruha Jyothi & Indiramma Indlu — Day 4
 - [x] Cheyutha pensions & Rajiv Aarogyasri health cover — Day 5
@@ -59,7 +59,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Telangana Armed Struggle 1946-51 — Day 13
 - [x] Operation Polo & Hyderabad State 1948-56 — Day 14
 - [x] Merger, Gentlemen's Agreement & violations — Day 15
-- [ ] Mulki rules & 1969 Jai Telangana agitation
+- [x] Mulki rules & 1969 Jai Telangana agitation — Day 16
 - [ ] 1970-2000: TPS, naxalism phase, identity politics
 - [ ] Statehood movement 2001-2014 (TRS, JACs, agitations, Sri Krishna Committee)
 - [ ] Formation of Telangana & after (2014-present political history)
@@ -86,7 +86,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Government of India Act 1935 & provincial ministries — Day 13
 - [x] WWII, August Offer, Cripps Mission, Quit India — Day 14
 - [x] Subhas Bose & the INA; RIN revolt — Day 15
-- [ ] Cabinet Mission to Independence & Partition
+- [x] Cabinet Mission to Independence & Partition — Day 16
 - [ ] Integration of princely states (incl. Hyderabad) & making of the Republic
 
 ## Subject 5: Telangana Geography (with Maps)
@@ -105,7 +105,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Area Focus: Adilabad & northern Gond belt — Day 13
 - [x] Area Focus: Nizamabad-Kamareddy — Day 14
 - [x] Area Focus: Karimnagar-Jagtial — Day 15
-- [ ] Area Focus: Khammam-Bhadradri
+- [x] Area Focus: Khammam-Bhadradri — Day 16
 - [ ] Area Focus: Nalgonda-Suryapet
 - [ ] Area Focus: Medak-Sangareddy-Siddipet
 - [ ] Area Focus: Hyderabad-Rangareddy urban region
