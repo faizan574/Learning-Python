@@ -118,8 +118,8 @@ column off.
 ## Configuration
 
 All in `CONFIG` at the top of `Code.gs`: `sheetName` (blank = active sheet), header
-and first-data row, column names, `msBetweenCalls` (350 ms), `maxRuntimeMs`,
-`cacheHours`, `fuzzyMinScore`.
+and first-data row, column names, `sources`, `msBetweenCalls` (3000 ms),
+`maxRuntimeMs`, `cacheHours`, `fuzzyMinScore`.
 
 Header matching is case-insensitive and accepts aliases (`columnAliases`), so a
 sheet headed `IAB Category` or `Bundle Id` is recognised rather than having a
