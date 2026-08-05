@@ -249,9 +249,36 @@ var PLAY_CATEGORY_TO_IAB = {
 // MENU
 // ---------------------------------------------------------------------------
 
+/**
+ * Guards against the most common setup slip: pasting Code.gs but not
+ * IabTaxonomy.gs. Without it IAB_TAXONOMY is undefined and category mapping
+ * dies with a bare ReferenceError halfway through a run.
+ */
+function taxonomyLoaded_() {
+  if (typeof IAB_TAXONOMY !== 'undefined' && IAB_TAXONOMY && IAB_TAXONOMY.length) return true;
+
+  var msg = 'IabTaxonomy.gs is missing.\n\n' +
+            'This project has Code.gs only. IAB category codes live in a second ' +
+            'file that has to be added separately.\n\n' +
+            'In the Apps Script editor: Files > + > Script, name it exactly\n' +
+            '    IabTaxonomy\n' +
+            '(Apps Script adds the .gs itself), paste the taxonomy in, Save, ' +
+            'then run this again.';
+  try {
+    SpreadsheetApp.getUi().alert('Missing file', msg, SpreadsheetApp.getUi().ButtonSet.OK);
+  } catch (e) {
+    Logger.log(msg);          // no UI available (e.g. run from the editor)
+  }
+  return false;
+}
+
 function onOpen() {
-  SpreadsheetApp.getUi()
-    .createMenu('App Enrichment')
+  var menu = SpreadsheetApp.getUi().createMenu('App Enrichment');
+  if (typeof IAB_TAXONOMY === 'undefined') {
+    menu.addItem('\u26a0 IabTaxonomy.gs is missing - click me', 'showTaxonomyHelp');
+    menu.addSeparator();
+  }
+  menu
     .addItem('1. Check data source (run first)', 'checkDataSource')
     .addItem('2. Set up / repair headers', 'setUpHeaders')
     .addSeparator()
@@ -261,6 +288,8 @@ function onOpen() {
     .addItem('Clear cache', 'clearCache')
     .addToUi();
 }
+
+function showTaxonomyHelp() { taxonomyLoaded_(); }
 
 // ---------------------------------------------------------------------------
 // SHEET PLUMBING
@@ -351,6 +380,8 @@ function fillEmptyRows()      { runFill_({ overwrite: false, selectionOnly: fals
 function refillSelectedRows() { runFill_({ overwrite: true,  selectionOnly: true  }); }
 
 function runFill_(opts) {
+  if (!taxonomyLoaded_()) return;
+
   var lock = LockService.getDocumentLock();
   if (!lock.tryLock(5000)) {
     toast_('Another run is already in progress.');
@@ -921,6 +952,8 @@ function diceScore_(a, b) {
  * Uses the first bundle ID in the sheet, or a known sample.
  */
 function checkDataSource() {
+  if (!taxonomyLoaded_()) return;
+
   var sheet = getSheet_();
   var sample = '';
   try {
