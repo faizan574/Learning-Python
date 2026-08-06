@@ -21,7 +21,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Supreme Court & High Courts; judicial review, PIL, collegium — Day 14
 - [x] Governor, CM & State Legislature — Day 15
 - [x] Centre-State relations & federalism (7th Schedule, GST Council, Finance Commission) — Day 16
-- [ ] Emergency provisions (Art 352, 356, 360)
+- [x] Emergency provisions (Art 352, 356, 360) — Day 17
 - [ ] Local government: 73rd & 74th Amendments, Telangana Panchayat Raj Act
 - [ ] Constitutional bodies: EC, UPSC/TGPSC, CAG, AG, SC/ST/BC Commissions
 - [ ] Non-constitutional bodies: NITI Aayog, NHRC, CIC, Lokpal
@@ -30,7 +30,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 ## Subject 2: Telangana Schemes & Important Incidents
 - [x] The Six Guarantees overview — Day 1 ✓✓ Day 15 (revision)
 - [x] Mahalakshmi (free travel, ₹500 LPG, women's support) — deep dive with data — Day 2 ✓✓ Day 16 (revision)
-- [x] Rythu Bharosa, Indiramma Atmiya Bharosa & the ₹2 lakh loan waiver — Day 3
+- [x] Rythu Bharosa, Indiramma Atmiya Bharosa & the ₹2 lakh loan waiver — Day 3 ✓✓ Day 17 (revision)
 - [x] Gruha Jyothi & Indiramma Indlu — Day 4
 - [x] Cheyutha pensions & Rajiv Aarogyasri health cover — Day 5
 - [x] Yuva Vikasam, Young India schools & Skills University — Day 6
@@ -60,7 +60,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Operation Polo & Hyderabad State 1948-56 — Day 14
 - [x] Merger, Gentlemen's Agreement & violations — Day 15
 - [x] Mulki rules & 1969 Jai Telangana agitation — Day 16
-- [ ] 1970-2000: TPS, naxalism phase, identity politics
+- [x] 1970-2000: TPS, naxalism phase, identity politics — Day 17
 - [ ] Statehood movement 2001-2014 (TRS, JACs, agitations, Sri Krishna Committee)
 - [ ] Formation of Telangana & after (2014-present political history)
 - [ ] Telangana festivals & jataras: Bathukamma (state festival), Bonalu, Sammakka-Saralamma (Medaram) Jatara, Nagoba Jatara, Peddagattu/Komuravelli, Sadar, Moharram/Peerla Panduga
@@ -87,7 +87,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] WWII, August Offer, Cripps Mission, Quit India — Day 14
 - [x] Subhas Bose & the INA; RIN revolt — Day 15
 - [x] Cabinet Mission to Independence & Partition — Day 16
-- [ ] Integration of princely states (incl. Hyderabad) & making of the Republic
+- [x] Integration of princely states (incl. Hyderabad) & making of the Republic — Day 17
 
 ## Subject 5: Telangana Geography (with Maps)
 - [x] Telangana at a Glance: location, extent, physiography — Day 1
@@ -106,7 +106,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Area Focus: Nizamabad-Kamareddy — Day 14
 - [x] Area Focus: Karimnagar-Jagtial — Day 15
 - [x] Area Focus: Khammam-Bhadradri — Day 16
-- [ ] Area Focus: Nalgonda-Suryapet
+- [x] Area Focus: Nalgonda-Suryapet — Day 17
 - [ ] Area Focus: Medak-Sangareddy-Siddipet
 - [ ] Area Focus: Hyderabad-Rangareddy urban region
 - [ ] Environmental issues: Musi pollution, urban lakes, uranium/Nallamala
