@@ -29,7 +29,7 @@ Day-numbering note: `tech-day-N.md` is one lesson containing all three sections 
 - [x] DC bridges: Wheatstone (sensitivity), Kelvin double bridge (low R), high-R measurement, megger — Day 15
 - [x] AC bridges I: Maxwell's inductance-capacitance, Hay's, Anderson (Q ranges, derivations) — Day 16
 - [x] AC bridges II: Schering (tan δ), De Sauty, Wien; sources/detectors, Wagner earthing — Day 17
-- [ ] CRO: CRT, electrostatic deflection sensitivity, time-base, sync, Lissajous, probes, DSO basics
+- [x] CRO: CRT, electrostatic deflection sensitivity, time-base, sync, Lissajous, probes, DSO basics — Day 18
 - [ ] DVM & digital instruments: ramp, dual-slope, successive approximation, resolution, DMM
 - [ ] Q-meter, frequency & phase measurement, ohmmeters, earth-resistance measurement
 - [ ] Measurements revision: formula sheet + mixed GATE PYQ numericals
@@ -48,7 +48,7 @@ Day-numbering note: `tech-day-N.md` is one lesson containing all three sections 
 - [x] Induction motor II: equivalent circuit, torque-slip curve, maximum torque condition (numericals) — Day 15
 - [x] Induction motor III: no-load & blocked-rotor tests, circle diagram, starting methods — Day 16
 - [x] Induction motor IV: speed control, double-cage rotor, induction generator — Day 17
-- [ ] Single-phase induction motors: double-revolving-field theory, starting methods
+- [x] Single-phase induction motors: double-revolving-field theory, starting methods — Day 18
 - [ ] Synchronous machines I: construction, EMF, armature reaction, Xd & Xq
 - [ ] Synchronous generator: voltage regulation (EMF, MMF, ZPF/Potier), parallel operation, synchronization
 - [ ] Synchronous motor: operation, V-curves, hunting, starting, synchronous condenser
@@ -69,7 +69,7 @@ Day-numbering note: `tech-day-N.md` is one lesson containing all three sections 
 - [x] AC voltage controllers: single-phase phase control vs integral-cycle control, TRIAC circuits — Day 15
 - [x] DC-DC choppers I: step-down (buck) & step-up (boost) — control strategies (TRC/CLC), output equations — Day 16
 - [x] DC-DC choppers II: buck-boost, Cuk, four-quadrant operation, SMPS regulators — Day 17
-- [ ] Inverters I: single-phase VSI (half & full bridge) — output equations, THD
+- [x] Inverters I: single-phase VSI (half & full bridge) — output equations, THD — Day 18
 - [ ] Inverters II: three-phase VSI (120° & 180° conduction), PWM & SPWM techniques
 - [ ] Cycloconverters & matrix-converter basics
 - [ ] Fourier/waveform analysis of converter outputs; RMS & average derivations, harmonic factor
