@@ -30,7 +30,7 @@ Day-numbering note: `tech-day-N.md` is one lesson containing all three sections 
 - [x] AC bridges I: Maxwell's inductance-capacitance, Hay's, Anderson (Q ranges, derivations) — Day 16
 - [x] AC bridges II: Schering (tan δ), De Sauty, Wien; sources/detectors, Wagner earthing — Day 17
 - [x] CRO: CRT, electrostatic deflection sensitivity, time-base, sync, Lissajous, probes, DSO basics — Day 18
-- [ ] DVM & digital instruments: ramp, dual-slope, successive approximation, resolution, DMM
+- [x] DVM & digital instruments: ramp, dual-slope, successive approximation, resolution, DMM — Day 19
 - [ ] Q-meter, frequency & phase measurement, ohmmeters, earth-resistance measurement
 - [ ] Measurements revision: formula sheet + mixed GATE PYQ numericals
 
@@ -49,7 +49,7 @@ Day-numbering note: `tech-day-N.md` is one lesson containing all three sections 
 - [x] Induction motor III: no-load & blocked-rotor tests, circle diagram, starting methods — Day 16
 - [x] Induction motor IV: speed control, double-cage rotor, induction generator — Day 17
 - [x] Single-phase induction motors: double-revolving-field theory, starting methods — Day 18
-- [ ] Synchronous machines I: construction, EMF, armature reaction, Xd & Xq
+- [x] Synchronous machines I: construction, EMF, armature reaction, Xd & Xq — Day 19
 - [ ] Synchronous generator: voltage regulation (EMF, MMF, ZPF/Potier), parallel operation, synchronization
 - [ ] Synchronous motor: operation, V-curves, hunting, starting, synchronous condenser
 - [ ] Special machines: stepper, servo, BLDC, universal motor; basics of drives
@@ -70,7 +70,7 @@ Day-numbering note: `tech-day-N.md` is one lesson containing all three sections 
 - [x] DC-DC choppers I: step-down (buck) & step-up (boost) — control strategies (TRC/CLC), output equations — Day 16
 - [x] DC-DC choppers II: buck-boost, Cuk, four-quadrant operation, SMPS regulators — Day 17
 - [x] Inverters I: single-phase VSI (half & full bridge) — output equations, THD — Day 18
-- [ ] Inverters II: three-phase VSI (120° & 180° conduction), PWM & SPWM techniques
+- [x] Inverters II: three-phase VSI (120° & 180° conduction), PWM & SPWM techniques — Day 19
 - [ ] Cycloconverters & matrix-converter basics
 - [ ] Fourier/waveform analysis of converter outputs; RMS & average derivations, harmonic factor
 - [ ] Applications: SMPS, UPS, HVDC, PFC, motor-drive basics
