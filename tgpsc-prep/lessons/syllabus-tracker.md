@@ -24,7 +24,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Emergency provisions (Art 352, 356, 360) — Day 17
 - [x] Local government: 73rd & 74th Amendments, Telangana Panchayat Raj Act — Day 18
 - [x] Constitutional bodies: EC, UPSC/TGPSC, CAG, AG, SC/ST/BC Commissions — Day 19
-- [ ] Non-constitutional bodies: NITI Aayog, NHRC, CIC, Lokpal
+- [x] Non-constitutional bodies: NITI Aayog, NHRC, CIC, Lokpal — Day 20
 - [ ] Schedules, key articles quick-revision & landmark cases
 
 ## Subject 2: Telangana Schemes & Important Incidents
@@ -33,7 +33,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Rythu Bharosa, Indiramma Atmiya Bharosa & the ₹2 lakh loan waiver — Day 3 ✓✓ Day 17 (revision)
 - [x] Gruha Jyothi & Indiramma Indlu — Day 4 ✓✓ Day 18 (revision)
 - [x] Cheyutha pensions & Rajiv Aarogyasri health cover — Day 5 ✓✓ Day 19 (revision)
-- [x] Yuva Vikasam, Young India schools & Skills University — Day 6
+- [x] Yuva Vikasam, Young India schools & Skills University — Day 6 ✓✓ Day 20 (revision)
 - [x] Caste survey (SEEEPC) & 42% BC reservation issue — Day 7
 - [x] SIR (Special Intensive Revision) & electoral roll issues — Day 8
 - [x] Musi rejuvenation, HYDRAA & urban governance incidents — Day 9
@@ -63,7 +63,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] 1970-2000: TPS, naxalism phase, identity politics — Day 17
 - [x] Statehood movement 2001-2014 (TRS, JACs, agitations, Sri Krishna Committee) — Day 18
 - [x] Formation of Telangana & after (2014-present political history) — Day 19
-- [ ] Telangana festivals & jataras: Bathukamma (state festival), Bonalu, Sammakka-Saralamma (Medaram) Jatara, Nagoba Jatara, Peddagattu/Komuravelli, Sadar, Moharram/Peerla Panduga
+- [x] Telangana festivals & jataras: Bathukamma (state festival), Bonalu, Sammakka-Saralamma (Medaram) Jatara, Nagoba Jatara, Peddagattu/Komuravelli, Sadar, Moharram/Peerla Panduga — Day 20
 - [ ] Telangana folk & performing arts: Perini Shivatandavam, Oggu Katha, Burra Katha, Chindu Bhagavatam & Yakshaganam, Gussadi & tribal dances, Dappu, Kolatam, Golla Suddulu
 - [ ] Telangana handlooms & handicrafts (GI products): Pochampally Ikat, Gadwal/Narayanpet/Siddipet Gollabhama sarees, Cheriyal scroll paintings, Nirmal paintings & toys, Bidriware, Karimnagar silver filigree, Dokra/Adilabad metalcraft, Warangal durries
 - [ ] Telangana literature & language: classical Telugu (Palkuriki Somanatha, Bammera Potana), modern & movement poets (Dasarathi, Kaloji Narayana Rao, C. Narayana Reddy/Cinare, Gaddar, Suddala), Telangana dialect & Vignana Sarvaswam
@@ -73,7 +73,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 ## Subject 4: Indian National Movement
 - [x] Revolt of 1857 — Day 1 ✓✓ Day 18 (revision)
 - [x] Pre-Congress political associations & socio-religious reform movements — Day 2 ✓✓ Day 19 (revision)
-- [x] INC formation & the Moderate era (1885-1905) — Day 3
+- [x] INC formation & the Moderate era (1885-1905) — Day 3 ✓✓ Day 20 (revision)
 - [x] Partition of Bengal, Swadeshi & the Extremists; Surat split — Day 4
 - [x] Revolutionary movement phase I (Bengal, Punjab, abroad) — Day 5
 - [x] Morley-Minto & Montagu-Chelmsford reforms; Lucknow Pact; Home Rule Leagues — Day 6
@@ -109,4 +109,4 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Area Focus: Nalgonda-Suryapet — Day 17
 - [x] Area Focus: Medak-Sangareddy-Siddipet — Day 18
 - [x] Area Focus: Hyderabad-Rangareddy urban region — Day 19
-- [ ] Environmental issues: Musi pollution, urban lakes, uranium/Nallamala
+- [x] Environmental issues: Musi pollution, urban lakes, uranium/Nallamala — Day 20
