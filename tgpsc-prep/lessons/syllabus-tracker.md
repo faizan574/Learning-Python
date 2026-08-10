@@ -25,7 +25,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Local government: 73rd & 74th Amendments, Telangana Panchayat Raj Act — Day 18
 - [x] Constitutional bodies: EC, UPSC/TGPSC, CAG, AG, SC/ST/BC Commissions — Day 19
 - [x] Non-constitutional bodies: NITI Aayog, NHRC, CIC, Lokpal — Day 20
-- [ ] Schedules, key articles quick-revision & landmark cases
+- [x] Schedules, key articles quick-revision & landmark cases — Day 21
 
 ## Subject 2: Telangana Schemes & Important Incidents
 - [x] The Six Guarantees overview — Day 1 ✓✓ Day 15 (revision)
@@ -34,7 +34,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Gruha Jyothi & Indiramma Indlu — Day 4 ✓✓ Day 18 (revision)
 - [x] Cheyutha pensions & Rajiv Aarogyasri health cover — Day 5 ✓✓ Day 19 (revision)
 - [x] Yuva Vikasam, Young India schools & Skills University — Day 6 ✓✓ Day 20 (revision)
-- [x] Caste survey (SEEEPC) & 42% BC reservation issue — Day 7
+- [x] Caste survey (SEEEPC) & 42% BC reservation issue — Day 7 ✓✓ Day 21 (revision)
 - [x] SIR (Special Intensive Revision) & electoral roll issues — Day 8
 - [x] Musi rejuvenation, HYDRAA & urban governance incidents — Day 9
 - [x] Praja Palana, Praja Vani & administrative changes (renamings, emblem) — Day 10
@@ -64,7 +64,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Statehood movement 2001-2014 (TRS, JACs, agitations, Sri Krishna Committee) — Day 18
 - [x] Formation of Telangana & after (2014-present political history) — Day 19
 - [x] Telangana festivals & jataras: Bathukamma (state festival), Bonalu, Sammakka-Saralamma (Medaram) Jatara, Nagoba Jatara, Peddagattu/Komuravelli, Sadar, Moharram/Peerla Panduga — Day 20
-- [ ] Telangana folk & performing arts: Perini Shivatandavam, Oggu Katha, Burra Katha, Chindu Bhagavatam & Yakshaganam, Gussadi & tribal dances, Dappu, Kolatam, Golla Suddulu
+- [x] Telangana folk & performing arts: Perini Shivatandavam, Oggu Katha, Burra Katha, Chindu Bhagavatam & Yakshaganam, Gussadi & tribal dances, Dappu, Kolatam, Golla Suddulu — Day 21
 - [ ] Telangana handlooms & handicrafts (GI products): Pochampally Ikat, Gadwal/Narayanpet/Siddipet Gollabhama sarees, Cheriyal scroll paintings, Nirmal paintings & toys, Bidriware, Karimnagar silver filigree, Dokra/Adilabad metalcraft, Warangal durries
 - [ ] Telangana literature & language: classical Telugu (Palkuriki Somanatha, Bammera Potana), modern & movement poets (Dasarathi, Kaloji Narayana Rao, C. Narayana Reddy/Cinare, Gaddar, Suddala), Telangana dialect & Vignana Sarvaswam
 - [ ] Telangana temples, monuments & tourism heritage (cultural angle): Ramappa, Thousand Pillar, Bhadrachalam, Yadadri, Vemulawada, Basara, Alampur, Charminar, Golconda, Qutb Shahi tombs, Kuntala/Bogatha
@@ -74,7 +74,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Revolt of 1857 — Day 1 ✓✓ Day 18 (revision)
 - [x] Pre-Congress political associations & socio-religious reform movements — Day 2 ✓✓ Day 19 (revision)
 - [x] INC formation & the Moderate era (1885-1905) — Day 3 ✓✓ Day 20 (revision)
-- [x] Partition of Bengal, Swadeshi & the Extremists; Surat split — Day 4
+- [x] Partition of Bengal, Swadeshi & the Extremists; Surat split — Day 4 ✓✓ Day 21 (revision)
 - [x] Revolutionary movement phase I (Bengal, Punjab, abroad) — Day 5
 - [x] Morley-Minto & Montagu-Chelmsford reforms; Lucknow Pact; Home Rule Leagues — Day 6
 - [x] Gandhi's arrival & early satyagrahas (Champaran, Kheda, Ahmedabad) — Day 7
@@ -90,7 +90,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Integration of princely states (incl. Hyderabad) & making of the Republic — Day 17
 
 ## Subject 5: Telangana Geography (with Maps)
-- [x] Telangana at a Glance: location, extent, physiography — Day 1
+- [x] Telangana at a Glance: location, extent, physiography — Day 1 ✓✓ Day 21 (revision)
 - [x] Rivers: Godavari system in depth — Day 2
 - [x] Rivers: Krishna system in depth — Day 3
 - [x] Climate, rainfall patterns & droughts — Day 4
