@@ -32,7 +32,7 @@ Day-numbering note: `tech-day-N.md` is one lesson containing all three sections 
 - [x] CRO: CRT, electrostatic deflection sensitivity, time-base, sync, Lissajous, probes, DSO basics — Day 18
 - [x] DVM & digital instruments: ramp, dual-slope, successive approximation, resolution, DMM — Day 19
 - [x] Q-meter, frequency & phase measurement, ohmmeters, earth-resistance measurement — Day 20
-- [ ] Measurements revision: formula sheet + mixed GATE PYQ numericals
+- [x] Measurements revision: formula sheet + mixed GATE PYQ numericals — Day 21
 
 ## Section B: Electrical Machines
 - [x] Transformers I: single-phase — construction, EMF equation, ideal vs practical, turns ratio, no-load operation — Day 5
@@ -51,7 +51,7 @@ Day-numbering note: `tech-day-N.md` is one lesson containing all three sections 
 - [x] Single-phase induction motors: double-revolving-field theory, starting methods — Day 18
 - [x] Synchronous machines I: construction, EMF, armature reaction, Xd & Xq — Day 19
 - [x] Synchronous generator: voltage regulation (EMF, MMF, ZPF/Potier), parallel operation, synchronization — Day 20
-- [ ] Synchronous motor: operation, V-curves, hunting, starting, synchronous condenser
+- [x] Synchronous motor: operation, V-curves, hunting, starting, synchronous condenser — Day 21
 - [ ] Special machines: stepper, servo, BLDC, universal motor; basics of drives
 - [ ] Machines revision: formula sheet + mixed GATE PYQ numericals
 
@@ -72,6 +72,6 @@ Day-numbering note: `tech-day-N.md` is one lesson containing all three sections 
 - [x] Inverters I: single-phase VSI (half & full bridge) — output equations, THD — Day 18
 - [x] Inverters II: three-phase VSI (120° & 180° conduction), PWM & SPWM techniques — Day 19
 - [x] Cycloconverters & matrix-converter basics — Day 20
-- [ ] Fourier/waveform analysis of converter outputs; RMS & average derivations, harmonic factor
+- [x] Fourier/waveform analysis of converter outputs; RMS & average derivations, harmonic factor — Day 21
 - [ ] Applications: SMPS, UPS, HVDC, PFC, motor-drive basics
 - [ ] Power Electronics revision: formula sheet + mixed GATE PYQ numericals
