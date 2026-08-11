@@ -7,7 +7,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 ## Subject 1: Indian Constitution & Polity
 - [x] Union and its Territory (Art 1-4) — Day 1
 - [x] Making of the Constitution & Constituent Assembly — Day 2
-- [x] Preamble and its keywords — Day 3
+- [x] Preamble and its keywords — Day 3 ✓✓ Day 22 (revision)
 - [x] Citizenship (Art 5-11, Citizenship Act, CAA) — Day 4
 - [x] Fundamental Rights: Art 12-14 — Day 5
 - [x] Fundamental Rights: Art 15-18 (incl. reservations) — Day 6
@@ -35,7 +35,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Cheyutha pensions & Rajiv Aarogyasri health cover — Day 5 ✓✓ Day 19 (revision)
 - [x] Yuva Vikasam, Young India schools & Skills University — Day 6 ✓✓ Day 20 (revision)
 - [x] Caste survey (SEEEPC) & 42% BC reservation issue — Day 7 ✓✓ Day 21 (revision)
-- [x] SIR (Special Intensive Revision) & electoral roll issues — Day 8
+- [x] SIR (Special Intensive Revision) & electoral roll issues — Day 8 ✓✓ Day 22 (revision)
 - [x] Musi rejuvenation, HYDRAA & urban governance incidents — Day 9
 - [x] Praja Palana, Praja Vani & administrative changes (renamings, emblem) — Day 10
 - [x] Telangana budgets & economic survey highlights (latest year) — Day 11
@@ -65,7 +65,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Formation of Telangana & after (2014-present political history) — Day 19
 - [x] Telangana festivals & jataras: Bathukamma (state festival), Bonalu, Sammakka-Saralamma (Medaram) Jatara, Nagoba Jatara, Peddagattu/Komuravelli, Sadar, Moharram/Peerla Panduga — Day 20
 - [x] Telangana folk & performing arts: Perini Shivatandavam, Oggu Katha, Burra Katha, Chindu Bhagavatam & Yakshaganam, Gussadi & tribal dances, Dappu, Kolatam, Golla Suddulu — Day 21
-- [ ] Telangana handlooms & handicrafts (GI products): Pochampally Ikat, Gadwal/Narayanpet/Siddipet Gollabhama sarees, Cheriyal scroll paintings, Nirmal paintings & toys, Bidriware, Karimnagar silver filigree, Dokra/Adilabad metalcraft, Warangal durries
+- [x] Telangana handlooms & handicrafts (GI products): Pochampally Ikat, Gadwal/Narayanpet/Siddipet Gollabhama sarees, Cheriyal scroll paintings, Nirmal paintings & toys, Bidriware, Karimnagar silver filigree, Dokra/Adilabad metalcraft, Warangal durries — Day 22
 - [ ] Telangana literature & language: classical Telugu (Palkuriki Somanatha, Bammera Potana), modern & movement poets (Dasarathi, Kaloji Narayana Rao, C. Narayana Reddy/Cinare, Gaddar, Suddala), Telangana dialect & Vignana Sarvaswam
 - [ ] Telangana temples, monuments & tourism heritage (cultural angle): Ramappa, Thousand Pillar, Bhadrachalam, Yadadri, Vemulawada, Basara, Alampur, Charminar, Golconda, Qutb Shahi tombs, Kuntala/Bogatha
 - [ ] Telangana cuisine, attire, tribes & living heritage; state cultural symbols (emblem, bird, animal, tree, flower, song) & Formation Day revival
@@ -75,7 +75,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Pre-Congress political associations & socio-religious reform movements — Day 2 ✓✓ Day 19 (revision)
 - [x] INC formation & the Moderate era (1885-1905) — Day 3 ✓✓ Day 20 (revision)
 - [x] Partition of Bengal, Swadeshi & the Extremists; Surat split — Day 4 ✓✓ Day 21 (revision)
-- [x] Revolutionary movement phase I (Bengal, Punjab, abroad) — Day 5
+- [x] Revolutionary movement phase I (Bengal, Punjab, abroad) — Day 5 ✓✓ Day 22 (revision)
 - [x] Morley-Minto & Montagu-Chelmsford reforms; Lucknow Pact; Home Rule Leagues — Day 6
 - [x] Gandhi's arrival & early satyagrahas (Champaran, Kheda, Ahmedabad) — Day 7
 - [x] Rowlatt, Jallianwala Bagh & Khilafat — Day 8
@@ -93,7 +93,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Telangana at a Glance: location, extent, physiography — Day 1 ✓✓ Day 21 (revision)
 - [x] Rivers: Godavari system in depth — Day 2
 - [x] Rivers: Krishna system in depth — Day 3
-- [x] Climate, rainfall patterns & droughts — Day 4
+- [x] Climate, rainfall patterns & droughts — Day 4 ✓✓ Day 22 (revision)
 - [x] Soils & agriculture (crops, seasons, horticulture) — Day 5
 - [x] Irrigation projects: major, medium & lift schemes (Kaleshwaram, Palamuru-Rangareddy, SRSP…) — Day 6
 - [x] Forests, wildlife sanctuaries & tiger reserves — Day 7
