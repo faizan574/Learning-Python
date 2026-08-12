@@ -9,7 +9,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Making of the Constitution & Constituent Assembly — Day 2
 - [x] Preamble and its keywords — Day 3 ✓✓ Day 22 (revision)
 - [x] Citizenship (Art 5-11, Citizenship Act, CAA) — Day 4
-- [x] Fundamental Rights: Art 12-14 — Day 5
+- [x] Fundamental Rights: Art 12-14 — Day 5 ✓✓ Day 23 (revision)
 - [x] Fundamental Rights: Art 15-18 (incl. reservations) — Day 6
 - [x] Fundamental Rights: Art 19-22 — Day 7
 - [x] Fundamental Rights: Art 23-30 & Art 32 (writs) — Day 8
@@ -36,7 +36,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Yuva Vikasam, Young India schools & Skills University — Day 6 ✓✓ Day 20 (revision)
 - [x] Caste survey (SEEEPC) & 42% BC reservation issue — Day 7 ✓✓ Day 21 (revision)
 - [x] SIR (Special Intensive Revision) & electoral roll issues — Day 8 ✓✓ Day 22 (revision)
-- [x] Musi rejuvenation, HYDRAA & urban governance incidents — Day 9
+- [x] Musi rejuvenation, HYDRAA & urban governance incidents — Day 9 ✓✓ Day 23 (revision)
 - [x] Praja Palana, Praja Vani & administrative changes (renamings, emblem) — Day 10
 - [x] Telangana budgets & economic survey highlights (latest year) — Day 11
 - [x] Irrigation policy: Kaleshwaram commission, Palamuru-Rangareddy LIS status — Day 12
@@ -66,7 +66,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Telangana festivals & jataras: Bathukamma (state festival), Bonalu, Sammakka-Saralamma (Medaram) Jatara, Nagoba Jatara, Peddagattu/Komuravelli, Sadar, Moharram/Peerla Panduga — Day 20
 - [x] Telangana folk & performing arts: Perini Shivatandavam, Oggu Katha, Burra Katha, Chindu Bhagavatam & Yakshaganam, Gussadi & tribal dances, Dappu, Kolatam, Golla Suddulu — Day 21
 - [x] Telangana handlooms & handicrafts (GI products): Pochampally Ikat, Gadwal/Narayanpet/Siddipet Gollabhama sarees, Cheriyal scroll paintings, Nirmal paintings & toys, Bidriware, Karimnagar silver filigree, Dokra/Adilabad metalcraft, Warangal durries — Day 22
-- [ ] Telangana literature & language: classical Telugu (Palkuriki Somanatha, Bammera Potana), modern & movement poets (Dasarathi, Kaloji Narayana Rao, C. Narayana Reddy/Cinare, Gaddar, Suddala), Telangana dialect & Vignana Sarvaswam
+- [x] Telangana literature & language: classical Telugu (Palkuriki Somanatha, Bammera Potana), modern & movement poets (Dasarathi, Kaloji Narayana Rao, C. Narayana Reddy/Cinare, Gaddar, Suddala), Telangana dialect & Vignana Sarvaswam — Day 23
 - [ ] Telangana temples, monuments & tourism heritage (cultural angle): Ramappa, Thousand Pillar, Bhadrachalam, Yadadri, Vemulawada, Basara, Alampur, Charminar, Golconda, Qutb Shahi tombs, Kuntala/Bogatha
 - [ ] Telangana cuisine, attire, tribes & living heritage; state cultural symbols (emblem, bird, animal, tree, flower, song) & Formation Day revival
 
@@ -76,7 +76,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] INC formation & the Moderate era (1885-1905) — Day 3 ✓✓ Day 20 (revision)
 - [x] Partition of Bengal, Swadeshi & the Extremists; Surat split — Day 4 ✓✓ Day 21 (revision)
 - [x] Revolutionary movement phase I (Bengal, Punjab, abroad) — Day 5 ✓✓ Day 22 (revision)
-- [x] Morley-Minto & Montagu-Chelmsford reforms; Lucknow Pact; Home Rule Leagues — Day 6
+- [x] Morley-Minto & Montagu-Chelmsford reforms; Lucknow Pact; Home Rule Leagues — Day 6 ✓✓ Day 23 (revision)
 - [x] Gandhi's arrival & early satyagrahas (Champaran, Kheda, Ahmedabad) — Day 7
 - [x] Rowlatt, Jallianwala Bagh & Khilafat — Day 8
 - [x] Non-Cooperation Movement & Swarajists — Day 9
@@ -95,7 +95,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Rivers: Krishna system in depth — Day 3
 - [x] Climate, rainfall patterns & droughts — Day 4 ✓✓ Day 22 (revision)
 - [x] Soils & agriculture (crops, seasons, horticulture) — Day 5
-- [x] Irrigation projects: major, medium & lift schemes (Kaleshwaram, Palamuru-Rangareddy, SRSP…) — Day 6
+- [x] Irrigation projects: major, medium & lift schemes (Kaleshwaram, Palamuru-Rangareddy, SRSP…) — Day 6 ✓✓ Day 23 (revision)
 - [x] Forests, wildlife sanctuaries & tiger reserves — Day 7
 - [x] Minerals & energy (coal, limestone, granite, power plants) — Day 8
 - [x] Population, demography & urbanisation (Census/latest data) — Day 9
