@@ -13,7 +13,7 @@ Day-numbering note: `tech-day-N.md` is one lesson containing all three sections 
 
 ## Section A: Measuring Instruments
 - [x] Basics of measurements: static characteristics (accuracy, precision, resolution, sensitivity, linearity, drift), dynamic characteristics, standards & calibration — Day 1 ✓✓ Day 22 (revision)
-- [x] Error analysis I: types of errors (gross, systematic, random), absolute/relative/limiting errors, error propagation in sums, products, quotients — Day 2
+- [x] Error analysis I: types of errors (gross, systematic, random), absolute/relative/limiting errors, error propagation in sums, products, quotients — Day 2 ✓✓ Day 23 (revision)
 - [x] Error analysis II: statistical analysis — mean, deviation, standard deviation, probable error, Gaussian distribution, combination of quantities — Day 3
 - [x] Galvanometers: d'Arsonval (torque equation, damping, CDRX), ballistic galvanometer, flux meter — Day 4
 - [x] PMMC instruments: construction, torque equation, swamping resistance, errors; extension of range — shunts, multipliers, Ayrton shunt (numericals) — Day 5
@@ -53,7 +53,7 @@ Day-numbering note: `tech-day-N.md` is one lesson containing all three sections 
 - [x] Synchronous generator: voltage regulation (EMF, MMF, ZPF/Potier), parallel operation, synchronization — Day 20
 - [x] Synchronous motor: operation, V-curves, hunting, starting, synchronous condenser — Day 21
 - [x] Special machines: stepper, servo, BLDC, universal motor; basics of drives — Day 22
-- [ ] Machines revision: formula sheet + mixed GATE PYQ numericals
+- [x] Machines revision: formula sheet + mixed GATE PYQ numericals — Day 23
 
 ## Section C: Power Electronics
 - [x] Basics of power electronics & devices: power diode, BJT, MOSFET, IGBT, thyristor family — symbols, V-I characteristics, ratings, ideal switch, comparison — Day 5
@@ -74,4 +74,4 @@ Day-numbering note: `tech-day-N.md` is one lesson containing all three sections 
 - [x] Cycloconverters & matrix-converter basics — Day 20
 - [x] Fourier/waveform analysis of converter outputs; RMS & average derivations, harmonic factor — Day 21
 - [x] Applications: SMPS, UPS, HVDC, PFC, motor-drive basics — Day 22
-- [ ] Power Electronics revision: formula sheet + mixed GATE PYQ numericals
+- [x] Power Electronics revision: formula sheet + mixed GATE PYQ numericals — Day 23
