@@ -15,7 +15,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Fundamental Rights: Art 23-30 & Art 32 (writs) — Day 8
 - [x] DPSP (Art 36-51) & Fundamental Duties (51A) — Day 9
 - [x] Amendment (Art 368) & Basic Structure; major amendments (42nd, 44th, 73rd, 74th, 86th, 101st, 103rd) — Day 10 ✓✓ Day 24 (revision)
-- [x] President & Vice-President — Day 11
+- [x] President & Vice-President — Day 11 ✓✓ Day 25 (revision)
 - [x] Prime Minister & Council of Ministers — Day 12
 - [x] Parliament: composition, sessions, bills, budget, committees — Day 13
 - [x] Supreme Court & High Courts; judicial review, PIL, collegium — Day 14
@@ -38,7 +38,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] SIR (Special Intensive Revision) & electoral roll issues — Day 8 ✓✓ Day 22 (revision)
 - [x] Musi rejuvenation, HYDRAA & urban governance incidents — Day 9 ✓✓ Day 23 (revision)
 - [x] Praja Palana, Praja Vani & administrative changes (renamings, emblem) — Day 10 ✓✓ Day 24 (revision)
-- [x] Telangana budgets & economic survey highlights (latest year) — Day 11
+- [x] Telangana budgets & economic survey highlights (latest year) — Day 11 ✓✓ Day 25 (revision)
 - [x] Irrigation policy: Kaleshwaram commission, Palamuru-Rangareddy LIS status — Day 12
 - [x] Major incidents timeline Dec 2023 → present (verify latest before exam) — Day 13
 - [x] Central schemes active in Telangana (PM-KISAN, Ayushman overlap, comparisons) — Day 14
@@ -68,7 +68,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Telangana handlooms & handicrafts (GI products): Pochampally Ikat, Gadwal/Narayanpet/Siddipet Gollabhama sarees, Cheriyal scroll paintings, Nirmal paintings & toys, Bidriware, Karimnagar silver filigree, Dokra/Adilabad metalcraft, Warangal durries — Day 22
 - [x] Telangana literature & language: classical Telugu (Palkuriki Somanatha, Bammera Potana), modern & movement poets (Dasarathi, Kaloji Narayana Rao, C. Narayana Reddy/Cinare, Gaddar, Suddala), Telangana dialect & Vignana Sarvaswam — Day 23
 - [x] Telangana temples, monuments & tourism heritage (cultural angle): Ramappa, Thousand Pillar, Bhadrachalam, Yadadri, Vemulawada, Basara, Alampur, Charminar, Golconda, Qutb Shahi tombs, Kuntala/Bogatha — Day 24
-- [ ] Telangana cuisine, attire, tribes & living heritage; state cultural symbols (emblem, bird, animal, tree, flower, song) & Formation Day revival
+- [x] Telangana cuisine, attire, tribes & living heritage; state cultural symbols (emblem, bird, animal, tree, flower, song) & Formation Day revival — Day 25
 
 ## Subject 4: Indian National Movement
 - [x] Revolt of 1857 — Day 1 ✓✓ Day 18 (revision)
@@ -78,7 +78,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Revolutionary movement phase I (Bengal, Punjab, abroad) — Day 5 ✓✓ Day 22 (revision)
 - [x] Morley-Minto & Montagu-Chelmsford reforms; Lucknow Pact; Home Rule Leagues — Day 6 ✓✓ Day 23 (revision)
 - [x] Gandhi's arrival & early satyagrahas (Champaran, Kheda, Ahmedabad) — Day 7 ✓✓ Day 24 (revision)
-- [x] Rowlatt, Jallianwala Bagh & Khilafat — Day 8
+- [x] Rowlatt, Jallianwala Bagh & Khilafat — Day 8 ✓✓ Day 25 (revision)
 - [x] Non-Cooperation Movement & Swarajists — Day 9
 - [x] Simon Commission, Nehru Report, Lahore session — Day 10
 - [x] Civil Disobedience, Round Tables, Poona Pact — Day 11
@@ -97,7 +97,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Soils & agriculture (crops, seasons, horticulture) — Day 5
 - [x] Irrigation projects: major, medium & lift schemes (Kaleshwaram, Palamuru-Rangareddy, SRSP…) — Day 6 ✓✓ Day 23 (revision)
 - [x] Forests, wildlife sanctuaries & tiger reserves — Day 7 ✓✓ Day 24 (revision)
-- [x] Minerals & energy (coal, limestone, granite, power plants) — Day 8
+- [x] Minerals & energy (coal, limestone, granite, power plants) — Day 8 ✓✓ Day 25 (revision)
 - [x] Population, demography & urbanisation (Census/latest data) — Day 9
 - [x] Industries & transport (IT, pharma, ORR/RRR, highways, rail) — Day 10
 - [x] Area Focus: Mahabubnagar/Palamuru (geology + culture) — Day 11
