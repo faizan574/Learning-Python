@@ -5,7 +5,7 @@ per subject, and ticks it (with the day number) after covering it. Nothing gets 
 when a subject's list is fully ticked, a deeper revision pass begins (mark with ✓✓).
 
 ## Subject 1: Indian Constitution & Polity
-- [x] Union and its Territory (Art 1-4) — Day 1
+- [x] Union and its Territory (Art 1-4) — Day 1 ✓✓ Day 26 (revision)
 - [x] Making of the Constitution & Constituent Assembly — Day 2
 - [x] Preamble and its keywords — Day 3 ✓✓ Day 22 (revision)
 - [x] Citizenship (Art 5-11, Citizenship Act, CAA) — Day 4
@@ -39,12 +39,12 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Musi rejuvenation, HYDRAA & urban governance incidents — Day 9 ✓✓ Day 23 (revision)
 - [x] Praja Palana, Praja Vani & administrative changes (renamings, emblem) — Day 10 ✓✓ Day 24 (revision)
 - [x] Telangana budgets & economic survey highlights (latest year) — Day 11 ✓✓ Day 25 (revision)
-- [x] Irrigation policy: Kaleshwaram commission, Palamuru-Rangareddy LIS status — Day 12
+- [x] Irrigation policy: Kaleshwaram commission, Palamuru-Rangareddy LIS status — Day 12 ✓✓ Day 26 (revision)
 - [x] Major incidents timeline Dec 2023 → present (verify latest before exam) — Day 13
 - [x] Central schemes active in Telangana (PM-KISAN, Ayushman overlap, comparisons) — Day 14
 
 ## Subject 3: Telangana History
-- [x] Satavahanas — Day 1
+- [x] Satavahanas — Day 1 ✓✓ Day 26 (revision)
 - [x] Pre-Satavahana Telangana: megaliths, Kotalingala, Asmaka mahajanapada — Day 2
 - [x] Ikshvakus & Vishnukundins — Day 3
 - [x] Badami Chalukyas, Rashtrakutas & Kalyani Chalukyas in Telangana; Vemulawada Chalukyas — Day 4
@@ -79,7 +79,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Morley-Minto & Montagu-Chelmsford reforms; Lucknow Pact; Home Rule Leagues — Day 6 ✓✓ Day 23 (revision)
 - [x] Gandhi's arrival & early satyagrahas (Champaran, Kheda, Ahmedabad) — Day 7 ✓✓ Day 24 (revision)
 - [x] Rowlatt, Jallianwala Bagh & Khilafat — Day 8 ✓✓ Day 25 (revision)
-- [x] Non-Cooperation Movement & Swarajists — Day 9
+- [x] Non-Cooperation Movement & Swarajists — Day 9 ✓✓ Day 26 (revision)
 - [x] Simon Commission, Nehru Report, Lahore session — Day 10
 - [x] Civil Disobedience, Round Tables, Poona Pact — Day 11
 - [x] Revolutionary movement phase II (Bhagat Singh, Chandrashekar Azad, Surya Sen) — Day 12
@@ -91,7 +91,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 
 ## Subject 5: Telangana Geography (with Maps)
 - [x] Telangana at a Glance: location, extent, physiography — Day 1 ✓✓ Day 21 (revision)
-- [x] Rivers: Godavari system in depth — Day 2
+- [x] Rivers: Godavari system in depth — Day 2 ✓✓ Day 26 (revision)
 - [x] Rivers: Krishna system in depth — Day 3
 - [x] Climate, rainfall patterns & droughts — Day 4 ✓✓ Day 22 (revision)
 - [x] Soils & agriculture (crops, seasons, horticulture) — Day 5
