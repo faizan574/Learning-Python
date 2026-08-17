@@ -8,7 +8,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Union and its Territory (Art 1-4) — Day 1 ✓✓ Day 26 (revision)
 - [x] Making of the Constitution & Constituent Assembly — Day 2 ✓✓ Day 27 (revision)
 - [x] Preamble and its keywords — Day 3 ✓✓ Day 22 (revision)
-- [x] Citizenship (Art 5-11, Citizenship Act, CAA) — Day 4
+- [x] Citizenship (Art 5-11, Citizenship Act, CAA) — Day 4 ✓✓ Day 28 (revision)
 - [x] Fundamental Rights: Art 12-14 — Day 5 ✓✓ Day 23 (revision)
 - [x] Fundamental Rights: Art 15-18 (incl. reservations) — Day 6
 - [x] Fundamental Rights: Art 19-22 — Day 7
@@ -41,12 +41,12 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Telangana budgets & economic survey highlights (latest year) — Day 11 ✓✓ Day 25 (revision)
 - [x] Irrigation policy: Kaleshwaram commission, Palamuru-Rangareddy LIS status — Day 12 ✓✓ Day 26 (revision)
 - [x] Major incidents timeline Dec 2023 → present (verify latest before exam) — Day 13 ✓✓ Day 27 (revision)
-- [x] Central schemes active in Telangana (PM-KISAN, Ayushman overlap, comparisons) — Day 14
+- [x] Central schemes active in Telangana (PM-KISAN, Ayushman overlap, comparisons) — Day 14 ✓✓ Day 28 (revision)
 
 ## Subject 3: Telangana History
 - [x] Satavahanas — Day 1 ✓✓ Day 26 (revision)
 - [x] Pre-Satavahana Telangana: megaliths, Kotalingala, Asmaka mahajanapada — Day 2 ✓✓ Day 27 (revision)
-- [x] Ikshvakus & Vishnukundins — Day 3
+- [x] Ikshvakus & Vishnukundins — Day 3 ✓✓ Day 28 (revision)
 - [x] Badami Chalukyas, Rashtrakutas & Kalyani Chalukyas in Telangana; Vemulawada Chalukyas — Day 4
 - [x] Kakatiyas: political history — Day 5
 - [x] Kakatiyas: administration, economy, society, architecture — Day 6
@@ -81,7 +81,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Rowlatt, Jallianwala Bagh & Khilafat — Day 8 ✓✓ Day 25 (revision)
 - [x] Non-Cooperation Movement & Swarajists — Day 9 ✓✓ Day 26 (revision)
 - [x] Simon Commission, Nehru Report, Lahore session — Day 10 ✓✓ Day 27 (revision)
-- [x] Civil Disobedience, Round Tables, Poona Pact — Day 11
+- [x] Civil Disobedience, Round Tables, Poona Pact — Day 11 ✓✓ Day 28 (revision)
 - [x] Revolutionary movement phase II (Bhagat Singh, Chandrashekar Azad, Surya Sen) — Day 12
 - [x] Government of India Act 1935 & provincial ministries — Day 13
 - [x] WWII, August Offer, Cripps Mission, Quit India — Day 14
@@ -94,7 +94,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Rivers: Godavari system in depth — Day 2 ✓✓ Day 26 (revision)
 - [x] Rivers: Krishna system in depth — Day 3 ✓✓ Day 27 (revision)
 - [x] Climate, rainfall patterns & droughts — Day 4 ✓✓ Day 22 (revision)
-- [x] Soils & agriculture (crops, seasons, horticulture) — Day 5
+- [x] Soils & agriculture (crops, seasons, horticulture) — Day 5 ✓✓ Day 28 (revision)
 - [x] Irrigation projects: major, medium & lift schemes (Kaleshwaram, Palamuru-Rangareddy, SRSP…) — Day 6 ✓✓ Day 23 (revision)
 - [x] Forests, wildlife sanctuaries & tiger reserves — Day 7 ✓✓ Day 24 (revision)
 - [x] Minerals & energy (coal, limestone, granite, power plants) — Day 8 ✓✓ Day 25 (revision)
