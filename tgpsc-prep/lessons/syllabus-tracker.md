@@ -11,7 +11,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Citizenship (Art 5-11, Citizenship Act, CAA) — Day 4 ✓✓ Day 28 (revision)
 - [x] Fundamental Rights: Art 12-14 — Day 5 ✓✓ Day 23 (revision)
 - [x] Fundamental Rights: Art 15-18 (incl. reservations) — Day 6 ✓✓ Day 29 (revision)
-- [x] Fundamental Rights: Art 19-22 — Day 7
+- [x] Fundamental Rights: Art 19-22 — Day 7 ✓✓ Day 30 (revision)
 - [x] Fundamental Rights: Art 23-30 & Art 32 (writs) — Day 8
 - [x] DPSP (Art 36-51) & Fundamental Duties (51A) — Day 9
 - [x] Amendment (Art 368) & Basic Structure; major amendments (42nd, 44th, 73rd, 74th, 86th, 101st, 103rd) — Day 10 ✓✓ Day 24 (revision)
@@ -29,7 +29,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 
 ## Subject 2: Telangana Schemes & Important Incidents
 - [x] The Six Guarantees overview — Day 1 ✓✓ Day 15 (revision) ✓✓ Day 29 (revision)
-- [x] Mahalakshmi (free travel, ₹500 LPG, women's support) — deep dive with data — Day 2 ✓✓ Day 16 (revision)
+- [x] Mahalakshmi (free travel, ₹500 LPG, women's support) — deep dive with data — Day 2 ✓✓ Day 16 (revision) ✓✓ Day 30 (revision)
 - [x] Rythu Bharosa, Indiramma Atmiya Bharosa & the ₹2 lakh loan waiver — Day 3 ✓✓ Day 17 (revision)
 - [x] Gruha Jyothi & Indiramma Indlu — Day 4 ✓✓ Day 18 (revision)
 - [x] Cheyutha pensions & Rajiv Aarogyasri health cover — Day 5 ✓✓ Day 19 (revision)
@@ -48,7 +48,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Pre-Satavahana Telangana: megaliths, Kotalingala, Asmaka mahajanapada — Day 2 ✓✓ Day 27 (revision)
 - [x] Ikshvakus & Vishnukundins — Day 3 ✓✓ Day 28 (revision)
 - [x] Badami Chalukyas, Rashtrakutas & Kalyani Chalukyas in Telangana; Vemulawada Chalukyas — Day 4 ✓✓ Day 29 (revision)
-- [x] Kakatiyas: political history — Day 5
+- [x] Kakatiyas: political history — Day 5 ✓✓ Day 30 (revision)
 - [x] Kakatiyas: administration, economy, society, architecture — Day 6
 - [x] Musunuri Nayaks, Recherla Velamas & Bahmani kingdom — Day 7
 - [x] Qutb Shahis: political & cultural history, founding of Hyderabad — Day 8
@@ -83,7 +83,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Simon Commission, Nehru Report, Lahore session — Day 10 ✓✓ Day 27 (revision)
 - [x] Civil Disobedience, Round Tables, Poona Pact — Day 11 ✓✓ Day 28 (revision)
 - [x] Revolutionary movement phase II (Bhagat Singh, Chandrashekar Azad, Surya Sen) — Day 12 ✓✓ Day 29 (revision)
-- [x] Government of India Act 1935 & provincial ministries — Day 13
+- [x] Government of India Act 1935 & provincial ministries — Day 13 ✓✓ Day 30 (revision)
 - [x] WWII, August Offer, Cripps Mission, Quit India — Day 14
 - [x] Subhas Bose & the INA; RIN revolt — Day 15
 - [x] Cabinet Mission to Independence & Partition — Day 16
@@ -99,7 +99,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Forests, wildlife sanctuaries & tiger reserves — Day 7 ✓✓ Day 24 (revision)
 - [x] Minerals & energy (coal, limestone, granite, power plants) — Day 8 ✓✓ Day 25 (revision)
 - [x] Population, demography & urbanisation (Census/latest data) — Day 9 ✓✓ Day 29 (revision)
-- [x] Industries & transport (IT, pharma, ORR/RRR, highways, rail) — Day 10
+- [x] Industries & transport (IT, pharma, ORR/RRR, highways, rail) — Day 10 ✓✓ Day 30 (revision)
 - [x] Area Focus: Mahabubnagar/Palamuru (geology + culture) — Day 11
 - [x] Area Focus: Warangal & Kakatiya belt — Day 12
 - [x] Area Focus: Adilabad & northern Gond belt — Day 13
