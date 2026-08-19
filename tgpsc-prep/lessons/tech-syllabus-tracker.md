@@ -20,7 +20,7 @@ Day-numbering note: `tech-day-N.md` is one lesson containing all three sections 
 - [x] Moving Iron (MI) instruments: attraction & repulsion types, torque from energy principle, scale shape, AC/DC errors, hysteresis & frequency errors — Day 6 ✓✓ Day 27 (revision)
 - [x] Electrodynamometer (EMMC) instruments: torque equation, use as ammeter/voltmeter, transfer instrument concept, errors — Day 7 ✓✓ Day 28 (revision)
 - [x] Electrostatic, induction, thermal (thermocouple/hot-wire) & rectifier instruments: principles, true-RMS vs average-responding, form-factor errors — Day 8 ✓✓ Day 29 (revision)
-- [x] Measurement of power I: dynamometer wattmeter — connections, pressure-coil/current-coil errors & compensation, LPF wattmeter modifications — Day 9
+- [x] Measurement of power I: dynamometer wattmeter — connections, pressure-coil/current-coil errors & compensation, LPF wattmeter modifications — Day 9 ✓✓ Day 30 (revision)
 - [x] Measurement of power II: three-phase power — Blondel's theorem, two-wattmeter method (pf angle derivations, sign cases), reactive power measurement — Day 10
 - [x] Measurement of energy: single-phase induction energy meter — driving/braking torques, lag adjustment, creeping, friction compensation, errors, testing & phantom loading (numericals) — Day 11
 - [x] DC potentiometer: Crompton type, standardisation with standard cell, applications; AC polar & coordinate potentiometers — Day 12
@@ -41,7 +41,7 @@ Day-numbering note: `tech-day-N.md` is one lesson containing all three sections 
 - [x] Transformers IV: three-phase connections (Y-Y, Δ-Δ, Y-Δ, Δ-Y), vector groups, parallel operation — Day 8 ✓✓ Day 27 (revision)
 - [x] Transformers V: autotransformer, tap changing, inrush current, cooling; Scott connection & three-winding — Day 9 ✓✓ Day 28 (revision)
 - [x] DC machines I: construction, EMF equation, armature reaction, commutation — Day 10 ✓✓ Day 29 (revision)
-- [x] DC generators: types, characteristics, voltage build-up, critical resistance — Day 11
+- [x] DC generators: types, characteristics, voltage build-up, critical resistance — Day 11 ✓✓ Day 30 (revision)
 - [x] DC motors: types, torque-speed characteristics, starters, speed control (numericals) — Day 12
 - [x] DC machine losses, efficiency & testing (Swinburne, Hopkinson) — Day 13
 - [x] Induction motor I: 3-phase — rotating field, slip, torque equation — Day 14
@@ -62,7 +62,7 @@ Day-numbering note: `tech-day-N.md` is one lesson containing all three sections 
 - [x] Thyristor II: turn-on methods, gate characteristics, dv/dt & di/dt protection, snubber design — Day 8 ✓✓ Day 27 (revision)
 - [x] Thyristor III: turn-off & commutation techniques (natural & forced), ratings, series/parallel operation with string efficiency — Day 9 ✓✓ Day 28 (revision)
 - [x] Other devices & gate drives: TRIAC, DIAC, GTO, MOSFET/IGBT gate drive, firing circuits, isolation — Day 10 ✓✓ Day 29 (revision)
-- [x] Single-phase half-wave & half-controlled rectifiers (R, RL, RLE loads — waveforms & equations) — Day 11
+- [x] Single-phase half-wave & half-controlled rectifiers (R, RL, RLE loads — waveforms & equations) — Day 11 ✓✓ Day 30 (revision)
 - [x] Single-phase full-converter & semiconverter: average/RMS output, effect of freewheeling diode — Day 12
 - [x] Three-phase rectifiers: half-wave, full-converter — waveforms, average output, ripple frequency — Day 13
 - [x] Rectifier performance: ripple factor, TUF, input pf, harmonics, effect of source inductance (overlap angle) — Day 14
