@@ -18,7 +18,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] President & Vice-President — Day 11 ✓✓ Day 25 (revision)
 - [x] Prime Minister & Council of Ministers — Day 12 ✓✓ Day 33 (revision)
 - [x] Parliament: composition, sessions, bills, budget, committees — Day 13 ✓✓ Day 34 (revision)
-- [x] Supreme Court & High Courts; judicial review, PIL, collegium — Day 14
+- [x] Supreme Court & High Courts; judicial review, PIL, collegium — Day 14 ✓✓ Day 35 (revision)
 - [x] Governor, CM & State Legislature — Day 15
 - [x] Centre-State relations & federalism (7th Schedule, GST Council, Finance Commission) — Day 16
 - [x] Emergency provisions (Art 352, 356, 360) — Day 17
@@ -34,7 +34,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Gruha Jyothi & Indiramma Indlu — Day 4 ✓✓ Day 18 (revision) ✓✓ Day 32 (revision)
 - [x] Cheyutha pensions & Rajiv Aarogyasri health cover — Day 5 ✓✓ Day 19 (revision) ✓✓ Day 33 (revision)
 - [x] Yuva Vikasam, Young India schools & Skills University — Day 6 ✓✓ Day 20 (revision) ✓✓ Day 34 (revision)
-- [x] Caste survey (SEEEPC) & 42% BC reservation issue — Day 7 ✓✓ Day 21 (revision)
+- [x] Caste survey (SEEEPC) & 42% BC reservation issue — Day 7 ✓✓ Day 21 (revision) ✓✓ Day 35 (revision)
 - [x] SIR (Special Intensive Revision) & electoral roll issues — Day 8 ✓✓ Day 22 (revision)
 - [x] Musi rejuvenation, HYDRAA & urban governance incidents — Day 9 ✓✓ Day 23 (revision)
 - [x] Praja Palana, Praja Vani & administrative changes (renamings, emblem) — Day 10 ✓✓ Day 24 (revision)
@@ -53,7 +53,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Musunuri Nayaks, Recherla Velamas & Bahmani kingdom — Day 7 ✓✓ Day 32 (revision)
 - [x] Qutb Shahis: political & cultural history, founding of Hyderabad — Day 8 ✓✓ Day 33 (revision)
 - [x] Asaf Jahis: 1724-1911 (Salar Jung reforms, subsidiary alliance) — Day 9 ✓✓ Day 34 (revision)
-- [x] Mir Osman Ali Khan era: modernisation, Osmania University — Day 10
+- [x] Mir Osman Ali Khan era: modernisation, Osmania University — Day 10 ✓✓ Day 35 (revision)
 - [x] Socio-cultural awakening: Andhra Mahasabha, library movement, press — Day 11
 - [x] Tribal & peasant revolts: Ramji Gond, Komaram Bheem — Day 12
 - [x] Telangana Armed Struggle 1946-51 — Day 13
@@ -71,7 +71,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Telangana cuisine, attire, tribes & living heritage; state cultural symbols (emblem, bird, animal, tree, flower, song) & Formation Day revival — Day 25
 
 ## Subject 4: Indian National Movement
-- [x] Revolt of 1857 — Day 1 ✓✓ Day 18 (revision)
+- [x] Revolt of 1857 — Day 1 ✓✓ Day 18 (revision) ✓✓ Day 35 (revision)
 - [x] Pre-Congress political associations & socio-religious reform movements — Day 2 ✓✓ Day 19 (revision)
 - [x] INC formation & the Moderate era (1885-1905) — Day 3 ✓✓ Day 20 (revision)
 - [x] Partition of Bengal, Swadeshi & the Extremists; Surat split — Day 4 ✓✓ Day 21 (revision)
@@ -104,7 +104,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Area Focus: Warangal & Kakatiya belt — Day 12 ✓✓ Day 32 (revision)
 - [x] Area Focus: Adilabad & northern Gond belt — Day 13 ✓✓ Day 33 (revision)
 - [x] Area Focus: Nizamabad-Kamareddy — Day 14 ✓✓ Day 34 (revision)
-- [x] Area Focus: Karimnagar-Jagtial — Day 15
+- [x] Area Focus: Karimnagar-Jagtial — Day 15 ✓✓ Day 35 (revision)
 - [x] Area Focus: Khammam-Bhadradri — Day 16
 - [x] Area Focus: Nalgonda-Suryapet — Day 17
 - [x] Area Focus: Medak-Sangareddy-Siddipet — Day 18
