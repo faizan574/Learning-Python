@@ -21,7 +21,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Supreme Court & High Courts; judicial review, PIL, collegium — Day 14 ✓✓ Day 35 (revision)
 - [x] Governor, CM & State Legislature — Day 15 ✓✓ Day 36 (revision)
 - [x] Centre-State relations & federalism (7th Schedule, GST Council, Finance Commission) — Day 16 ✓✓ Day 37 (revision)
-- [x] Emergency provisions (Art 352, 356, 360) — Day 17
+- [x] Emergency provisions (Art 352, 356, 360) — Day 17 ✓✓ Day 38 (revision)
 - [x] Local government: 73rd & 74th Amendments, Telangana Panchayat Raj Act — Day 18
 - [x] Constitutional bodies: EC, UPSC/TGPSC, CAG, AG, SC/ST/BC Commissions — Day 19
 - [x] Non-constitutional bodies: NITI Aayog, NHRC, CIC, Lokpal — Day 20
@@ -37,7 +37,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Caste survey (SEEEPC) & 42% BC reservation issue — Day 7 ✓✓ Day 21 (revision) ✓✓ Day 35 (revision)
 - [x] SIR (Special Intensive Revision) & electoral roll issues — Day 8 ✓✓ Day 22 (revision) ✓✓ Day 36 (revision)
 - [x] Musi rejuvenation, HYDRAA & urban governance incidents — Day 9 ✓✓ Day 23 (revision) ✓✓ Day 37 (revision)
-- [x] Praja Palana, Praja Vani & administrative changes (renamings, emblem) — Day 10 ✓✓ Day 24 (revision)
+- [x] Praja Palana, Praja Vani & administrative changes (renamings, emblem) — Day 10 ✓✓ Day 24 (revision) ✓✓ Day 38 (revision)
 - [x] Telangana budgets & economic survey highlights (latest year) — Day 11 ✓✓ Day 25 (revision)
 - [x] Irrigation policy: Kaleshwaram commission, Palamuru-Rangareddy LIS status — Day 12 ✓✓ Day 26 (revision)
 - [x] Major incidents timeline Dec 2023 → present (verify latest before exam) — Day 13 ✓✓ Day 27 (revision)
@@ -56,7 +56,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Mir Osman Ali Khan era: modernisation, Osmania University — Day 10 ✓✓ Day 35 (revision)
 - [x] Socio-cultural awakening: Andhra Mahasabha, library movement, press — Day 11 ✓✓ Day 36 (revision)
 - [x] Tribal & peasant revolts: Ramji Gond, Komaram Bheem — Day 12 ✓✓ Day 37 (revision)
-- [x] Telangana Armed Struggle 1946-51 — Day 13
+- [x] Telangana Armed Struggle 1946-51 — Day 13 ✓✓ Day 38 (revision)
 - [x] Operation Polo & Hyderabad State 1948-56 — Day 14
 - [x] Merger, Gentlemen's Agreement & violations — Day 15
 - [x] Mulki rules & 1969 Jai Telangana agitation — Day 16
@@ -74,7 +74,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Revolt of 1857 — Day 1 ✓✓ Day 18 (revision) ✓✓ Day 35 (revision)
 - [x] Pre-Congress political associations & socio-religious reform movements — Day 2 ✓✓ Day 19 (revision) ✓✓ Day 36 (revision)
 - [x] INC formation & the Moderate era (1885-1905) — Day 3 ✓✓ Day 20 (revision) ✓✓ Day 37 (revision)
-- [x] Partition of Bengal, Swadeshi & the Extremists; Surat split — Day 4 ✓✓ Day 21 (revision)
+- [x] Partition of Bengal, Swadeshi & the Extremists; Surat split — Day 4 ✓✓ Day 21 (revision) ✓✓ Day 38 (revision)
 - [x] Revolutionary movement phase I (Bengal, Punjab, abroad) — Day 5 ✓✓ Day 22 (revision)
 - [x] Morley-Minto & Montagu-Chelmsford reforms; Lucknow Pact; Home Rule Leagues — Day 6 ✓✓ Day 23 (revision)
 - [x] Gandhi's arrival & early satyagrahas (Champaran, Kheda, Ahmedabad) — Day 7 ✓✓ Day 24 (revision)
@@ -107,6 +107,6 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Area Focus: Karimnagar-Jagtial — Day 15 ✓✓ Day 35 (revision)
 - [x] Area Focus: Khammam-Bhadradri — Day 16 ✓✓ Day 36 (revision)
 - [x] Area Focus: Nalgonda-Suryapet — Day 17 ✓✓ Day 37 (revision)
-- [x] Area Focus: Medak-Sangareddy-Siddipet — Day 18
+- [x] Area Focus: Medak-Sangareddy-Siddipet — Day 18 ✓✓ Day 38 (revision)
 - [x] Area Focus: Hyderabad-Rangareddy urban region — Day 19
 - [x] Environmental issues: Musi pollution, urban lakes, uranium/Nallamala — Day 20
