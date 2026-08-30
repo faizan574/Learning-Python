@@ -24,7 +24,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Emergency provisions (Art 352, 356, 360) — Day 17 ✓✓ Day 38 (revision)
 - [x] Local government: 73rd & 74th Amendments, Telangana Panchayat Raj Act — Day 18 ✓✓ Day 39 (revision)
 - [x] Constitutional bodies: EC, UPSC/TGPSC, CAG, AG, SC/ST/BC Commissions — Day 19 ✓✓ Day 40 (revision)
-- [x] Non-constitutional bodies: NITI Aayog, NHRC, CIC, Lokpal — Day 20
+- [x] Non-constitutional bodies: NITI Aayog, NHRC, CIC, Lokpal — Day 20 ✓✓ Day 41 (revision)
 - [x] Schedules, key articles quick-revision & landmark cases — Day 21
 
 ## Subject 2: Telangana Schemes & Important Incidents
@@ -40,7 +40,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Praja Palana, Praja Vani & administrative changes (renamings, emblem) — Day 10 ✓✓ Day 24 (revision) ✓✓ Day 38 (revision)
 - [x] Telangana budgets & economic survey highlights (latest year) — Day 11 ✓✓ Day 25 (revision) ✓✓ Day 39 (revision)
 - [x] Irrigation policy: Kaleshwaram commission, Palamuru-Rangareddy LIS status — Day 12 ✓✓ Day 26 (revision) ✓✓ Day 40 (revision)
-- [x] Major incidents timeline Dec 2023 → present (verify latest before exam) — Day 13 ✓✓ Day 27 (revision)
+- [x] Major incidents timeline Dec 2023 → present (verify latest before exam) — Day 13 ✓✓ Day 27 (revision) ✓✓ Day 41 (revision)
 - [x] Central schemes active in Telangana (PM-KISAN, Ayushman overlap, comparisons) — Day 14 ✓✓ Day 28 (revision)
 
 ## Subject 3: Telangana History
@@ -59,7 +59,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Telangana Armed Struggle 1946-51 — Day 13 ✓✓ Day 38 (revision)
 - [x] Operation Polo & Hyderabad State 1948-56 — Day 14 ✓✓ Day 39 (revision)
 - [x] Merger, Gentlemen's Agreement & violations — Day 15 ✓✓ Day 40 (revision)
-- [x] Mulki rules & 1969 Jai Telangana agitation — Day 16
+- [x] Mulki rules & 1969 Jai Telangana agitation — Day 16 ✓✓ Day 41 (revision)
 - [x] 1970-2000: TPS, naxalism phase, identity politics — Day 17
 - [x] Statehood movement 2001-2014 (TRS, JACs, agitations, Sri Krishna Committee) — Day 18
 - [x] Formation of Telangana & after (2014-present political history) — Day 19
@@ -77,7 +77,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Partition of Bengal, Swadeshi & the Extremists; Surat split — Day 4 ✓✓ Day 21 (revision) ✓✓ Day 38 (revision)
 - [x] Revolutionary movement phase I (Bengal, Punjab, abroad) — Day 5 ✓✓ Day 22 (revision) ✓✓ Day 39 (revision)
 - [x] Morley-Minto & Montagu-Chelmsford reforms; Lucknow Pact; Home Rule Leagues — Day 6 ✓✓ Day 23 (revision) ✓✓ Day 40 (revision)
-- [x] Gandhi's arrival & early satyagrahas (Champaran, Kheda, Ahmedabad) — Day 7 ✓✓ Day 24 (revision)
+- [x] Gandhi's arrival & early satyagrahas (Champaran, Kheda, Ahmedabad) — Day 7 ✓✓ Day 24 (revision) ✓✓ Day 41 (revision)
 - [x] Rowlatt, Jallianwala Bagh & Khilafat — Day 8 ✓✓ Day 25 (revision)
 - [x] Non-Cooperation Movement & Swarajists — Day 9 ✓✓ Day 26 (revision)
 - [x] Simon Commission, Nehru Report, Lahore session — Day 10 ✓✓ Day 27 (revision)
@@ -90,7 +90,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Integration of princely states (incl. Hyderabad) & making of the Republic — Day 17 ✓✓ Day 34 (revision)
 
 ## Subject 5: Telangana Geography (with Maps)
-- [x] Telangana at a Glance: location, extent, physiography — Day 1 ✓✓ Day 21 (revision)
+- [x] Telangana at a Glance: location, extent, physiography — Day 1 ✓✓ Day 21 (revision) ✓✓ Day 41 (revision)
 - [x] Rivers: Godavari system in depth — Day 2 ✓✓ Day 26 (revision)
 - [x] Rivers: Krishna system in depth — Day 3 ✓✓ Day 27 (revision)
 - [x] Climate, rainfall patterns & droughts — Day 4 ✓✓ Day 22 (revision)
