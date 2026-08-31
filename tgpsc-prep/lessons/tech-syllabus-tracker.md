@@ -31,7 +31,7 @@ Day-numbering note: `tech-day-N.md` is one lesson containing all three sections 
 - [x] AC bridges II: Schering (tan δ), De Sauty, Wien; sources/detectors, Wagner earthing — Day 17 ✓✓ Day 38 (revision)
 - [x] CRO: CRT, electrostatic deflection sensitivity, time-base, sync, Lissajous, probes, DSO basics — Day 18 ✓✓ Day 39 (revision)
 - [x] DVM & digital instruments: ramp, dual-slope, successive approximation, resolution, DMM — Day 19 ✓✓ Day 40 (revision)
-- [x] Q-meter, frequency & phase measurement, ohmmeters, earth-resistance measurement — Day 20
+- [x] Q-meter, frequency & phase measurement, ohmmeters, earth-resistance measurement — Day 20 ✓✓ Day 41 (revision)
 - [x] Measurements revision: formula sheet + mixed GATE PYQ numericals — Day 21
 
 ## Section B: Electrical Machines
@@ -52,7 +52,7 @@ Day-numbering note: `tech-day-N.md` is one lesson containing all three sections 
 - [x] Synchronous machines I: construction, EMF, armature reaction, Xd & Xq — Day 19 ✓✓ Day 38 (revision)
 - [x] Synchronous generator: voltage regulation (EMF, MMF, ZPF/Potier), parallel operation, synchronization — Day 20 ✓✓ Day 39 (revision)
 - [x] Synchronous motor: operation, V-curves, hunting, starting, synchronous condenser — Day 21 ✓✓ Day 40 (revision)
-- [x] Special machines: stepper, servo, BLDC, universal motor; basics of drives — Day 22
+- [x] Special machines: stepper, servo, BLDC, universal motor; basics of drives — Day 22 ✓✓ Day 41 (revision)
 - [x] Machines revision: formula sheet + mixed GATE PYQ numericals — Day 23
 
 ## Section C: Power Electronics
@@ -73,5 +73,5 @@ Day-numbering note: `tech-day-N.md` is one lesson containing all three sections 
 - [x] Inverters II: three-phase VSI (120° & 180° conduction), PWM & SPWM techniques — Day 19 ✓✓ Day 38 (revision)
 - [x] Cycloconverters & matrix-converter basics — Day 20 ✓✓ Day 39 (revision)
 - [x] Fourier/waveform analysis of converter outputs; RMS & average derivations, harmonic factor — Day 21 ✓✓ Day 40 (revision)
-- [x] Applications: SMPS, UPS, HVDC, PFC, motor-drive basics — Day 22
+- [x] Applications: SMPS, UPS, HVDC, PFC, motor-drive basics — Day 22 ✓✓ Day 41 (revision)
 - [x] Power Electronics revision: formula sheet + mixed GATE PYQ numericals — Day 23
