@@ -32,7 +32,7 @@ Day-numbering note: `tech-day-N.md` is one lesson containing all three sections 
 - [x] CRO: CRT, electrostatic deflection sensitivity, time-base, sync, Lissajous, probes, DSO basics — Day 18 ✓✓ Day 39 (revision)
 - [x] DVM & digital instruments: ramp, dual-slope, successive approximation, resolution, DMM — Day 19 ✓✓ Day 40 (revision)
 - [x] Q-meter, frequency & phase measurement, ohmmeters, earth-resistance measurement — Day 20 ✓✓ Day 41 (revision)
-- [x] Measurements revision: formula sheet + mixed GATE PYQ numericals — Day 21
+- [x] Measurements revision: formula sheet + mixed GATE PYQ numericals — Day 21 ✓✓ Day 42 (revision)
 
 ## Section B: Electrical Machines
 - [x] Transformers I: single-phase — construction, EMF equation, ideal vs practical, turns ratio, no-load operation — Day 5 ✓✓ Day 24 (revision)
@@ -53,7 +53,7 @@ Day-numbering note: `tech-day-N.md` is one lesson containing all three sections 
 - [x] Synchronous generator: voltage regulation (EMF, MMF, ZPF/Potier), parallel operation, synchronization — Day 20 ✓✓ Day 39 (revision)
 - [x] Synchronous motor: operation, V-curves, hunting, starting, synchronous condenser — Day 21 ✓✓ Day 40 (revision)
 - [x] Special machines: stepper, servo, BLDC, universal motor; basics of drives — Day 22 ✓✓ Day 41 (revision)
-- [x] Machines revision: formula sheet + mixed GATE PYQ numericals — Day 23
+- [x] Machines revision: formula sheet + mixed GATE PYQ numericals — Day 23 ✓✓ Day 42 (revision)
 
 ## Section C: Power Electronics
 - [x] Basics of power electronics & devices: power diode, BJT, MOSFET, IGBT, thyristor family — symbols, V-I characteristics, ratings, ideal switch, comparison — Day 5 ✓✓ Day 24 (revision)
@@ -74,4 +74,4 @@ Day-numbering note: `tech-day-N.md` is one lesson containing all three sections 
 - [x] Cycloconverters & matrix-converter basics — Day 20 ✓✓ Day 39 (revision)
 - [x] Fourier/waveform analysis of converter outputs; RMS & average derivations, harmonic factor — Day 21 ✓✓ Day 40 (revision)
 - [x] Applications: SMPS, UPS, HVDC, PFC, motor-drive basics — Day 22 ✓✓ Day 41 (revision)
-- [x] Power Electronics revision: formula sheet + mixed GATE PYQ numericals — Day 23
+- [x] Power Electronics revision: formula sheet + mixed GATE PYQ numericals — Day 23 ✓✓ Day 42 (revision)
