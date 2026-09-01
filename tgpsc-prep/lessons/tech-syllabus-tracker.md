@@ -12,7 +12,7 @@ Day-numbering note: `tech-day-N.md` is one lesson containing all three sections 
 ---
 
 ## Section A: Measuring Instruments
-- [x] Basics of measurements: static characteristics (accuracy, precision, resolution, sensitivity, linearity, drift), dynamic characteristics, standards & calibration — Day 1 ✓✓ Day 22 (revision)
+- [x] Basics of measurements: static characteristics (accuracy, precision, resolution, sensitivity, linearity, drift), dynamic characteristics, standards & calibration — Day 1 ✓✓ Day 22 (revision) ✓✓ Day 43 (revision)
 - [x] Error analysis I: types of errors (gross, systematic, random), absolute/relative/limiting errors, error propagation in sums, products, quotients — Day 2 ✓✓ Day 23 (revision)
 - [x] Error analysis II: statistical analysis — mean, deviation, standard deviation, probable error, Gaussian distribution, combination of quantities — Day 3 ✓✓ Day 24 (revision)
 - [x] Galvanometers: d'Arsonval (torque equation, damping, CDRX), ballistic galvanometer, flux meter — Day 4 ✓✓ Day 25 (revision)
@@ -35,7 +35,7 @@ Day-numbering note: `tech-day-N.md` is one lesson containing all three sections 
 - [x] Measurements revision: formula sheet + mixed GATE PYQ numericals — Day 21 ✓✓ Day 42 (revision)
 
 ## Section B: Electrical Machines
-- [x] Transformers I: single-phase — construction, EMF equation, ideal vs practical, turns ratio, no-load operation — Day 5 ✓✓ Day 24 (revision)
+- [x] Transformers I: single-phase — construction, EMF equation, ideal vs practical, turns ratio, no-load operation — Day 5 ✓✓ Day 24 (revision) ✓✓ Day 43 (revision)
 - [x] Transformers II: equivalent circuit, phasor diagram, voltage regulation, per-unit — Day 6 ✓✓ Day 25 (revision)
 - [x] Transformers III: losses, efficiency, OC & SC tests, condition for max efficiency, all-day efficiency (numericals) — Day 7 ✓✓ Day 26 (revision)
 - [x] Transformers IV: three-phase connections (Y-Y, Δ-Δ, Y-Δ, Δ-Y), vector groups, parallel operation — Day 8 ✓✓ Day 27 (revision)
@@ -56,7 +56,7 @@ Day-numbering note: `tech-day-N.md` is one lesson containing all three sections 
 - [x] Machines revision: formula sheet + mixed GATE PYQ numericals — Day 23 ✓✓ Day 42 (revision)
 
 ## Section C: Power Electronics
-- [x] Basics of power electronics & devices: power diode, BJT, MOSFET, IGBT, thyristor family — symbols, V-I characteristics, ratings, ideal switch, comparison — Day 5 ✓✓ Day 24 (revision)
+- [x] Basics of power electronics & devices: power diode, BJT, MOSFET, IGBT, thyristor family — symbols, V-I characteristics, ratings, ideal switch, comparison — Day 5 ✓✓ Day 24 (revision) ✓✓ Day 43 (revision)
 - [x] Power diode & switching behaviour: static/dynamic characteristics, reverse recovery, freewheeling diode — Day 6 ✓✓ Day 25 (revision)
 - [x] Thyristor (SCR) I: construction, two-transistor analogy, V-I characteristics, latching & holding current — Day 7 ✓✓ Day 26 (revision)
 - [x] Thyristor II: turn-on methods, gate characteristics, dv/dt & di/dt protection, snubber design — Day 8 ✓✓ Day 27 (revision)
