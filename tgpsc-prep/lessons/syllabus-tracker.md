@@ -6,7 +6,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 
 ## Subject 1: Indian Constitution & Polity
 - [x] Union and its Territory (Art 1-4) — Day 1 ✓✓ Day 26 (revision) ✓✓ Day 43 (revision)
-- [x] Making of the Constitution & Constituent Assembly — Day 2 ✓✓ Day 27 (revision)
+- [x] Making of the Constitution & Constituent Assembly — Day 2 ✓✓ Day 27 (revision) ✓✓ Day 44 (revision)
 - [x] Preamble and its keywords — Day 3 ✓✓ Day 22 (revision)
 - [x] Citizenship (Art 5-11, Citizenship Act, CAA) — Day 4 ✓✓ Day 28 (revision)
 - [x] Fundamental Rights: Art 12-14 — Day 5 ✓✓ Day 23 (revision)
@@ -29,7 +29,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 
 ## Subject 2: Telangana Schemes & Important Incidents
 - [x] The Six Guarantees overview — Day 1 ✓✓ Day 15 (revision) ✓✓ Day 29 (revision) ✓✓ Day 43 (revision)
-- [x] Mahalakshmi (free travel, ₹500 LPG, women's support) — deep dive with data — Day 2 ✓✓ Day 16 (revision) ✓✓ Day 30 (revision)
+- [x] Mahalakshmi (free travel, ₹500 LPG, women's support) — deep dive with data — Day 2 ✓✓ Day 16 (revision) ✓✓ Day 30 (revision) ✓✓ Day 44 (revision)
 - [x] Rythu Bharosa, Indiramma Atmiya Bharosa & the ₹2 lakh loan waiver — Day 3 ✓✓ Day 17 (revision) ✓✓ Day 31 (revision)
 - [x] Gruha Jyothi & Indiramma Indlu — Day 4 ✓✓ Day 18 (revision) ✓✓ Day 32 (revision)
 - [x] Cheyutha pensions & Rajiv Aarogyasri health cover — Day 5 ✓✓ Day 19 (revision) ✓✓ Day 33 (revision)
@@ -62,7 +62,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Mulki rules & 1969 Jai Telangana agitation — Day 16 ✓✓ Day 41 (revision)
 - [x] 1970-2000: TPS, naxalism phase, identity politics — Day 17 ✓✓ Day 42 (revision)
 - [x] Statehood movement 2001-2014 (TRS, JACs, agitations, Sri Krishna Committee) — Day 18 ✓✓ Day 43 (revision)
-- [x] Formation of Telangana & after (2014-present political history) — Day 19
+- [x] Formation of Telangana & after (2014-present political history) — Day 19 ✓✓ Day 44 (revision)
 - [x] Telangana festivals & jataras: Bathukamma (state festival), Bonalu, Sammakka-Saralamma (Medaram) Jatara, Nagoba Jatara, Peddagattu/Komuravelli, Sadar, Moharram/Peerla Panduga — Day 20
 - [x] Telangana folk & performing arts: Perini Shivatandavam, Oggu Katha, Burra Katha, Chindu Bhagavatam & Yakshaganam, Gussadi & tribal dances, Dappu, Kolatam, Golla Suddulu — Day 21
 - [x] Telangana handlooms & handicrafts (GI products): Pochampally Ikat, Gadwal/Narayanpet/Siddipet Gollabhama sarees, Cheriyal scroll paintings, Nirmal paintings & toys, Bidriware, Karimnagar silver filigree, Dokra/Adilabad metalcraft, Warangal durries — Day 22
@@ -80,7 +80,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Gandhi's arrival & early satyagrahas (Champaran, Kheda, Ahmedabad) — Day 7 ✓✓ Day 24 (revision) ✓✓ Day 41 (revision)
 - [x] Rowlatt, Jallianwala Bagh & Khilafat — Day 8 ✓✓ Day 25 (revision) ✓✓ Day 42 (revision)
 - [x] Non-Cooperation Movement & Swarajists — Day 9 ✓✓ Day 26 (revision) ✓✓ Day 43 (revision)
-- [x] Simon Commission, Nehru Report, Lahore session — Day 10 ✓✓ Day 27 (revision)
+- [x] Simon Commission, Nehru Report, Lahore session — Day 10 ✓✓ Day 27 (revision) ✓✓ Day 44 (revision)
 - [x] Civil Disobedience, Round Tables, Poona Pact — Day 11 ✓✓ Day 28 (revision)
 - [x] Revolutionary movement phase II (Bhagat Singh, Chandrashekar Azad, Surya Sen) — Day 12 ✓✓ Day 29 (revision)
 - [x] Government of India Act 1935 & provincial ministries — Day 13 ✓✓ Day 30 (revision)
@@ -93,7 +93,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Telangana at a Glance: location, extent, physiography — Day 1 ✓✓ Day 21 (revision) ✓✓ Day 41 (revision)
 - [x] Rivers: Godavari system in depth — Day 2 ✓✓ Day 26 (revision) ✓✓ Day 42 (revision)
 - [x] Rivers: Krishna system in depth — Day 3 ✓✓ Day 27 (revision) ✓✓ Day 43 (revision)
-- [x] Climate, rainfall patterns & droughts — Day 4 ✓✓ Day 22 (revision)
+- [x] Climate, rainfall patterns & droughts — Day 4 ✓✓ Day 22 (revision) ✓✓ Day 44 (revision)
 - [x] Soils & agriculture (crops, seasons, horticulture) — Day 5 ✓✓ Day 28 (revision)
 - [x] Irrigation projects: major, medium & lift schemes (Kaleshwaram, Palamuru-Rangareddy, SRSP…) — Day 6 ✓✓ Day 23 (revision)
 - [x] Forests, wildlife sanctuaries & tiger reserves — Day 7 ✓✓ Day 24 (revision)
