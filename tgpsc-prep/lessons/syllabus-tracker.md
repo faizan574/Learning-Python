@@ -12,7 +12,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Fundamental Rights: Art 12-14 — Day 5 ✓✓ Day 23 (revision) ✓✓ Day 47 (revision)
 - [x] Fundamental Rights: Art 15-18 (incl. reservations) — Day 6 ✓✓ Day 29 (revision) ✓✓ Day 48 (revision)
 - [x] Fundamental Rights: Art 19-22 — Day 7 ✓✓ Day 30 (revision) ✓✓ Day 49 (revision)
-- [x] Fundamental Rights: Art 23-30 & Art 32 (writs) — Day 8 ✓✓ Day 31 (revision)
+- [x] Fundamental Rights: Art 23-30 & Art 32 (writs) — Day 8 ✓✓ Day 31 (revision) ✓✓ Day 50 (revision)
 - [x] DPSP (Art 36-51) & Fundamental Duties (51A) — Day 9 ✓✓ Day 32 (revision)
 - [x] Amendment (Art 368) & Basic Structure; major amendments (42nd, 44th, 73rd, 74th, 86th, 101st, 103rd) — Day 10 ✓✓ Day 24 (revision)
 - [x] President & Vice-President — Day 11 ✓✓ Day 25 (revision)
@@ -35,7 +35,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Cheyutha pensions & Rajiv Aarogyasri health cover — Day 5 ✓✓ Day 19 (revision) ✓✓ Day 33 (revision) ✓✓ Day 47 (revision)
 - [x] Yuva Vikasam, Young India schools & Skills University — Day 6 ✓✓ Day 20 (revision) ✓✓ Day 34 (revision) ✓✓ Day 48 (revision)
 - [x] Caste survey (SEEEPC) & 42% BC reservation issue — Day 7 ✓✓ Day 21 (revision) ✓✓ Day 35 (revision) ✓✓ Day 49 (revision)
-- [x] SIR (Special Intensive Revision) & electoral roll issues — Day 8 ✓✓ Day 22 (revision) ✓✓ Day 36 (revision)
+- [x] SIR (Special Intensive Revision) & electoral roll issues — Day 8 ✓✓ Day 22 (revision) ✓✓ Day 36 (revision) ✓✓ Day 50 (revision)
 - [x] Musi rejuvenation, HYDRAA & urban governance incidents — Day 9 ✓✓ Day 23 (revision) ✓✓ Day 37 (revision)
 - [x] Praja Palana, Praja Vani & administrative changes (renamings, emblem) — Day 10 ✓✓ Day 24 (revision) ✓✓ Day 38 (revision)
 - [x] Telangana budgets & economic survey highlights (latest year) — Day 11 ✓✓ Day 25 (revision) ✓✓ Day 39 (revision)
@@ -68,7 +68,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Telangana handlooms & handicrafts (GI products): Pochampally Ikat, Gadwal/Narayanpet/Siddipet Gollabhama sarees, Cheriyal scroll paintings, Nirmal paintings & toys, Bidriware, Karimnagar silver filigree, Dokra/Adilabad metalcraft, Warangal durries — Day 22 ✓✓ Day 47 (revision)
 - [x] Telangana literature & language: classical Telugu (Palkuriki Somanatha, Bammera Potana), modern & movement poets (Dasarathi, Kaloji Narayana Rao, C. Narayana Reddy/Cinare, Gaddar, Suddala), Telangana dialect & Vignana Sarvaswam — Day 23 ✓✓ Day 48 (revision)
 - [x] Telangana temples, monuments & tourism heritage (cultural angle): Ramappa, Thousand Pillar, Bhadrachalam, Yadadri, Vemulawada, Basara, Alampur, Charminar, Golconda, Qutb Shahi tombs, Kuntala/Bogatha — Day 24 ✓✓ Day 49 (revision)
-- [x] Telangana cuisine, attire, tribes & living heritage; state cultural symbols (emblem, bird, animal, tree, flower, song) & Formation Day revival — Day 25
+- [x] Telangana cuisine, attire, tribes & living heritage; state cultural symbols (emblem, bird, animal, tree, flower, song) & Formation Day revival — Day 25 ✓✓ Day 50 (revision)
 
 ## Subject 4: Indian National Movement
 - [x] Revolt of 1857 — Day 1 ✓✓ Day 18 (revision) ✓✓ Day 35 (revision)
@@ -86,7 +86,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Government of India Act 1935 & provincial ministries — Day 13 ✓✓ Day 30 (revision) ✓✓ Day 47 (revision)
 - [x] WWII, August Offer, Cripps Mission, Quit India — Day 14 ✓✓ Day 31 (revision) ✓✓ Day 48 (revision)
 - [x] Subhas Bose & the INA; RIN revolt — Day 15 ✓✓ Day 32 (revision) ✓✓ Day 49 (revision)
-- [x] Cabinet Mission to Independence & Partition — Day 16 ✓✓ Day 33 (revision)
+- [x] Cabinet Mission to Independence & Partition — Day 16 ✓✓ Day 33 (revision) ✓✓ Day 50 (revision)
 - [x] Integration of princely states (incl. Hyderabad) & making of the Republic — Day 17 ✓✓ Day 34 (revision)
 
 ## Subject 5: Telangana Geography (with Maps)
@@ -99,7 +99,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Forests, wildlife sanctuaries & tiger reserves — Day 7 ✓✓ Day 24 (revision) ✓✓ Day 47 (revision)
 - [x] Minerals & energy (coal, limestone, granite, power plants) — Day 8 ✓✓ Day 25 (revision) ✓✓ Day 48 (revision)
 - [x] Population, demography & urbanisation (Census/latest data) — Day 9 ✓✓ Day 29 (revision) ✓✓ Day 49 (revision)
-- [x] Industries & transport (IT, pharma, ORR/RRR, highways, rail) — Day 10 ✓✓ Day 30 (revision)
+- [x] Industries & transport (IT, pharma, ORR/RRR, highways, rail) — Day 10 ✓✓ Day 30 (revision) ✓✓ Day 50 (revision)
 - [x] Area Focus: Mahabubnagar/Palamuru (geology + culture) — Day 11 ✓✓ Day 31 (revision)
 - [x] Area Focus: Warangal & Kakatiya belt — Day 12 ✓✓ Day 32 (revision)
 - [x] Area Focus: Adilabad & northern Gond belt — Day 13 ✓✓ Day 33 (revision)
