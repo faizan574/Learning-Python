@@ -68,6 +68,12 @@ jobs:
           fi
           echo "title=$(cat title.txt)" >> "$GITHUB_OUTPUT"
 
+      - name: Render lesson as Gmail-friendly HTML
+        if: steps.guard.outputs.exists == '0' && steps.mailcfg.outputs.enabled == 'yes'
+        run: |
+          pip install --quiet markdown
+          python tgpsc-prep/render_email.py lesson.md lesson-email.html
+
       - name: Email the lesson directly via Gmail
         if: steps.guard.outputs.exists == '0' && steps.mailcfg.outputs.enabled == 'yes'
         uses: dawidd6/action-send-mail@v3
@@ -80,5 +86,4 @@ jobs:
           subject: ${{ steps.mailcfg.outputs.title }}
           to: ${{ secrets.GMAIL_ADDRESS }}
           from: TGPSC Daily Prep <${{ secrets.GMAIL_ADDRESS }}>
-          html_body: file://lesson.md
-          convert_markdown: true
+          html_body: file://lesson-email.html
