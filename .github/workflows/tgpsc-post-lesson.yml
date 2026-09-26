@@ -63,6 +63,12 @@ jobs:
             echo "Gmail secrets not set — skipping direct email (GitHub's own notification still applies)."
           fi
 
+      - name: Render lesson as Gmail-friendly HTML
+        if: steps.mailcfg.outputs.enabled == 'yes'
+        run: |
+          pip install --quiet markdown
+          python tgpsc-prep/render_email.py "${{ steps.lesson.outputs.file }}" lesson-email.html
+
       - name: Email the lesson directly via Gmail
         if: steps.mailcfg.outputs.enabled == 'yes'
         uses: dawidd6/action-send-mail@v3
@@ -75,8 +81,7 @@ jobs:
           subject: ${{ steps.lesson.outputs.title }}
           to: ${{ secrets.GMAIL_ADDRESS }}
           from: TGPSC Daily Prep <${{ secrets.GMAIL_ADDRESS }}>
-          html_body: file://${{ steps.lesson.outputs.file }}
-          convert_markdown: true
+          html_body: file://lesson-email.html
 
       - name: Archive lesson to main
         if: github.ref != 'refs/heads/main'
