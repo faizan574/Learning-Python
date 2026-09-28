@@ -10,7 +10,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Preamble and its keywords — Day 3 ✓✓ Day 22 (revision) ✓✓ Day 45 (revision) ✓✓ Day 66 (revision)
 - [x] Citizenship (Art 5-11, Citizenship Act, CAA) — Day 4 ✓✓ Day 28 (revision) ✓✓ Day 46 (revision) ✓✓ Day 67 (revision)
 - [x] Fundamental Rights: Art 12-14 — Day 5 ✓✓ Day 23 (revision) ✓✓ Day 47 (revision) ✓✓ Day 68 (revision)
-- [x] Fundamental Rights: Art 15-18 (incl. reservations) — Day 6 ✓✓ Day 29 (revision) ✓✓ Day 48 (revision)
+- [x] Fundamental Rights: Art 15-18 (incl. reservations) — Day 6 ✓✓ Day 29 (revision) ✓✓ Day 48 (revision) ✓✓ Day 69 (revision)
 - [x] Fundamental Rights: Art 19-22 — Day 7 ✓✓ Day 30 (revision) ✓✓ Day 49 (revision)
 - [x] Fundamental Rights: Art 23-30 & Art 32 (writs) — Day 8 ✓✓ Day 31 (revision) ✓✓ Day 50 (revision)
 - [x] DPSP (Art 36-51) & Fundamental Duties (51A) — Day 9 ✓✓ Day 32 (revision) ✓✓ Day 51 (revision)
@@ -40,7 +40,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Praja Palana, Praja Vani & administrative changes (renamings, emblem) — Day 10 ✓✓ Day 24 (revision) ✓✓ Day 38 (revision) ✓✓ Day 52 (revision) ✓✓ Day 66 (revision)
 - [x] Telangana budgets & economic survey highlights (latest year) — Day 11 ✓✓ Day 25 (revision) ✓✓ Day 39 (revision) ✓✓ Day 53 (revision) ✓✓ Day 67 (revision)
 - [x] Irrigation policy: Kaleshwaram commission, Palamuru-Rangareddy LIS status — Day 12 ✓✓ Day 26 (revision) ✓✓ Day 40 (revision) ✓✓ Day 54 (revision) ✓✓ Day 68 (revision)
-- [x] Major incidents timeline Dec 2023 → present (verify latest before exam) — Day 13 ✓✓ Day 27 (revision) ✓✓ Day 41 (revision) ✓✓ Day 55 (revision)
+- [x] Major incidents timeline Dec 2023 → present (verify latest before exam) — Day 13 ✓✓ Day 27 (revision) ✓✓ Day 41 (revision) ✓✓ Day 55 (revision) ✓✓ Day 69 (revision)
 - [x] Central schemes active in Telangana (PM-KISAN, Ayushman overlap, comparisons) — Day 14 ✓✓ Day 28 (revision) ✓✓ Day 42 (revision) ✓✓ Day 56 (revision)
 
 ## Subject 3: Telangana History
@@ -62,7 +62,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Mulki rules & 1969 Jai Telangana agitation — Day 16 ✓✓ Day 41 (revision) ✓✓ Day 66 (revision)
 - [x] 1970-2000: TPS, naxalism phase, identity politics — Day 17 ✓✓ Day 42 (revision) ✓✓ Day 67 (revision)
 - [x] Statehood movement 2001-2014 (TRS, JACs, agitations, Sri Krishna Committee) — Day 18 ✓✓ Day 43 (revision) ✓✓ Day 68 (revision)
-- [x] Formation of Telangana & after (2014-present political history) — Day 19 ✓✓ Day 44 (revision)
+- [x] Formation of Telangana & after (2014-present political history) — Day 19 ✓✓ Day 44 (revision) ✓✓ Day 69 (revision)
 - [x] Telangana festivals & jataras: Bathukamma (state festival), Bonalu, Sammakka-Saralamma (Medaram) Jatara, Nagoba Jatara, Peddagattu/Komuravelli, Sadar, Moharram/Peerla Panduga — Day 20 ✓✓ Day 45 (revision)
 - [x] Telangana folk & performing arts: Perini Shivatandavam, Oggu Katha, Burra Katha, Chindu Bhagavatam & Yakshaganam, Gussadi & tribal dances, Dappu, Kolatam, Golla Suddulu — Day 21 ✓✓ Day 46 (revision)
 - [x] Telangana handlooms & handicrafts (GI products): Pochampally Ikat, Gadwal/Narayanpet/Siddipet Gollabhama sarees, Cheriyal scroll paintings, Nirmal paintings & toys, Bidriware, Karimnagar silver filigree, Dokra/Adilabad metalcraft, Warangal durries — Day 22 ✓✓ Day 47 (revision)
@@ -71,7 +71,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Telangana cuisine, attire, tribes & living heritage; state cultural symbols (emblem, bird, animal, tree, flower, song) & Formation Day revival — Day 25 ✓✓ Day 50 (revision)
 
 ## Subject 4: Indian National Movement
-- [x] Revolt of 1857 — Day 1 ✓✓ Day 18 (revision) ✓✓ Day 35 (revision) ✓✓ Day 52 (revision)
+- [x] Revolt of 1857 — Day 1 ✓✓ Day 18 (revision) ✓✓ Day 35 (revision) ✓✓ Day 52 (revision) ✓✓ Day 69 (revision)
 - [x] Pre-Congress political associations & socio-religious reform movements — Day 2 ✓✓ Day 19 (revision) ✓✓ Day 36 (revision) ✓✓ Day 53 (revision)
 - [x] INC formation & the Moderate era (1885-1905) — Day 3 ✓✓ Day 20 (revision) ✓✓ Day 37 (revision) ✓✓ Day 54 (revision)
 - [x] Partition of Bengal, Swadeshi & the Extremists; Surat split — Day 4 ✓✓ Day 21 (revision) ✓✓ Day 38 (revision) ✓✓ Day 55 (revision)
@@ -98,7 +98,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Irrigation projects: major, medium & lift schemes (Kaleshwaram, Palamuru-Rangareddy, SRSP…) — Day 6 ✓✓ Day 23 (revision) ✓✓ Day 46 (revision) ✓✓ Day 66 (revision)
 - [x] Forests, wildlife sanctuaries & tiger reserves — Day 7 ✓✓ Day 24 (revision) ✓✓ Day 47 (revision) ✓✓ Day 67 (revision)
 - [x] Minerals & energy (coal, limestone, granite, power plants) — Day 8 ✓✓ Day 25 (revision) ✓✓ Day 48 (revision) ✓✓ Day 68 (revision)
-- [x] Population, demography & urbanisation (Census/latest data) — Day 9 ✓✓ Day 29 (revision) ✓✓ Day 49 (revision)
+- [x] Population, demography & urbanisation (Census/latest data) — Day 9 ✓✓ Day 29 (revision) ✓✓ Day 49 (revision) ✓✓ Day 69 (revision)
 - [x] Industries & transport (IT, pharma, ORR/RRR, highways, rail) — Day 10 ✓✓ Day 30 (revision) ✓✓ Day 50 (revision)
 - [x] Area Focus: Mahabubnagar/Palamuru (geology + culture) — Day 11 ✓✓ Day 31 (revision) ✓✓ Day 51 (revision)
 - [x] Area Focus: Warangal & Kakatiya belt — Day 12 ✓✓ Day 32 (revision) ✓✓ Day 52 (revision)
