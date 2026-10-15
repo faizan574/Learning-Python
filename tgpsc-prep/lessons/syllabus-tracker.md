@@ -6,7 +6,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 
 ## Subject 1: Indian Constitution & Polity
 - [x] Union and its Territory (Art 1-4) — Day 1 ✓✓ Day 26 (revision) ✓✓ Day 43 (revision) ✓✓ Day 64 (revision) ✓✓ Day 85 (revision)
-- [x] Making of the Constitution & Constituent Assembly — Day 2 ✓✓ Day 27 (revision) ✓✓ Day 44 (revision) ✓✓ Day 65 (revision)
+- [x] Making of the Constitution & Constituent Assembly — Day 2 ✓✓ Day 27 (revision) ✓✓ Day 44 (revision) ✓✓ Day 65 (revision) ✓✓ Day 86 (revision)
 - [x] Preamble and its keywords — Day 3 ✓✓ Day 22 (revision) ✓✓ Day 45 (revision) ✓✓ Day 66 (revision)
 - [x] Citizenship (Art 5-11, Citizenship Act, CAA) — Day 4 ✓✓ Day 28 (revision) ✓✓ Day 46 (revision) ✓✓ Day 67 (revision)
 - [x] Fundamental Rights: Art 12-14 — Day 5 ✓✓ Day 23 (revision) ✓✓ Day 47 (revision) ✓✓ Day 68 (revision)
@@ -29,7 +29,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 
 ## Subject 2: Telangana Schemes & Important Incidents
 - [x] The Six Guarantees overview — Day 1 ✓✓ Day 15 (revision) ✓✓ Day 29 (revision) ✓✓ Day 43 (revision) ✓✓ Day 57 (revision) ✓✓ Day 71 (revision) ✓✓ Day 85 (revision)
-- [x] Mahalakshmi (free travel, ₹500 LPG, women's support) — deep dive with data — Day 2 ✓✓ Day 16 (revision) ✓✓ Day 30 (revision) ✓✓ Day 44 (revision) ✓✓ Day 58 (revision) ✓✓ Day 72 (revision)
+- [x] Mahalakshmi (free travel, ₹500 LPG, women's support) — deep dive with data — Day 2 ✓✓ Day 16 (revision) ✓✓ Day 30 (revision) ✓✓ Day 44 (revision) ✓✓ Day 58 (revision) ✓✓ Day 72 (revision) ✓✓ Day 86 (revision)
 - [x] Rythu Bharosa, Indiramma Atmiya Bharosa & the ₹2 lakh loan waiver — Day 3 ✓✓ Day 17 (revision) ✓✓ Day 31 (revision) ✓✓ Day 45 (revision) ✓✓ Day 59 (revision) ✓✓ Day 73 (revision)
 - [x] Gruha Jyothi & Indiramma Indlu — Day 4 ✓✓ Day 18 (revision) ✓✓ Day 32 (revision) ✓✓ Day 46 (revision) ✓✓ Day 60 (revision) ✓✓ Day 74 (revision)
 - [x] Cheyutha pensions & Rajiv Aarogyasri health cover — Day 5 ✓✓ Day 19 (revision) ✓✓ Day 33 (revision) ✓✓ Day 47 (revision) ✓✓ Day 61 (revision) ✓✓ Day 75 (revision)
@@ -54,7 +54,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Qutb Shahis: political & cultural history, founding of Hyderabad — Day 8 ✓✓ Day 33 (revision) ✓✓ Day 58 (revision) ✓✓ Day 83 (revision)
 - [x] Asaf Jahis: 1724-1911 (Salar Jung reforms, subsidiary alliance) — Day 9 ✓✓ Day 34 (revision) ✓✓ Day 59 (revision) ✓✓ Day 84 (revision)
 - [x] Mir Osman Ali Khan era: modernisation, Osmania University — Day 10 ✓✓ Day 35 (revision) ✓✓ Day 60 (revision) ✓✓ Day 85 (revision)
-- [x] Socio-cultural awakening: Andhra Mahasabha, library movement, press — Day 11 ✓✓ Day 36 (revision) ✓✓ Day 61 (revision)
+- [x] Socio-cultural awakening: Andhra Mahasabha, library movement, press — Day 11 ✓✓ Day 36 (revision) ✓✓ Day 61 (revision) ✓✓ Day 86 (revision)
 - [x] Tribal & peasant revolts: Ramji Gond, Komaram Bheem — Day 12 ✓✓ Day 37 (revision) ✓✓ Day 62 (revision)
 - [x] Telangana Armed Struggle 1946-51 — Day 13 ✓✓ Day 38 (revision) ✓✓ Day 63 (revision)
 - [x] Operation Polo & Hyderabad State 1948-56 — Day 14 ✓✓ Day 39 (revision) ✓✓ Day 64 (revision)
@@ -71,7 +71,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Telangana cuisine, attire, tribes & living heritage; state cultural symbols (emblem, bird, animal, tree, flower, song) & Formation Day revival — Day 25 ✓✓ Day 50 (revision) ✓✓ Day 75 (revision)
 
 ## Subject 4: Indian National Movement
-- [x] Revolt of 1857 — Day 1 ✓✓ Day 18 (revision) ✓✓ Day 35 (revision) ✓✓ Day 52 (revision) ✓✓ Day 69 (revision)
+- [x] Revolt of 1857 — Day 1 ✓✓ Day 18 (revision) ✓✓ Day 35 (revision) ✓✓ Day 52 (revision) ✓✓ Day 69 (revision) ✓✓ Day 86 (revision)
 - [x] Pre-Congress political associations & socio-religious reform movements — Day 2 ✓✓ Day 19 (revision) ✓✓ Day 36 (revision) ✓✓ Day 53 (revision) ✓✓ Day 70 (revision)
 - [x] INC formation & the Moderate era (1885-1905) — Day 3 ✓✓ Day 20 (revision) ✓✓ Day 37 (revision) ✓✓ Day 54 (revision) ✓✓ Day 71 (revision)
 - [x] Partition of Bengal, Swadeshi & the Extremists; Surat split — Day 4 ✓✓ Day 21 (revision) ✓✓ Day 38 (revision) ✓✓ Day 55 (revision) ✓✓ Day 72 (revision)
@@ -95,7 +95,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Rivers: Krishna system in depth — Day 3 ✓✓ Day 27 (revision) ✓✓ Day 43 (revision) ✓✓ Day 63 (revision) ✓✓ Day 83 (revision)
 - [x] Climate, rainfall patterns & droughts — Day 4 ✓✓ Day 22 (revision) ✓✓ Day 44 (revision) ✓✓ Day 64 (revision) ✓✓ Day 84 (revision)
 - [x] Soils & agriculture (crops, seasons, horticulture) — Day 5 ✓✓ Day 28 (revision) ✓✓ Day 45 (revision) ✓✓ Day 65 (revision) ✓✓ Day 85 (revision)
-- [x] Irrigation projects: major, medium & lift schemes (Kaleshwaram, Palamuru-Rangareddy, SRSP…) — Day 6 ✓✓ Day 23 (revision) ✓✓ Day 46 (revision) ✓✓ Day 66 (revision)
+- [x] Irrigation projects: major, medium & lift schemes (Kaleshwaram, Palamuru-Rangareddy, SRSP…) — Day 6 ✓✓ Day 23 (revision) ✓✓ Day 46 (revision) ✓✓ Day 66 (revision) ✓✓ Day 86 (revision)
 - [x] Forests, wildlife sanctuaries & tiger reserves — Day 7 ✓✓ Day 24 (revision) ✓✓ Day 47 (revision) ✓✓ Day 67 (revision)
 - [x] Minerals & energy (coal, limestone, granite, power plants) — Day 8 ✓✓ Day 25 (revision) ✓✓ Day 48 (revision) ✓✓ Day 68 (revision)
 - [x] Population, demography & urbanisation (Census/latest data) — Day 9 ✓✓ Day 29 (revision) ✓✓ Day 49 (revision) ✓✓ Day 69 (revision)
