@@ -18,7 +18,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] President & Vice-President — Day 11 ✓✓ Day 25 (revision) ✓✓ Day 53 (revision) ✓✓ Day 74 (revision) ✓✓ Day 95 (revision)
 - [x] Prime Minister & Council of Ministers — Day 12 ✓✓ Day 33 (revision) ✓✓ Day 54 (revision) ✓✓ Day 75 (revision) ✓✓ Day 96 (revision)
 - [x] Parliament: composition, sessions, bills, budget, committees — Day 13 ✓✓ Day 34 (revision) ✓✓ Day 55 (revision) ✓✓ Day 76 (revision) ✓✓ Day 97 (revision)
-- [x] Supreme Court & High Courts; judicial review, PIL, collegium — Day 14 ✓✓ Day 35 (revision) ✓✓ Day 56 (revision) ✓✓ Day 77 (revision)
+- [x] Supreme Court & High Courts; judicial review, PIL, collegium — Day 14 ✓✓ Day 35 (revision) ✓✓ Day 56 (revision) ✓✓ Day 77 (revision) ✓✓ Day 98 (revision)
 - [x] Governor, CM & State Legislature — Day 15 ✓✓ Day 36 (revision) ✓✓ Day 57 (revision) ✓✓ Day 78 (revision)
 - [x] Centre-State relations & federalism (7th Schedule, GST Council, Finance Commission) — Day 16 ✓✓ Day 37 (revision) ✓✓ Day 58 (revision) ✓✓ Day 79 (revision)
 - [x] Emergency provisions (Art 352, 356, 360) — Day 17 ✓✓ Day 38 (revision) ✓✓ Day 59 (revision) ✓✓ Day 80 (revision)
@@ -41,7 +41,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Telangana budgets & economic survey highlights (latest year) — Day 11 ✓✓ Day 25 (revision) ✓✓ Day 39 (revision) ✓✓ Day 53 (revision) ✓✓ Day 67 (revision) ✓✓ Day 81 (revision) ✓✓ Day 95 (revision)
 - [x] Irrigation policy: Kaleshwaram commission, Palamuru-Rangareddy LIS status — Day 12 ✓✓ Day 26 (revision) ✓✓ Day 40 (revision) ✓✓ Day 54 (revision) ✓✓ Day 68 (revision) ✓✓ Day 82 (revision) ✓✓ Day 96 (revision)
 - [x] Major incidents timeline Dec 2023 → present (verify latest before exam) — Day 13 ✓✓ Day 27 (revision) ✓✓ Day 41 (revision) ✓✓ Day 55 (revision) ✓✓ Day 69 (revision) ✓✓ Day 83 (revision) ✓✓ Day 97 (revision)
-- [x] Central schemes active in Telangana (PM-KISAN, Ayushman overlap, comparisons) — Day 14 ✓✓ Day 28 (revision) ✓✓ Day 42 (revision) ✓✓ Day 56 (revision) ✓✓ Day 70 (revision) ✓✓ Day 84 (revision)
+- [x] Central schemes active in Telangana (PM-KISAN, Ayushman overlap, comparisons) — Day 14 ✓✓ Day 28 (revision) ✓✓ Day 42 (revision) ✓✓ Day 56 (revision) ✓✓ Day 70 (revision) ✓✓ Day 84 (revision) ✓✓ Day 98 (revision)
 
 ## Subject 3: Telangana History
 - [x] Satavahanas — Day 1 ✓✓ Day 26 (revision) ✓✓ Day 51 (revision) ✓✓ Day 76 (revision)
@@ -66,7 +66,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Telangana festivals & jataras: Bathukamma (state festival), Bonalu, Sammakka-Saralamma (Medaram) Jatara, Nagoba Jatara, Peddagattu/Komuravelli, Sadar, Moharram/Peerla Panduga — Day 20 ✓✓ Day 45 (revision) ✓✓ Day 70 (revision) ✓✓ Day 95 (revision)
 - [x] Telangana folk & performing arts: Perini Shivatandavam, Oggu Katha, Burra Katha, Chindu Bhagavatam & Yakshaganam, Gussadi & tribal dances, Dappu, Kolatam, Golla Suddulu — Day 21 ✓✓ Day 46 (revision) ✓✓ Day 71 (revision) ✓✓ Day 96 (revision)
 - [x] Telangana handlooms & handicrafts (GI products): Pochampally Ikat, Gadwal/Narayanpet/Siddipet Gollabhama sarees, Cheriyal scroll paintings, Nirmal paintings & toys, Bidriware, Karimnagar silver filigree, Dokra/Adilabad metalcraft, Warangal durries — Day 22 ✓✓ Day 47 (revision) ✓✓ Day 72 (revision) ✓✓ Day 97 (revision)
-- [x] Telangana literature & language: classical Telugu (Palkuriki Somanatha, Bammera Potana), modern & movement poets (Dasarathi, Kaloji Narayana Rao, C. Narayana Reddy/Cinare, Gaddar, Suddala), Telangana dialect & Vignana Sarvaswam — Day 23 ✓✓ Day 48 (revision) ✓✓ Day 73 (revision)
+- [x] Telangana literature & language: classical Telugu (Palkuriki Somanatha, Bammera Potana), modern & movement poets (Dasarathi, Kaloji Narayana Rao, C. Narayana Reddy/Cinare, Gaddar, Suddala), Telangana dialect & Vignana Sarvaswam — Day 23 ✓✓ Day 48 (revision) ✓✓ Day 73 (revision) ✓✓ Day 98 (revision)
 - [x] Telangana temples, monuments & tourism heritage (cultural angle): Ramappa, Thousand Pillar, Bhadrachalam, Yadadri, Vemulawada, Basara, Alampur, Charminar, Golconda, Qutb Shahi tombs, Kuntala/Bogatha — Day 24 ✓✓ Day 49 (revision) ✓✓ Day 74 (revision)
 - [x] Telangana cuisine, attire, tribes & living heritage; state cultural symbols (emblem, bird, animal, tree, flower, song) & Formation Day revival — Day 25 ✓✓ Day 50 (revision) ✓✓ Day 75 (revision)
 
@@ -83,7 +83,7 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Simon Commission, Nehru Report, Lahore session — Day 10 ✓✓ Day 27 (revision) ✓✓ Day 44 (revision) ✓✓ Day 61 (revision) ✓✓ Day 78 (revision) ✓✓ Day 95 (revision)
 - [x] Civil Disobedience, Round Tables, Poona Pact — Day 11 ✓✓ Day 28 (revision) ✓✓ Day 45 (revision) ✓✓ Day 62 (revision) ✓✓ Day 79 (revision) ✓✓ Day 96 (revision)
 - [x] Revolutionary movement phase II (Bhagat Singh, Chandrashekar Azad, Surya Sen) — Day 12 ✓✓ Day 29 (revision) ✓✓ Day 46 (revision) ✓✓ Day 63 (revision) ✓✓ Day 80 (revision) ✓✓ Day 97 (revision)
-- [x] Government of India Act 1935 & provincial ministries — Day 13 ✓✓ Day 30 (revision) ✓✓ Day 47 (revision) ✓✓ Day 64 (revision) ✓✓ Day 81 (revision)
+- [x] Government of India Act 1935 & provincial ministries — Day 13 ✓✓ Day 30 (revision) ✓✓ Day 47 (revision) ✓✓ Day 64 (revision) ✓✓ Day 81 (revision) ✓✓ Day 98 (revision)
 - [x] WWII, August Offer, Cripps Mission, Quit India — Day 14 ✓✓ Day 31 (revision) ✓✓ Day 48 (revision) ✓✓ Day 65 (revision) ✓✓ Day 82 (revision)
 - [x] Subhas Bose & the INA; RIN revolt — Day 15 ✓✓ Day 32 (revision) ✓✓ Day 49 (revision) ✓✓ Day 66 (revision) ✓✓ Day 83 (revision)
 - [x] Cabinet Mission to Independence & Partition — Day 16 ✓✓ Day 33 (revision) ✓✓ Day 50 (revision) ✓✓ Day 67 (revision) ✓✓ Day 84 (revision)
@@ -107,6 +107,6 @@ when a subject's list is fully ticked, a deeper revision pass begins (mark with 
 - [x] Area Focus: Karimnagar-Jagtial — Day 15 ✓✓ Day 35 (revision) ✓✓ Day 55 (revision) ✓✓ Day 75 (revision) ✓✓ Day 95 (revision)
 - [x] Area Focus: Khammam-Bhadradri — Day 16 ✓✓ Day 36 (revision) ✓✓ Day 56 (revision) ✓✓ Day 76 (revision) ✓✓ Day 96 (revision)
 - [x] Area Focus: Nalgonda-Suryapet — Day 17 ✓✓ Day 37 (revision) ✓✓ Day 57 (revision) ✓✓ Day 77 (revision) ✓✓ Day 97 (revision)
-- [x] Area Focus: Medak-Sangareddy-Siddipet — Day 18 ✓✓ Day 38 (revision) ✓✓ Day 58 (revision) ✓✓ Day 78 (revision)
+- [x] Area Focus: Medak-Sangareddy-Siddipet — Day 18 ✓✓ Day 38 (revision) ✓✓ Day 58 (revision) ✓✓ Day 78 (revision) ✓✓ Day 98 (revision)
 - [x] Area Focus: Hyderabad-Rangareddy urban region — Day 19 ✓✓ Day 39 (revision) ✓✓ Day 59 (revision) ✓✓ Day 79 (revision)
 - [x] Environmental issues: Musi pollution, urban lakes, uranium/Nallamala — Day 20 ✓✓ Day 40 (revision) ✓✓ Day 60 (revision) ✓✓ Day 80 (revision)
