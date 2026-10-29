@@ -27,7 +27,7 @@ Day-numbering note: `tech-day-N.md` is one lesson containing all three sections 
 - [x] Instrument transformers — CT: theory, equivalent circuit, phasor diagram, ratio & phase-angle error derivations, burden, open-secondary hazard, testing — Day 13 ✓✓ Day 34 (revision) ✓✓ Day 55 (revision) ✓✓ Day 76 (revision) ✓✓ Day 97 (revision)
 - [x] Instrument transformers — PT: phasor diagram, errors, comparison with CT; numericals — Day 14 ✓✓ Day 35 (revision) ✓✓ Day 56 (revision) ✓✓ Day 77 (revision) ✓✓ Day 98 (revision)
 - [x] DC bridges: Wheatstone (sensitivity), Kelvin double bridge (low R), high-R measurement, megger — Day 15 ✓✓ Day 36 (revision) ✓✓ Day 57 (revision) ✓✓ Day 78 (revision) ✓✓ Day 99 (revision)
-- [x] AC bridges I: Maxwell's inductance-capacitance, Hay's, Anderson (Q ranges, derivations) — Day 16 ✓✓ Day 37 (revision) ✓✓ Day 58 (revision) ✓✓ Day 79 (revision)
+- [x] AC bridges I: Maxwell's inductance-capacitance, Hay's, Anderson (Q ranges, derivations) — Day 16 ✓✓ Day 37 (revision) ✓✓ Day 58 (revision) ✓✓ Day 79 (revision) ✓✓ Day 100 (revision)
 - [x] AC bridges II: Schering (tan δ), De Sauty, Wien; sources/detectors, Wagner earthing — Day 17 ✓✓ Day 38 (revision) ✓✓ Day 59 (revision) ✓✓ Day 80 (revision)
 - [x] CRO: CRT, electrostatic deflection sensitivity, time-base, sync, Lissajous, probes, DSO basics — Day 18 ✓✓ Day 39 (revision) ✓✓ Day 60 (revision) ✓✓ Day 81 (revision)
 - [x] DVM & digital instruments: ramp, dual-slope, successive approximation, resolution, DMM — Day 19 ✓✓ Day 40 (revision) ✓✓ Day 61 (revision) ✓✓ Day 82 (revision)
@@ -35,7 +35,7 @@ Day-numbering note: `tech-day-N.md` is one lesson containing all three sections 
 - [x] Measurements revision: formula sheet + mixed GATE PYQ numericals — Day 21 ✓✓ Day 42 (revision) ✓✓ Day 63 (revision) ✓✓ Day 84 (revision)
 
 ## Section B: Electrical Machines
-- [x] Transformers I: single-phase — construction, EMF equation, ideal vs practical, turns ratio, no-load operation — Day 5 ✓✓ Day 24 (revision) ✓✓ Day 43 (revision) ✓✓ Day 62 (revision) ✓✓ Day 81 (revision)
+- [x] Transformers I: single-phase — construction, EMF equation, ideal vs practical, turns ratio, no-load operation — Day 5 ✓✓ Day 24 (revision) ✓✓ Day 43 (revision) ✓✓ Day 62 (revision) ✓✓ Day 81 (revision) ✓✓ Day 100 (revision)
 - [x] Transformers II: equivalent circuit, phasor diagram, voltage regulation, per-unit — Day 6 ✓✓ Day 25 (revision) ✓✓ Day 44 (revision) ✓✓ Day 63 (revision) ✓✓ Day 82 (revision)
 - [x] Transformers III: losses, efficiency, OC & SC tests, condition for max efficiency, all-day efficiency (numericals) — Day 7 ✓✓ Day 26 (revision) ✓✓ Day 45 (revision) ✓✓ Day 64 (revision) ✓✓ Day 83 (revision)
 - [x] Transformers IV: three-phase connections (Y-Y, Δ-Δ, Y-Δ, Δ-Y), vector groups, parallel operation — Day 8 ✓✓ Day 27 (revision) ✓✓ Day 46 (revision) ✓✓ Day 65 (revision) ✓✓ Day 84 (revision)
@@ -56,7 +56,7 @@ Day-numbering note: `tech-day-N.md` is one lesson containing all three sections 
 - [x] Machines revision: formula sheet + mixed GATE PYQ numericals — Day 23 ✓✓ Day 42 (revision) ✓✓ Day 61 (revision) ✓✓ Day 80 (revision) ✓✓ Day 99 (revision)
 
 ## Section C: Power Electronics
-- [x] Basics of power electronics & devices: power diode, BJT, MOSFET, IGBT, thyristor family — symbols, V-I characteristics, ratings, ideal switch, comparison — Day 5 ✓✓ Day 24 (revision) ✓✓ Day 43 (revision) ✓✓ Day 62 (revision) ✓✓ Day 81 (revision)
+- [x] Basics of power electronics & devices: power diode, BJT, MOSFET, IGBT, thyristor family — symbols, V-I characteristics, ratings, ideal switch, comparison — Day 5 ✓✓ Day 24 (revision) ✓✓ Day 43 (revision) ✓✓ Day 62 (revision) ✓✓ Day 81 (revision) ✓✓ Day 100 (revision)
 - [x] Power diode & switching behaviour: static/dynamic characteristics, reverse recovery, freewheeling diode — Day 6 ✓✓ Day 25 (revision) ✓✓ Day 44 (revision) ✓✓ Day 63 (revision) ✓✓ Day 82 (revision)
 - [x] Thyristor (SCR) I: construction, two-transistor analogy, V-I characteristics, latching & holding current — Day 7 ✓✓ Day 26 (revision) ✓✓ Day 45 (revision) ✓✓ Day 64 (revision) ✓✓ Day 83 (revision)
 - [x] Thyristor II: turn-on methods, gate characteristics, dv/dt & di/dt protection, snubber design — Day 8 ✓✓ Day 27 (revision) ✓✓ Day 46 (revision) ✓✓ Day 65 (revision) ✓✓ Day 84 (revision)
